@@ -103,7 +103,7 @@
           {% endif %}
           <ul id="Slider-{{ section.id }}" class="grid product-grid contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid--{{ columns_desktop }}-col-desktop{% if section.settings.collection == blank %} grid--2-col-tablet-down{% else %} grid--{{ columns_mobile }}-col-tablet-down{% endif %}{% if show_mobile_slider or show_desktop_slider %} slider{% if show_desktop_slider %} slider--desktop{% endif %}{% if show_mobile_slider %} slider--tablet grid--peek{% endif %}{% endif %}" role="list" aria-label="{{ 'sections.featured_collection.slider' | t }}">
             {%- for product in section.settings.collection.products limit: section.settings.products_to_show -%}
-              <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %} {% if section.settings.column_alignment == 'center' %} center{% endif %}">
+              <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item{% if show_mobile_slider or show_desktop_slider %} slider__slide{% endif %}">
                 {% render 'card-product'
                  , card_product: product
                  , media_aspect_ratio: section.settings.image_ratio
@@ -369,23 +369,6 @@
         "id": "enable_quick_add",
         "default": false,
         "label": "t:sections.featured-collection.settings.enable_quick_buy.label"
-      }, {
-        "type": "select",
-        "id": "column_alignment",
-        "options": [
-          {
-            "value": "left",
-            "label": "t:sections.featured-collection.settings.column_alignment.options__1.label"
-          }, {
-            "value": "center",
-            "label": "t:sections.featured-collection.settings.column_alignment.options__2.label"
-          }, {
-            "value": "right",
-            "label": "t:sections.featured-collection.settings.column_alignment.options__3.label"
-          }
-        ],
-        "default": "left",
-        "label": "t:sections.multicolumn.settings.column_alignment.label"
       }, {
         "type": "header",
         "content": "t:sections.featured-collection.settings.header_mobile.content"

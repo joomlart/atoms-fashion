@@ -890,6 +890,18 @@
           "label": "Enable quick add button",
           "info": "Optimal with popup or drawer cart type."
         },
+        "column_alignment": {
+          "label": "Column alignment",
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          }
+        },
         "show_product_description": {
           "label": "Show product description"
         },
@@ -2386,7 +2398,7 @@
         },
         "layout_meta_information": {
           "content": "Layout Description",
-          "label__1": "Accordion",
+          "label__1": "Arccodion",
           "label__2": "Tabs"
         }
       }
@@ -3160,7 +3172,7 @@
           "content": "Other"
         },
         "addition_class": {
-          "label": "Addition Class"
+          "label": "Module Class Suffix"
         }
       },
       "blocks": {

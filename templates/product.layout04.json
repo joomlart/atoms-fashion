@@ -134,7 +134,8 @@
         "enable_video_looping": false,
         "padding_top": 0,
         "padding_bottom": 48,
-        "layout_meta_information": "gallery_full_width"
+        "layout_product": "gallery_full_width",
+        "layout_description": "gallery_full_width"
       }
     },
     "b56b38a8-e2f8-4c99-903d-bdd158723b66": {

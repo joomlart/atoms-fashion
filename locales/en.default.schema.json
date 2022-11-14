@@ -3153,6 +3153,12 @@
           "content": "Accessibility",
           "label": "Slideshow description",
           "info": "Describe the slideshow for customers using screen readers."
+        },
+        "heading_other": {
+          "content": "Other"
+        },
+        "addition_class": {
+          "content": "Addition Class"
         }
       },
       "blocks": {

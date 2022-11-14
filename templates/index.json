@@ -250,7 +250,7 @@
         "full_width": false,
         "show_view_all": false,
         "view_all_style": "outline",
-        "enable_desktop_slider": false,
+        "enable_desktop_slider": true,
         "color_scheme": "background-1",
         "desktop_layout": "left",
         "image_ratio": "portrait",

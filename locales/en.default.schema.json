@@ -3158,7 +3158,7 @@
           "content": "Other"
         },
         "addition_class": {
-          "content": "Addition Class"
+          "label": "Addition Class"
         }
       },
       "blocks": {

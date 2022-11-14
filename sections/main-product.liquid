@@ -29,11 +29,15 @@
     <link id="ModelViewerStyle" rel="stylesheet" href="https://cdn.shopify.com/shopifycloud/model-viewer-ui/assets/v1.0/model-viewer-ui.css" media="print" onload="this.media='all'">
     <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
   {%- endif -%}
+
+  {% comment %} Product {% endcomment %}
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper">
       {%- if section.settings.addition_class == 'gallery_full_width' -%}
       <div class="product__media-wrapper-inner grid grid--1-col grid--2-col-tablet">
-        {% endif %}
+      {% endif %}
+
+      {% comment %} Gallery {% endcomment %}
       <media-gallery
         id="MediaGallery-{{ section.id }}"
         role="region"
@@ -137,6 +141,8 @@
             {{ 'products.product.xr_button' | t }}
           </button>
         {%- endif -%}
+
+        {% comment %} Slider {% endcomment %}
         {%- if media_count > 1 and section.settings.gallery_layout != 'stacked' or section.settings.mobile_thumbnails == 'show' or section.settings.gallery_layout != 'stacked_full' -%}
           <slider-component
             id="GalleryThumbnails-{{ section.id }}"
@@ -276,7 +282,10 @@
             </button>
           </slider-component>
         {%- endif -%}
+        {% comment %} End Slider {% endcomment %}
       </media-gallery>
+      {% comment %} End Gallery {% endcomment %}
+
       {%- if section.settings.addition_class == 'gallery_full_width' -%}
       <div class="p-info-full-slider product__info-wrapper grid__item ja-summary-scroll" id="ja-summary-scroll">
         {%- for block in section.blocks -%}
@@ -576,8 +585,8 @@
           </div>
           {%- endif -%}
           {%- if section.settings.addition_class == 'gallery_full_width' -%}
-        </div>
-          {%- endif -%}
+      </div>
+      {%- endif -%}
     </div>
     
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %} {%- if section.settings.addition_class == 'gallery_full_width' -%}  product__info-wrapper-full-width  {%- endif -%}">
@@ -984,7 +993,10 @@
         </a>
       </div>
     </div>
+
   </div>
+  {% comment %} End Product {% endcomment %}
+  {% comment %} Modal {% endcomment %}
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
     <div class="product-media-modal__dialog" role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
       <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
@@ -1013,7 +1025,7 @@
       </div>
     </div>
   </product-modal>
-
+  {% comment %} End Modal {% endcomment %}
   {% assign popups = section.blocks | where: "type", "popup" %}
   {%- for block in popups -%}
     <modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal" {{ block.shopify_attributes }}>
@@ -1689,22 +1701,38 @@
     {
         "type": "header",
         "content": "t:sections.main-product.settings.heading_other.content"
+    },
+    {
+      "type": "select",
+      "id": "layout_product",
+      "options": [
+        {
+          "value": "default",
+          "label": "t:sections.main-product.settings.layout_product.label__1"
+        },
+        {
+          "value": "gallery_full_width",
+          "label": "t:sections.main-product.settings.layout_product.label__2"
+        }
+      ],
+      "default": "default",
+      "label": "t:sections.main-product.settings.layout_product.content"
     }, 
     {
       "type": "select",
-      "id": "layout_meta_information",
+      "id": "layout_description",
       "options": [
         {
           "value": "gallery_full_width",
-          "label": "t:sections.main-product.settings.layout_meta_information.label__1"
+          "label": "t:sections.main-product.settings.layout_description.label__1"
         },
         {
           "value": "tabs",
-          "label": "t:sections.main-product.settings.layout_meta_information.label__2"
+          "label": "t:sections.main-product.settings.layout_description.label__2"
         }
       ],
       "default": "tabs",
-      "label": "t:sections.main-product.settings.layout_meta_information.content"
+      "label": "t:sections.main-product.settings.layout_description.content"
     }
   ]
 }

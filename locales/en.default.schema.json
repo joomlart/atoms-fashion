@@ -2396,7 +2396,12 @@
         "heading_other": {
           "content": "Other"
         },
-        "layout_meta_information": {
+        "layout_product": {
+          "content": "Layout Product",
+          "label__1": "Default",
+          "label__2": "Full Width"
+        },
+        "layout_description": {
           "content": "Layout Description",
           "label__1": "Arccodion",
           "label__2": "Tabs"

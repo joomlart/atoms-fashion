@@ -87,6 +87,87 @@
         "padding_bottom": 0
       }
     },
+    "f5ad21fe-41a0-4e66-a080-39a4452e7ca3": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15056364503113__f5ad21fe-41a0-4e66-a080-39a4452e7ca3-16683925881b3cb5af-0": {
+          "type": "column",
+          "settings": {
+            "image_position": "top",
+            "title": "Free Shipping Orders $60+",
+            "title_size": "h4",
+            "icon": "truck",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        },
+        "template--15056364503113__f5ad21fe-41a0-4e66-a080-39a4452e7ca3-16683925881b3cb5af-1": {
+          "type": "column",
+          "settings": {
+            "image_position": "top",
+            "title": "30-days free return policy",
+            "title_size": "h4",
+            "icon": "dairy_free",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        },
+        "template--15056364503113__f5ad21fe-41a0-4e66-a080-39a4452e7ca3-16683925881b3cb5af-2": {
+          "type": "column",
+          "settings": {
+            "image_position": "top",
+            "title": "100% Secure Payments",
+            "title_size": "h4",
+            "icon": "plane",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 32,
+            "padding_right": 32,
+            "image_spacing": 25
+          }
+        }
+      },
+      "block_order": [
+        "template--15056364503113__f5ad21fe-41a0-4e66-a080-39a4452e7ca3-16683925881b3cb5af-0",
+        "template--15056364503113__f5ad21fe-41a0-4e66-a080-39a4452e7ca3-16683925881b3cb5af-1",
+        "template--15056364503113__f5ad21fe-41a0-4e66-a080-39a4452e7ca3-16683925881b3cb5af-2"
+      ],
+      "settings": {
+        "title": "",
+        "sub-title": "",
+        "mod_class": "border-darker",
+        "heading_size": "h4",
+        "layout": "grid",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "row_alignment": "top",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
     "dc646dd5-5ce4-43d9-8821-2cdc64d8608f": {
       "type": "multicolumn",
       "blocks": {
@@ -430,6 +511,7 @@
   },
   "order": [
     "1663955354d4347362",
+    "f5ad21fe-41a0-4e66-a080-39a4452e7ca3",
     "dc646dd5-5ce4-43d9-8821-2cdc64d8608f",
     "16639099959fcc61f9",
     "f4c8b5a2-f7f2-4ee6-bbef-8dfda6e9ce6b",

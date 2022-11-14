@@ -364,7 +364,7 @@
           "logo_text": "",
           "logo_font": "helvetica_n4",
           "logo_width": 100,
-          "menu": "decor",
+          "menu": "fashion",
           "menu_type_desktop": "mega",
           "show_line_separator": true,
           "enable_sticky_header": false,
@@ -570,7 +570,7 @@
             "announcement-bar-0": {
               "type": "announcement",
               "settings": {
-                "text": "Welcome to our store"
+                "text": "<p>Welcome to our store<\/p>"
               }
             }
           },
@@ -578,6 +578,8 @@
             "announcement-bar-0"
           ],
           "settings": {
+            "bg_colors": "#212121",
+            "text_colors": "#FFFFFF"
           }
         },
         "header": {

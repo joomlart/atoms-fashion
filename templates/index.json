@@ -259,7 +259,7 @@
         "show_rating": true,
         "show_product_description": true,
         "enable_quick_add": true,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 96,

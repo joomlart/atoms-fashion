@@ -2397,9 +2397,9 @@
           "content": "Other"
         },
         "layout_meta_information": {
-          "content": "Layout Meta Description",
-          "label__1": "Vertical",
-          "label__2": "Horizontal"
+          "content": "Layout Description",
+          "label__1": "Accordion",
+          "label__2": "Tabs"
         }
       }
     },
@@ -3172,7 +3172,7 @@
           "content": "Other"
         },
         "addition_class": {
-          "label": "Module Class Suffix"
+          "label": "Addition Class"
         }
       },
       "blocks": {

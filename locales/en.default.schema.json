@@ -890,6 +890,18 @@
           "label": "Enable quick add button",
           "info": "Optimal with popup or drawer cart type."
         },
+        "column_alignment": {
+          "label": "Column alignment",
+          "options__1": {
+            "label": "Left"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "Right"
+          }
+        },
         "show_product_description": {
           "label": "Show product description"
         },

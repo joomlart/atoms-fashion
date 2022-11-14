@@ -1691,9 +1691,20 @@
         "content": "t:sections.main-product.settings.heading_other.content"
     }, 
     {
-        "type": "text",
-        "id": "addition_class",
-        "label": "t:sections.main-product.settings.addition_class.label"
+      "type": "select",
+      "id": "layout_meta_information",
+      "options": [
+        {
+          "value": "gallery_full_width",
+          "label": "t:sections.main-product.settings.layout_meta_information.label__1"
+        },
+        {
+          "value": "tabs",
+          "label": "t:sections.main-product.settings.layout_meta_information.label__2"
+        }
+      ],
+      "default": "tabs",
+      "label": "t:sections.main-product.settings.layout_meta_information.content"
     }
   ]
 }

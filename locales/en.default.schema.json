@@ -2396,8 +2396,10 @@
         "heading_other": {
           "content": "Other"
         },
-        "addition_class": {
-          "content": "Addition Class"
+        "layout_meta_information": {
+          "content": "Layout Meta Description",
+          "label__1": "Vertical",
+          "label__2": "Horizontal"
         }
       }
     },

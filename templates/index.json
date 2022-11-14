@@ -183,7 +183,7 @@
             "icon_position": "left",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "Shop The Collection",
-            "link": "",
+            "link": "shopify:\/\/collections\/mens",
             "link_style": "link",
             "padding_left": 0,
             "padding_right": 100,

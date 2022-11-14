@@ -186,7 +186,7 @@
             "link": "",
             "link_style": "link",
             "padding_left": 0,
-            "padding_right": 96,
+            "padding_right": 100,
             "image_spacing": 48
           }
         },
@@ -203,7 +203,7 @@
             "link_label": "Shop The Collection",
             "link": "",
             "link_style": "link",
-            "padding_left": 0,
+            "padding_left": 100,
             "padding_right": 0,
             "image_spacing": 48
           }

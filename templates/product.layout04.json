@@ -2,6 +2,7 @@
   "sections": {
     "166382168102e080c5": {
       "type": "breadcrumb",
+      "disabled": true,
       "settings": {
       }
     },
@@ -20,7 +21,7 @@
           "settings": {
           }
         },
-        "eac9177b-2777-4efc-b002-1422b6910bb9": {
+        "6c4a7f7f-6a5e-4f46-99c0-1deeed649816": {
           "type": "rating",
           "settings": {
           }
@@ -110,7 +111,7 @@
       "block_order": [
         "vendor",
         "title",
-        "eac9177b-2777-4efc-b002-1422b6910bb9",
+        "6c4a7f7f-6a5e-4f46-99c0-1deeed649816",
         "caption",
         "price",
         "variant_picker",
@@ -124,14 +125,81 @@
         "share"
       ],
       "settings": {
-        "enable_sticky_info": true,
-        "gallery_layout": "thumbnail",
-        "media_size": "small",
+        "enable_sticky_info": false,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "large",
+        "item_ratio": "43",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 0,
-        "padding_bottom": 48
+        "padding_bottom": 48,
+        "addition_class": "gallery_full_width"
+      }
+    },
+    "b56b38a8-e2f8-4c99-903d-bdd158723b66": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/feature-1.png",
+            "image_position": "bottom",
+            "title": "#Vintage #Unique Fall\/Spring Furniture Collection",
+            "title_size": "h3",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 0,
+            "padding_right": 96,
+            "image_spacing": 48
+          }
+        },
+        "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/photo-04.png",
+            "image_position": "top",
+            "title": "#Urban #Solid Mid Rise Zespy Trackie Clothing Loobook SS’20",
+            "title_size": "h3",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 48
+          }
+        }
+      },
+      "block_order": [
+        "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-0",
+        "template--15049366536265__b56b38a8-e2f8-4c99-903d-bdd158723b66-1668061523daf060dc-1"
+      ],
+      "settings": {
+        "title": "",
+        "sub-title": "",
+        "mod_class": "background-none",
+        "heading_size": "h4",
+        "layout": "grid",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "row_alignment": "top",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 32,
+        "padding_bottom": 64
       }
     },
     "product-recommendations": {
@@ -182,6 +250,7 @@
   "order": [
     "166382168102e080c5",
     "main",
+    "b56b38a8-e2f8-4c99-903d-bdd158723b66",
     "product-recommendations",
     "166133172235095e06"
   ]

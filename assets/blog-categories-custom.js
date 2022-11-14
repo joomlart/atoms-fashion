@@ -7,14 +7,3 @@ arr_Cat.map((item) => {
   item.innerHTML = cutstring;
 }
 );
-
-// function addMove() {
-//   let move =  document.querySelector(".footer .field__input");
-//   move.classList.add('move');;
-// }
-
-
-// if (move !== null && move.value === "")
-// {
-//   move.classList.add("mystyle");
-// }

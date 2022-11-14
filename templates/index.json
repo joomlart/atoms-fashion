@@ -151,7 +151,7 @@
       "settings": {
         "title": "",
         "sub-title": "",
-        "mod_class": "border-darker",
+        "mod_class": "border-darker type-02",
         "heading_size": "h4",
         "layout": "grid",
         "image_width": "full",

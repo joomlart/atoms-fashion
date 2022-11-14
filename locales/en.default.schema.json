@@ -858,6 +858,18 @@
         "enable_desktop_slider": {
           "label": "Enable carousel on desktop"
         },
+        "slider_visual": {
+          "label": "Slider Visual",
+          "options__1": {
+            "label": "Dots"
+          },
+          "options__2": {
+            "label": "Counter"
+          },
+          "options__3": {
+            "label": "Numbers"
+          }
+        },
         "full_width": {
           "label": "Make products full width"
         },

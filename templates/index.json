@@ -84,7 +84,8 @@
         "show_text_below": false,
         "accessibility_info": "",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 0,
+        "addition_class": "fashion-slideshow"
       }
     },
     "f5ad21fe-41a0-4e66-a080-39a4452e7ca3": {

@@ -133,7 +133,9 @@
         "855dcf26-c523-484d-a4b9-5297801c8a9e": {
           "type": "trust_badges",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/439-4397227_thumb-image-trusted-png-transparent-png.png"
+            "image_1": "shopify:\/\/shop_images\/label1.png",
+            "image_2": "shopify:\/\/shop_images\/label2.png",
+            "image_3": "shopify:\/\/shop_images\/439-4397227_thumb-image-trusted-png-transparent-png_17290dc7-6bbb-4ad7-9266-db6896685d42.png"
           }
         }
       },

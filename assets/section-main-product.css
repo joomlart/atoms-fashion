@@ -1720,15 +1720,10 @@ a.product__text {
 /* True Bages With Image */
 
 .trust-badges-block .product-customInformation {
-  display: flex;
-  gap: 2rem;
-  align-items: center;
 }
 
 .trust-badges-block .product-customInformation .badges_image {
-  width: 5rem;
-  height: 5rem;
-  object-fit: cover;
+  width: 100%;
 }
 
 .trust-badges-block .product-customInformation .badges_image img{

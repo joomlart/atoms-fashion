@@ -2349,8 +2349,20 @@
         "trust_badges": {
           "name": "Trust Badges",
           "settings": {
-            "image": {
-              "label": "Choose Image"
+            "image-1": {
+              "label": "Choose Image 1"
+            },
+            "image-2": {
+              "label": "Choose Image 2"
+            },
+            "image-3": {
+              "label": "Choose Image 3"
+            },
+            "image-4": {
+              "label": "Choose Image 4"
+            },
+            "image-5": {
+              "label": "Choose Image 5"
             }
           }
         }

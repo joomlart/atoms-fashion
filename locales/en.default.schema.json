@@ -2345,6 +2345,14 @@
               "label": "Description"
             }
           }
+        },
+        "trust_badges": {
+          "name": "Trust Badges",
+          "settings": {
+            "image": {
+              "label": "Choose Image"
+            }
+          }
         }
       },
       "settings": {

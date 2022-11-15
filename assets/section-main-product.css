@@ -1687,17 +1687,17 @@ a.product__text {
 }
 
 /* True Bages */
-.true-bages .product-customInformation__icon {
+.trust-badges .product-customInformation__icon {
   width: 2.4rem;
   height: 2.4rem;
 }
 
-.true-bages .product-customInformation {
+.trust-badges .product-customInformation {
   display: flex;
   gap: 2.4rem;
 }
 
-.true-bages .product-customInformation .product__text.title {
+.trust-badges .product-customInformation .product__text.title {
   display: flex;
   align-items: center;
   margin: 0;
@@ -1705,14 +1705,14 @@ a.product__text {
   font-weight: 500;
 }
 
-.true-bages .product-customInformation .product__text.title > .title {
+.trust-badges .product-customInformation .product__text.title > .title {
   margin: 0;
 }
 
-.true-bages .product-customInformation .product__text.title > svg {
+.trust-badges .product-customInformation .product__text.title > svg {
   cursor: pointer;
 }
 
-.true-bages .product-customInformation .title svg {
+.trust-badges .product-customInformation .title svg {
   width: 20px;
 }

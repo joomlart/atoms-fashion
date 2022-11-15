@@ -924,7 +924,7 @@
               </p>
             {%- endif -%}
           {%- when 'custom_information' -%}
-            <div class="true-bages">
+            <div class="trust-badges">
                 {% render 'product-custom-information',
                     block: block
                 %}
@@ -1586,6 +1586,16 @@
               "id": "text_description",
               "label": "t:sections.main-product.blocks.custom_information.settings.description.label"
           }
+      ]
+    },
+    {
+      "type": "trust_badges",
+      "name": "t:sections.main-product.blocks.trust_badges.name",
+      "settings": [
+        {
+          "type": "image_picker",
+          "content": "t:sections.main-product.blocks.trust_badges.settings.image.label"
+        }
       ]
     }
   ],

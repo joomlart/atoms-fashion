@@ -2120,7 +2120,7 @@
           "name": "Pickup availability"
         },
         "description": {
-          "name": "Description"
+          "name": "Short Description"
         },
         "share": {
           "name": "Share",

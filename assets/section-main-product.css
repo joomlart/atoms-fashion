@@ -1729,3 +1729,59 @@ a.product__text {
 .trust-badges-block .product-customInformation .badges_image img{
   max-width: 100%;
 }
+
+
+/* Product Infomation Tabs */
+.Product-infor-tabs {
+  width: 100%;
+  margin-top: 6rem;
+}
+
+.Product-infor-tabs .tabs-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Product-infor-tabs div {
+  border-top: 0;
+}
+
+.tabs .accordion__content {
+  display: none;
+}
+
+.tab-content-child {
+  display: none;
+}
+.tab-content-child.active {
+  display: block;
+}
+
+.tabs {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 0;
+}
+
+.tab {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.tabs > * {
+  margin-left: 2.4rem;
+  margin-right: 2.4rem;
+}
+
+.tabs .accordion__title {
+  max-width: unset;
+}
+
+.tabs .accordion .summary__title+.icon-caret {
+  display: none;
+}
+
+.tabs div:first-child {
+  margin-top: 0;
+}

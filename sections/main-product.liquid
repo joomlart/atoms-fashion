@@ -1,4 +1,4 @@
-<section id="MainProduct-{{ section.id }}" class="page-width {{ section.settings.addition_class }} section-{{ section.id }}-padding " data-section="{{ section.id }}">
+<section id="MainProduct-{{ section.id }}" class="page-width {{ section.settings.layout_product }} section-{{ section.id }}-padding " data-section="{{ section.id }}">
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
   {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
   {{ 'component-price.css' | asset_url | stylesheet_tag }}
@@ -33,7 +33,7 @@
   {% comment %} Product {% endcomment %}
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper">
-      {%- if section.settings.addition_class == 'gallery_full_width' -%}
+      {%- if section.settings.layout_product == 'gallery_full_width' -%}
       <div class="product__media-wrapper-inner grid grid--1-col grid--2-col-tablet">
       {% endif %}
 
@@ -286,7 +286,7 @@
       </media-gallery>
       {% comment %} End Gallery {% endcomment %}
 
-      {%- if section.settings.addition_class == 'gallery_full_width' -%}
+      {%- if section.settings.layout_product == 'gallery_full_width' -%}
       <div class="p-info-full-slider product__info-wrapper grid__item ja-summary-scroll" id="ja-summary-scroll">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -584,15 +584,15 @@
             </script>
           </div>
           {%- endif -%}
-          {%- if section.settings.addition_class == 'gallery_full_width' -%}
+          {%- if section.settings.layout_product == 'gallery_full_width' -%}
       </div>
       {%- endif -%}
     </div>
     
-    <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %} {%- if section.settings.addition_class == 'gallery_full_width' -%}  product__info-wrapper-full-width  {%- endif -%}">
+    <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %} {%- if section.settings.layout_product == 'gallery_full_width' -%}  product__info-wrapper-full-width  {%- endif -%}">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
-        {%- if section.settings.addition_class != 'gallery_full_width' -%}
+        {%- if section.settings.layout_product != 'gallery_full_width' -%}
         {%- for block in section.blocks -%}
           {%- case block.type -%}
           {%- when '@app' -%}
@@ -635,7 +635,7 @@
           {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
           {%- when 'description' -%}
-              {%- if section.settings.addition_class != 'gallery_full_width' -%}
+            {%- if section.settings.layout_product != 'gallery_full_width' -%}
               {%- if product.description != blank -%}
                 <div class="product__accordion accordion product__description rte quick-add-hidden">
                   <details id="Details-{{ block.id }}-{{ section.id }}" open>
@@ -654,43 +654,43 @@
               {%- endif -%}
             {%- endif -%}
           {%- when 'collapsible_tab' -%}
-            {%- if section.settings.addition_class != 'gallery_full_width' -%}
-              {%- if block.settings.content != blank or block.settings.page.content != blank -%}
-                <div class="product___accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
-                  <details id="Details-{{ block.id }}-{{ section.id }}">
-                    <summary>
-                      <div class="summary__title">
-                        {% render 'icon-accordion', icon: block.settings.icon %}
-                        <h2 class="h5 accordion__title">
-                          {{ block.settings.heading | default: block.settings.page.title }}
-                        </h2>
-                      </div>
-                      {% render 'icon-caret' %}
-                    </summary>
-                    <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
-                      {{ block.settings.content }}
-                      {%- if block.settings.image != blank -%}
-                        <div class="media media--{{ block.settings.image_ratio }} media--transparent {% if block.settings.image == blank %} placeholder{% endif %}">
-                          {%-liquid
-                            assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
-                            assign image_class = ""
-                            assign sizes = "100%"
-                          -%}
-                          {{ block.settings.image | image_url: width: 1500 | image_tag:
-                            loading: 'lazy',
-                            width: block.settings.image.width,
-                            height: image_height,
-                            class: image_class,
-                            sizes: sizes,
-                            widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
-                            alt: block.settings.image.alt | escape
-                          }}
-                        </div>
-                        {%- endif -%}
-                      {{ block.settings.page.content }}
+            {%- if section.settings.layout_product != 'gallery_full_width' -%}
+            {%- if block.settings.content != blank or block.settings.page.content != blank -%}
+              <div class="product___accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
+                <details id="Details-{{ block.id }}-{{ section.id }}">
+                  <summary>
+                    <div class="summary__title">
+                      {% render 'icon-accordion', icon: block.settings.icon %}
+                      <h2 class="h5 accordion__title">
+                        {{ block.settings.heading | default: block.settings.page.title }}
+                      </h2>
                     </div>
-                  </details>
-                </div>
+                    {% render 'icon-caret' %}
+                  </summary>
+                  <div class="accordion__content rte" id="ProductAccordion-{{ block.id }}-{{ section.id }}">
+                    {{ block.settings.content }}
+                    {%- if block.settings.image != blank -%}
+                      <div class="media media--{{ block.settings.image_ratio }} media--transparent {% if block.settings.image == blank %} placeholder{% endif %}">
+                        {%-liquid
+                          assign image_height = block.settings.image.width | divided_by: block.settings.image.aspect_ratio
+                          assign image_class = ""
+                          assign sizes = "100%"
+                        -%}
+                        {{ block.settings.image | image_url: width: 1500 | image_tag:
+                          loading: 'lazy',
+                          width: block.settings.image.width,
+                          height: image_height,
+                          class: image_class,
+                          sizes: sizes,
+                          widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+                          alt: block.settings.image.alt | escape
+                        }}
+                      </div>
+                      {%- endif -%}
+                    {{ block.settings.page.content }}
+                  </div>
+                </details>
+              </div>
               {%- endif -%}
             {%- endif -%}
           {%- when 'quantity_selector' -%}
@@ -926,7 +926,8 @@
             {%- endcase -%}
           {%- endfor -%}
           {%- endif -%}
-          {%- if section.settings.addition_class == 'gallery_full_width' -%}
+
+          {%- if section.settings.layout_product == 'gallery_full_width' -%}
             {%- for block in section.blocks -%}
                 {%- case block.type -%}
                     {%- when 'description' -%}

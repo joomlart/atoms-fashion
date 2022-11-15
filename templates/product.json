@@ -130,6 +130,12 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "855dcf26-c523-484d-a4b9-5297801c8a9e": {
+          "type": "trust_badges",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/439-4397227_thumb-image-trusted-png-transparent-png.png"
+          }
         }
       },
       "block_order": [
@@ -149,7 +155,8 @@
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-3",
-        "share"
+        "share",
+        "855dcf26-c523-484d-a4b9-5297801c8a9e"
       ],
       "settings": {
         "enable_sticky_info": false,

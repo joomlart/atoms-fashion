@@ -2,13 +2,15 @@
     position: absolute;
     z-index: 2;
     left: auto;
-    right: 10px;
-    top: 10px;
+    right: calc(var(--card-image-padding) + 1.6rem);
+    top: calc(var(--card-image-padding) + 1.6rem);
     transform: translate3d(10px,0,0);
 }
 
 .quick-view button {
     display: block;
+    color: rgba(var(--color-foreground));
+    background: rgba(var(--color-base-background-1));
     text-align: center;
     position: relative;
     width: 36px;
@@ -19,7 +21,6 @@
     font-size: 0;
     letter-spacing: 0;
     cursor: pointer;
-    background-color: transparent;
     border: 0;
 }
 
@@ -37,6 +38,8 @@
 
 .quick-view button span {
     display: none;
+    color: rgba(var(--color-foreground));
+    background: rgba(var(--color-base-background-1));
     white-space: nowrap;
     font-size: 1.4rem;
     font-weight: var(--font-body-weight);
@@ -47,7 +50,6 @@
     visibility: hidden;
     right: calc(100% - 30px);
     height: 36px;
-    background-color: var(--bg-white);
     line-height: 36px;
     position: absolute;
     top: 50%;
@@ -67,6 +69,10 @@
     width: auto;
     left: auto;
     right: calc(100% - 30px);
+}
+
+.quick-view .quick-view__submit.loading .icon {
+    display: none;
 }
 
 .quick-view-modal {

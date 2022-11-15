@@ -2331,6 +2331,20 @@
               "content": "To display a rating, add a product rating app. [Learn more](https:\/\/help.shopify.com\/manual\/online-store\/themes\/theme-structure\/page-types#product-rating-block)"
             }
           }
+        },
+        "custom_information": {
+          "name": "Custom Information",
+          "settings": {
+            "icon": {
+              "label": "Icon"
+            },
+            "title": {
+              "label": "Title"
+            },
+            "description": {
+              "label": "Description"
+            }
+          }
         }
       },
       "settings": {

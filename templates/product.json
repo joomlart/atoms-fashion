@@ -101,12 +101,6 @@
             "page": ""
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "479cb26a-2b36-482e-87b5-082d713b02ab": {
           "type": "custom_information",
           "settings": {
@@ -130,6 +124,12 @@
             "title": "Covid-19 Shipping Delay Notice",
             "text_description": ""
           }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
         }
       },
       "block_order": [
@@ -146,10 +146,10 @@
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-3",
-        "share",
         "479cb26a-2b36-482e-87b5-082d713b02ab",
         "d8158e35-345d-45bb-ac02-c0953b57edc6",
-        "dc98c7b2-e8a0-48bc-9c46-23d28257277f"
+        "dc98c7b2-e8a0-48bc-9c46-23d28257277f",
+        "share"
       ],
       "settings": {
         "enable_sticky_info": false,

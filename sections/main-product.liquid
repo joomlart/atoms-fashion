@@ -597,13 +597,6 @@
           {%- case block.type -%}
           {%- when '@app' -%}
             {% render block %}
-          {%- when 'custom_information' -%}
-            <div class="true-bages">
-                <h1>hfbndsbfds</h1>
-                {% render 'product-custom-information',
-                   block: block
-                %}
-            </div>
           {%- when 'text' -%}
             <p class="product__text{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}" {{ block.shopify_attributes }}>
               {{- block.settings.text -}}
@@ -730,6 +723,12 @@
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
               </modal-opener>
               <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
+          {%- when 'custom_information' -%}
+            <div class="true-bages">
+                {% render 'product-custom-information',
+                   block: block
+                %}
+            </div>
           {%- when 'share' -%}
             <share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
               <button class="share-button__button hidden">

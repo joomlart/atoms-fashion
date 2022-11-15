@@ -8,6 +8,15 @@
   <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
   <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 {%- endif -%}
+
+{%- liquid
+  assign show_quick_view = 1
+-%}
+{%- if show_quick_view -%}
+{{ 'quick-view.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'quick-view.js' | asset_url }}" defer="defer"></script>
+{%- endif -%}
+
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'template-collection.css' | asset_url | stylesheet_tag }}</noscript>
 

@@ -1,7 +1,7 @@
 class NewsletterPopup extends HTMLElement {
     constructor() {
         super();
-
+        const self = this;
         this.popup = this;
         this.timeToShow = parseInt(this.popup.getAttribute('data-delay'));
         this.expiresDate = this.popup.getAttribute('data-expire');
@@ -19,12 +19,16 @@ class NewsletterPopup extends HTMLElement {
             // this.deleteCookie('newsletter-popup');
         }
         
-        document.body.addEventListener('click', this.onBodyClickEvent.bind(this));
 
         this.querySelector('[data-close-newsletter-popup]').addEventListener(
             'click',
             this.setClosePopup.bind(this)
         );
+
+        document.querySelector('.background-overlay').addEventListener(
+            'click', 
+            this.setClosePopup.bind(this)
+        )
 
         this.querySelector('#ContactPopup').addEventListener(
             'submit',
@@ -61,6 +65,7 @@ class NewsletterPopup extends HTMLElement {
     }
 
     setClosePopup() {
+        console.log(1)
         this.setCookie('newsletter-popup', 'closed', this.expiresDate);
         document.body.classList.remove('newsletter-show');
         setTimeout(() => {
@@ -86,7 +91,11 @@ class NewsletterMessagePopup extends HTMLElement {
             this.close.bind(this)
         );
 
-        document.body.addEventListener('click', this.onBodyClickEvent.bind(this));
+
+        document.querySelector('.background-overlay').addEventListener(
+            'click', 
+            this.close.bind(this)
+        )
     }
 
     close(){

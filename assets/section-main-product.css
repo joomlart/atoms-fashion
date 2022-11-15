@@ -1686,7 +1686,7 @@ a.product__text {
   margin-bottom: 32px;
 }
 
-/* True Bages */
+/* True Bages Custom Information */
 .trust-badges .product-customInformation__icon {
   width: 2.4rem;
   height: 2.4rem;
@@ -1715,4 +1715,22 @@ a.product__text {
 
 .trust-badges .product-customInformation .title svg {
   width: 20px;
+}
+
+/* True Bages With Image */
+
+.trust-badges-block .product-customInformation {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.trust-badges-block .product-customInformation .badges_image {
+  width: 5rem;
+  height: 5rem;
+  object-fit: cover;
+}
+
+.trust-badges-block .product-customInformation .badges_image img{
+  max-width: 100%;
 }

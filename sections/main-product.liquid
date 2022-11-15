@@ -929,9 +929,15 @@
                     block: block
                 %}
             </div>
-            {%- endcase -%}
-          {%- endfor -%}
-          {%- endif -%}
+          {%- when 'trust_badges' -%}
+            <div class="trust-badges-block">
+                {% render 'product-trust-badges',
+                    block: block
+                %}
+            </div>
+          {%- endcase -%}
+        {%- endfor -%}
+        {%- endif -%}
 
           {%- if section.settings.layout_product == 'gallery_full_width' -%}
             {%- for block in section.blocks -%}

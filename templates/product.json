@@ -57,9 +57,7 @@
         "855dcf26-c523-484d-a4b9-5297801c8a9e": {
           "type": "trust_badges",
           "settings": {
-            "image_1": "shopify:\/\/shop_images\/label1.png",
-            "image_2": "shopify:\/\/shop_images\/label2.png",
-            "image_3": "shopify:\/\/shop_images\/439-4397227_thumb-image-trusted-png-transparent-png_17290dc7-6bbb-4ad7-9266-db6896685d42.png"
+            "image_1": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp"
           }
         },
         "479cb26a-2b36-482e-87b5-082d713b02ab": {
@@ -137,16 +135,6 @@
             "image_ratio": "43",
             "page": ""
           }
-        },
-        "d119fe20-7770-432d-bc0f-567bc4d831e3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Description",
-            "icon": "eye",
-            "content": "<p>This demo product for the Atom Shopify theme is not available for purchase from this store.<\/p><p>Product detailsPackage Dimensions ‏ : ‎13.76 x 10.95 x 1.14 inches; 10.23 OuncesItem model number ‏ : ‎ME11912dress1-Black-SDepartment ‏ : WomensDate First Available ‏ : ‎December 26, 2019ASIN ‏ : ‎B0834WSVKKBest Sellers Rank:#460 in Clothing, Shoes & Jewelry (<a href=\"https:\/\/joomlart-atoms.myshopify.com\/admin\/products\/6814134206537#\">See Top 100 in Clothing, Shoes & Jewelry<\/a>)#5 in<a href=\"https:\/\/joomlart-atoms.myshopify.com\/admin\/products\/6814134206537#\">Women's Casual Dresses<\/a><\/p>",
-            "image_ratio": "43",
-            "page": ""
-          }
         }
       },
       "block_order": [
@@ -167,8 +155,7 @@
         "collapsible-row-2",
         "collapsible-row-1",
         "collapsible-row-0",
-        "collapsible-row-3",
-        "d119fe20-7770-432d-bc0f-567bc4d831e3"
+        "collapsible-row-3"
       ],
       "settings": {
         "enable_sticky_info": false,

@@ -718,7 +718,13 @@
                   </button>
                 </quantity-input>
               </div>
-          {%- when 'popup' -%}
+          {%- when 'custom_information' -%}
+                <div class="true-bages">
+                    {% render 'product-custom-information',
+                        block: block
+                    %}
+                </div>
+              {%- when 'popup' -%}
               <modal-opener class="product-popup-modal__opener no-js-hidden quick-add-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
               </modal-opener>
@@ -1559,6 +1565,27 @@
           "type": "paragraph",
           "content": "t:sections.main-product.blocks.rating.settings.paragraph.content"
         }
+      ]
+    },
+    {
+      "type": "custom_information",
+      "name": "t:sections.main-product.custom_information.name",
+      "settings": [
+          {
+              "type": "textarea",
+              "id": "icon",
+              "label": "t:sections.custom_information.settings.icon.label"
+          },
+          {
+              "type": "text",
+              "id": "title",
+              "label": "t:sections.custom_information.settings.title.label"
+          },
+          {
+              "type": "textarea",
+              "id": "text_description",
+              "label": "t:sections.custom_information.settings.description.label"
+          }
       ]
     }
   ],

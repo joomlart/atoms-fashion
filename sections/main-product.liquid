@@ -723,12 +723,6 @@
                 <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button link" type="button" aria-haspopup="dialog">{{ block.settings.text | default: block.settings.page.title }}</button>
               </modal-opener>
               <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
-          {%- when 'custom_information' -%}
-            <div class="true-bages">
-                {% render 'product-custom-information',
-                   block: block
-                %}
-            </div>
           {%- when 'share' -%}
             <share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
               <button class="share-button__button hidden">
@@ -929,6 +923,12 @@
                 <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
               </p>
             {%- endif -%}
+          {%- when 'custom_information' -%}
+            <div class="true-bages">
+                {% render 'product-custom-information',
+                    block: block
+                %}
+            </div>
             {%- endcase -%}
           {%- endfor -%}
           {%- endif -%}

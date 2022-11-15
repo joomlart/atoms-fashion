@@ -1685,3 +1685,34 @@ a.product__text {
 .shopify-block[data-block-handle="star_rating"] {
   margin-bottom: 32px;
 }
+
+/* True Bages */
+.true-bages .product-customInformation__icon {
+  width: 2.4rem;
+  height: 2.4rem;
+}
+
+.true-bages .product-customInformation {
+  display: flex;
+  gap: 2.4rem;
+}
+
+.true-bages .product-customInformation .product__text.title {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 1rem;
+  font-weight: 500;
+}
+
+.true-bages .product-customInformation .product__text.title > .title {
+  margin: 0;
+}
+
+.true-bages .product-customInformation .product__text.title > svg {
+  cursor: pointer;
+}
+
+.true-bages .product-customInformation .title svg {
+  width: 20px;
+}

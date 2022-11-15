@@ -1,8 +1,8 @@
 if (!customElements.get('quick-view-modal')) {
-  customElements.define('quick-view-modal', class QuickAddModal extends ModalDialog {
+  customElements.define('quick-view-modal', class QuickViewModal extends ModalDialog {
     constructor() {
       super();
-      this.modalContent = this.querySelector('[id^="QuickAddInfo-"]');
+      this.modalContent = this.querySelector('[id^="QuickViewInfo-"]');
     }
 
     hide(preventFocus = false) {
@@ -47,6 +47,7 @@ if (!customElements.get('quick-view-modal')) {
 
     setInnerHTML(element, html) {
       element.innerHTML = html;
+      console.log('fuck');
 
       // Reinjects the script tags to allow execution. By default, scripts are disabled when using element.innerHTML.
       element.querySelectorAll('script').forEach(oldScriptTag => {
@@ -73,7 +74,7 @@ if (!customElements.get('quick-view-modal')) {
 
     preventDuplicatedIDs() {
       const sectionId = this.productElement.dataset.section;
-      this.productElement.innerHTML = this.productElement.innerHTML.replaceAll(sectionId, `quickadd-${ sectionId }`);
+      this.productElement.innerHTML = this.productElement.innerHTML.replaceAll(sectionId, `quickview-${ sectionId }`);
       this.productElement.querySelectorAll('variant-selects, variant-radios').forEach((variantSelect) => {
         variantSelect.dataset.originalSection = sectionId;
       });

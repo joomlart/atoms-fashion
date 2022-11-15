@@ -18,9 +18,6 @@
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
 
-{%- liquid
-  assign show_quick_view = 1
--%}
 {%- if show_quick_view -%}
 {{ 'quick-view.css' | asset_url | stylesheet_tag }}
 <script src="{{ 'quick-view.js' | asset_url }}" defer="defer"></script>
@@ -37,8 +34,6 @@
     if ratio == 0 or ratio == nil
       assign ratio = 1
     endif
-
-    assign show_quick_view = 1
   -%}
   <div class="card-wrapper underline-links-hover">
     <div class="card

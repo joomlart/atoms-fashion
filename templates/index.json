@@ -470,7 +470,7 @@
       "settings": {
         "title": "",
         "sub-title": "",
-        "mod_class": "background-none section-instagram",
+        "mod_class": "background-none",
         "heading_size": "h4",
         "layout": "full_bleed",
         "image_width": "full",

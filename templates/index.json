@@ -427,14 +427,13 @@
         "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo-03.png",
             "image_position": "top",
-            "title": "",
+            "title": "#Vintage #UniqueFall\/Spring ClothingCollection",
             "title_size": "h4",
             "icon": "none",
             "icon_position": "left",
-            "text": "",
-            "link_label": "",
+            "text": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Vitae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim. Ac purus, sed at maecenas elit odio.<\/p>",
+            "link_label": "I am a button",
             "link": "",
             "link_style": "link",
             "padding_left": 0,

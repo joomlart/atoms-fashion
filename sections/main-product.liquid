@@ -654,7 +654,6 @@
               {%- endif -%}
             {%- endif -%}
           {%- when 'collapsible_tab' -%}
-            {%- if section.settings.layout_description != 'tabs' -%}
             {%- if block.settings.content != blank or block.settings.page.content != blank -%}
               <div class="product___accordion accordion quick-add-hidden" {{ block.shopify_attributes }}>
                 <details id="Details-{{ block.id }}-{{ section.id }}">
@@ -692,7 +691,6 @@
                 </details>
               </div>
               {%- endif -%}
-            {%- endif -%}
           {%- when 'quantity_selector' -%}
               <div class="product-form__input product-form__quantity{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
                 <label class="form__label" for="Quantity-{{ section.id }}">

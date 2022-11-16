@@ -151,6 +151,14 @@
             "content_tabs": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "image_ratio_tabs": "43"
           }
+        },
+        "f20d7496-fc51-445a-8b75-85204f3c423c": {
+          "type": "product",
+          "settings": {
+            "product_list": [
+              "a-kjaerbede-bate-blue-light-glasses-in-lavender"
+            ]
+          }
         }
       },
       "block_order": [
@@ -173,7 +181,8 @@
         "collapsible-row-0",
         "collapsible-row-3",
         "4ed73133-889e-4b76-8238-606645cba794",
-        "e42fa36e-34fb-4e00-a8c8-39f23c4446a2"
+        "e42fa36e-34fb-4e00-a8c8-39f23c4446a2",
+        "f20d7496-fc51-445a-8b75-85204f3c423c"
       ],
       "settings": {
         "enable_sticky_info": false,

@@ -1033,12 +1033,19 @@
         // const pageAccord = document.getElementsByClassName('product__accordion')[0];
         // if (!pageAccord) return;
         tabs = document.querySelectorAll('.tab');
+        tabsContent = document.querySelector('#tab-content');
         contentChild = document.querySelectorAll('.tab-content-child');
+        description = document.querySelector('.product__description .tab-content-child');
+        
+        // Init 
+        tabsContent.appendChild(description);
+        description.classList.add('active');
+
+        // Loop
         tabs.forEach(function(tab) {
           tab.addEventListener('click', function(){
             contentId = this.dataset.contentId;
             content = document.getElementById(contentId);
-            tabsContent = document.querySelector('#tab-content');
             tabsContent.appendChild(content);
             
             // remove content active 

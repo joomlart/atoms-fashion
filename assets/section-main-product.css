@@ -1769,6 +1769,10 @@ a.product__text {
   cursor: pointer;
 }
 
+.tab.active {
+  border-bottom: 1px solid rgb(var(--color-foreground));
+}
+
 .tabs > * {
   margin-left: 2.4rem;
   margin-right: 2.4rem;
@@ -1785,3 +1789,17 @@ a.product__text {
 .tabs div:first-child {
   margin-top: 0;
 }
+
+.animated {
+  background-color: #dc3545;
+  transition: max-height 1s ease-in-out;
+  overflow: hidden;
+  max-height: 0;
+}
+
+.animated.active {
+  max-height: 1000px;
+  transition: max-height 1s ease-in-out;
+}
+
+

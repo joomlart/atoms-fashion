@@ -1043,9 +1043,18 @@
             tabsContent = document.querySelector('#tab-content');
             tabsContent.appendChild(content);
             
-            contentChild.forEach(function(content){
-              content.classList.remove('active')
+            // remove content active 
+            contentChild.forEach(function(item){
+              item.classList.remove('active')
             })
+
+            // remove title active
+            tabs.forEach(function(item){
+              item.classList.remove('active');
+            })
+
+            // Add active
+            this.classList.add('active');
             content.classList.add('active');
           })
         })
@@ -1563,6 +1572,52 @@
           "type": "image_picker",
           "id": "image_1",
           "label": "t:sections.main-product.blocks.trust_badges.settings.image-1.label"
+        }
+      ]
+    },
+    {
+      "type": "tabs",
+      "name": "t:sections.main-product.blocks.tabs.name",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title_tabs",
+          "default": "Tabs",
+          "label": "t:sections.main-product.blocks.tabs.settings.title.label"
+        },
+        {
+          "type": "richtext",
+          "id": "content_tabs",
+          "label": "t:sections.main-product.blocks.tabs.settings.content.label"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_tabs",
+          "label": "t:sections.main-product.blocks.tabs.settings.image.label"
+        },
+        {
+          "type": "select",
+          "id": "image_ratio_tabs",
+          "options": [
+            {
+              "value": "portrait",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.image_ratio.options__1.label"
+            },
+            {
+              "value": "square",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.image_ratio.options__2.label"
+            },
+            {
+              "value": "34",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.image_ratio.options__3.label"
+            },
+            {
+              "value": "43",
+              "label": "t:sections.main-product.blocks.collapsible_tab.settings.image_ratio.options__4.label"
+            }
+          ],
+          "default": "43",
+          "label": "t:sections.main-product.blocks.tabs.settings.image_ratio.options__4.label"
         }
       ]
     }

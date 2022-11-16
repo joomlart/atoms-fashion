@@ -2365,6 +2365,35 @@
               "label": "Choose Image 5"
             }
           }
+        },
+        "tabs": {
+          "name" : "Tabs",
+          "settings": {
+            "title": {
+              "label": "Title Tab"
+            },
+            "content": {
+              "label": "Content Tab"
+            },
+            "image": {
+              "label": "Add Image"
+            },
+            "image_ratio": {
+              "label": "Ratio Image",
+              "option_1": {
+                "label": "Portrait"
+              },
+              "option_2": {
+                "label": "Square"
+              },
+              "option_3": {
+                "label": "Ratio 3/4"
+              },
+              "option_4": {
+                "label": "Ratio 4/3"
+              }
+            }
+          }
         }
       },
       "settings": {

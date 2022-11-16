@@ -302,7 +302,7 @@
             "link": "shopify:\/\/collections\/furniture",
             "link_style": "solid",
             "box_align": "middle-center",
-            "box_width": 66,
+            "box_width": 100,
             "button_label2": "",
             "link2": "",
             "link_style2": "solid",
@@ -324,7 +324,7 @@
             "link": "shopify:\/\/collections\/decor",
             "link_style": "solid",
             "box_align": "middle-center",
-            "box_width": 60,
+            "box_width": 100,
             "button_label2": "",
             "link2": "",
             "link_style2": "solid",
@@ -383,7 +383,7 @@
         "columns_mobile": "1",
         "swipe_on_mobile": true,
         "padding_top": 96,
-        "padding_bottom": 0
+        "padding_bottom": 96
       }
     },
     "852a22c8-3302-4a08-9752-571a7d4ca859": {
@@ -409,7 +409,7 @@
         "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo-02.png",
+            "image": "shopify:\/\/shop_images\/fashion-ins-01.jpg",
             "image_position": "top",
             "title": "",
             "title_size": "h4",
@@ -444,7 +444,7 @@
         "522f3e78-c586-402f-82a3-0a7a31252702": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo-04.png",
+            "image": "shopify:\/\/shop_images\/fashion-ins-03.jpg",
             "image_position": "top",
             "title": "",
             "title_size": "h4",
@@ -469,20 +469,121 @@
       "settings": {
         "title": "",
         "sub-title": "",
-        "mod_class": "background-none",
+        "mod_class": "background-none fashion-ins-blog",
         "heading_size": "h4",
         "layout": "full_bleed",
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 4,
-        "row_alignment": "top",
+        "row_alignment": "middle",
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "https:\/\/www.instagram.com\/joomlart\/",
         "color_scheme": "background-1",
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15056364503113__1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429-1668568897d077082c-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fashion-ins-02.jpg",
+            "image_position": "top",
+            "title": "",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 0
+          }
+        },
+        "template--15056364503113__1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429-1668568897d077082c-1": {
+          "type": "column",
+          "settings": {
+            "image_position": "top",
+            "title": "#Vintage #UniqueFall\/Spring ClothingCollection",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Vitae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim. Ac purus, sed at maecenas elit odio.<\/p>",
+            "link_label": "I am a button",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 0
+          }
+        },
+        "template--15056364503113__1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429-1668568897d077082c-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fashion-ins-04.jpg",
+            "image_position": "top",
+            "title": "",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "",
+            "link_label": "",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 0
+          }
+        },
+        "dcc6d323-6547-4066-ad28-6651af027634": {
+          "type": "column",
+          "settings": {
+            "image_position": "top",
+            "title": "#Vintage #UniqueFall\/Spring ClothingCollection",
+            "title_size": "h4",
+            "icon": "none",
+            "icon_position": "left",
+            "text": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Vitae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim. Ac purus, sed at maecenas elit odio.<\/p>",
+            "link_label": "I am a button",
+            "link": "",
+            "link_style": "link",
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--15056364503113__1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429-1668568897d077082c-0",
+        "template--15056364503113__1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429-1668568897d077082c-1",
+        "template--15056364503113__1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429-1668568897d077082c-2",
+        "dcc6d323-6547-4066-ad28-6651af027634"
+      ],
+      "settings": {
+        "title": "",
+        "sub-title": "",
+        "mod_class": "background-none fashion-ins-blog",
+        "heading_size": "h4",
+        "layout": "full_bleed",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "row_alignment": "middle",
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 0,
         "padding_bottom": 0
       }
@@ -495,6 +596,7 @@
     "16639099959fcc61f9",
     "41e85b73-2874-409d-acd8-0ab5e2227c6a",
     "60cc2e97-2f66-46c2-97b2-1f011b00994b",
-    "852a22c8-3302-4a08-9752-571a7d4ca859"
+    "852a22c8-3302-4a08-9752-571a7d4ca859",
+    "1c4d1ae3-c5b9-4a39-af6a-c98a5fb68429"
   ]
 }

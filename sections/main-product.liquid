@@ -1047,12 +1047,19 @@
         // const pageAccord = document.getElementsByClassName('product__accordion')[0];
         // if (!pageAccord) return;
         tabs = document.querySelectorAll('.tab');
+        tabsContent = document.querySelector('#tab-content');
         contentChild = document.querySelectorAll('.tab-content-child');
+        description = document.querySelector('.product__description .tab-content-child');
+        
+        // Init 
+        tabsContent.appendChild(description);
+        description.classList.add('active');
+
+        // Loop
         tabs.forEach(function(tab) {
           tab.addEventListener('click', function(){
             contentId = this.dataset.contentId;
             content = document.getElementById(contentId);
-            tabsContent = document.querySelector('#tab-content');
             tabsContent.appendChild(content);
             
             // remove content active 
@@ -1638,9 +1645,34 @@
       "name": "Upsell Product",
       "settings": [
         {
+<<<<<<< HEAD
           "type": "product",
           "id": "product_upsell",
           "label": "Upsell Product"
+=======
+          "type": "text",
+          "id": "heading",
+          "label": "Upsell",
+          "default": "Upsell"
+        },
+        {
+          "type": "product_list",
+          "id": "product_list",
+          "label": "Products",
+          "limit": 12
+        }
+      ]
+    },
+    {
+      "type": "short_description",
+      "name": "Short Description",
+      "settings": [
+        {
+          "type": "text",
+          "id": "word_number",
+          "default": 17,
+          "label": "Word Number"
+>>>>>>> 3d5ea92c8e115c09aa3f1a6b6f65eb10be9d3ab9
         }
       ]
     }

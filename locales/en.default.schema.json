@@ -2367,7 +2367,7 @@
           }
         },
         "tabs": {
-          "name" : "Tabs",
+          "name": "Tabs",
           "settings": {
             "title": {
               "label": "Title Tab"
@@ -2380,17 +2380,17 @@
             },
             "image_ratio": {
               "label": "Ratio Image",
-              "option_1": {
+              "options_1": {
                 "label": "Portrait"
               },
-              "option_2": {
+              "options_2": {
                 "label": "Square"
               },
-              "option_3": {
-                "label": "Ratio 3/4"
+              "options_3": {
+                "label": "Ratio 3\/4"
               },
-              "option_4": {
-                "label": "Ratio 4/3"
+              "options_4": {
+                "label": "Ratio 4\/3"
               }
             }
           }

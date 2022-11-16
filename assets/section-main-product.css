@@ -1714,6 +1714,11 @@ a.product__text {
   width: 20px;
 }
 
+// Trust Badge Image
+.product-customInformation {
+  max-width: 70%;
+}
+
 /* True Bages With Image */
 
 .trust-badges-block .product-customInformation {

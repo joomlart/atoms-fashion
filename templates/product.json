@@ -91,17 +91,6 @@
             "text_description": ""
           }
         },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
@@ -141,6 +130,17 @@
             "content": "",
             "image_ratio": "43",
             "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
           }
         },
         "4ed73133-889e-4b76-8238-606645cba794": {
@@ -191,12 +191,12 @@
         "479cb26a-2b36-482e-87b5-082d713b02ab",
         "d8158e35-345d-45bb-ac02-c0953b57edc6",
         "dc98c7b2-e8a0-48bc-9c46-23d28257277f",
-        "share",
-        "description",
         "collapsible-row-2",
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-3",
+        "share",
+        "description",
         "4ed73133-889e-4b76-8238-606645cba794",
         "e42fa36e-34fb-4e00-a8c8-39f23c4446a2",
         "fd92e9af-7e7a-4fb9-8ca2-69e1f16c1c95",

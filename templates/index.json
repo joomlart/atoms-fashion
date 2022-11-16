@@ -572,7 +572,7 @@
         "sub-title": "",
         "mod_class": "background-none",
         "heading_size": "h4",
-        "layout": "grid",
+        "layout": "full_bleed",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 4,

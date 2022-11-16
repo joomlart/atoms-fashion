@@ -25,8 +25,15 @@
           "settings": {
           }
         },
+        "23ebf0a2-bba6-4be2-8af7-6c1bacfbe482": {
+          "type": "short_description",
+          "settings": {
+            "word_number": "17"
+          }
+        },
         "caption": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
@@ -166,10 +173,7 @@
         "f20d7496-fc51-445a-8b75-85204f3c423c": {
           "type": "product",
           "settings": {
-            "heading": "Upsell",
-            "product_list": [
-              "a-kjaerbede-bate-blue-light-glasses-in-lavender"
-            ]
+            "product_upsell": ""
           }
         }
       },
@@ -177,6 +181,7 @@
         "vendor",
         "title",
         "6c4a7f7f-6a5e-4f46-99c0-1deeed649816",
+        "23ebf0a2-bba6-4be2-8af7-6c1bacfbe482",
         "caption",
         "price",
         "variant_picker",

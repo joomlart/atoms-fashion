@@ -392,14 +392,13 @@
         "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo-01.png",
             "image_position": "top",
-            "title": "",
+            "title": "#Vintage #UniqueFall\/Spring ClothingCollection",
             "title_size": "h4",
             "icon": "none",
             "icon_position": "left",
-            "text": "",
-            "link_label": "",
+            "text": "<p>Cursus elit, iaculis platea integer nisl sapien egestas. Vitae donec ornare iaculis mauris nec ultrices ullamcorper tempus dignissim. Ac purus, sed at maecenas elit odio.<\/p>",
+            "link_label": "I am a button",
             "link": "",
             "link_style": "link",
             "padding_left": 0,
@@ -460,51 +459,13 @@
             "padding_right": 0,
             "image_spacing": 0
           }
-        },
-        "257ae115-4902-4861-8782-b7181d3c8b68": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/photo-05.png",
-            "image_position": "top",
-            "title": "",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 0
-          }
-        },
-        "b108019e-7a44-4d64-a2a2-cbbdaad59038": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/photo-06.png",
-            "image_position": "top",
-            "title": "",
-            "title_size": "h4",
-            "icon": "none",
-            "icon_position": "left",
-            "text": "",
-            "link_label": "",
-            "link": "",
-            "link_style": "link",
-            "padding_left": 0,
-            "padding_right": 0,
-            "image_spacing": 0
-          }
         }
       },
       "block_order": [
         "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-0",
         "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-1",
         "template--15049366437961__852a22c8-3302-4a08-9752-571a7d4ca859-1667894991c4a70bcf-2",
-        "522f3e78-c586-402f-82a3-0a7a31252702",
-        "257ae115-4902-4861-8782-b7181d3c8b68",
-        "b108019e-7a44-4d64-a2a2-cbbdaad59038"
+        "522f3e78-c586-402f-82a3-0a7a31252702"
       ],
       "settings": {
         "title": "",
@@ -518,7 +479,7 @@
         "row_alignment": "top",
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Follow us @ubtrex3",
+        "button_label": "",
         "button_link": "https:\/\/www.instagram.com\/joomlart\/",
         "color_scheme": "background-1",
         "columns_mobile": "2",

@@ -555,9 +555,9 @@
             "link_label": "I am a button",
             "link": "",
             "link_style": "link",
-            "padding_left": 32,
-            "padding_right": 32,
-            "image_spacing": 25
+            "padding_left": 0,
+            "padding_right": 0,
+            "image_spacing": 0
           }
         }
       },

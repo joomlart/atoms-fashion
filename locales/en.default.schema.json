@@ -2380,16 +2380,16 @@
             },
             "image_ratio": {
               "label": "Ratio Image",
-              "options_1": {
+              "options__1": {
                 "label": "Portrait"
               },
-              "options_2": {
+              "options__2": {
                 "label": "Square"
               },
-              "options_3": {
+              "options__3": {
                 "label": "Ratio 3\/4"
               },
-              "options_4": {
+              "options__4": {
                 "label": "Ratio 4\/3"
               }
             }

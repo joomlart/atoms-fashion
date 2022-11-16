@@ -477,7 +477,7 @@
         "image_ratio": "square",
         "columns_desktop": 4,
         "row_alignment": "top",
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "https:\/\/www.instagram.com\/joomlart\/",

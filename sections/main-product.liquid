@@ -615,7 +615,7 @@
               {%- if product.description != blank -%}
                 <div id="short_description" {{ block.shopify_attributes }}>
                   {% comment %} {{ product.metafields.content.shortdescription | truncatewords: block.settings.word_number | strip_html }} {% endcomment %}
-                  {{ product.metafields.content.shortdescription.value | truncatewords: block.settings.word_number | strip_html }}
+                  {{ product.description | strip_html | truncate: block.settings.word_number }}
                 </div>
               {%- endif -%}
           {%- when 'price' -%}

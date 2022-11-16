@@ -143,6 +143,14 @@
             "content_tabs": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "image_ratio_tabs": "portrait"
           }
+        },
+        "e42fa36e-34fb-4e00-a8c8-39f23c4446a2": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "Gift",
+            "content_tabs": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image_ratio_tabs": "43"
+          }
         }
       },
       "block_order": [
@@ -164,7 +172,8 @@
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-3",
-        "4ed73133-889e-4b76-8238-606645cba794"
+        "4ed73133-889e-4b76-8238-606645cba794",
+        "e42fa36e-34fb-4e00-a8c8-39f23c4446a2"
       ],
       "settings": {
         "enable_sticky_info": false,

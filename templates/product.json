@@ -205,7 +205,7 @@
       "settings": {
         "enable_sticky_info": false,
         "gallery_layout": "stacked",
-        "media_size": "medium",
+        "media_size": "large",
         "item_ratio": "43",
         "mobile_thumbnails": "hide",
         "hide_variants": true,

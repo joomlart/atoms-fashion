@@ -514,7 +514,7 @@
         "layout": "full_bleed",
         "image_width": "full",
         "image_ratio": "square",
-        "columns_desktop": 6,
+        "columns_desktop": 4,
         "row_alignment": "top",
         "column_alignment": "left",
         "background_style": "primary",

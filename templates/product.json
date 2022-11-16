@@ -135,6 +135,14 @@
             "image_ratio": "43",
             "page": ""
           }
+        },
+        "4ed73133-889e-4b76-8238-606645cba794": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "Tabs",
+            "content_tabs": "",
+            "image_ratio_tabs": "43"
+          }
         }
       },
       "block_order": [
@@ -155,7 +163,8 @@
         "collapsible-row-2",
         "collapsible-row-1",
         "collapsible-row-0",
-        "collapsible-row-3"
+        "collapsible-row-3",
+        "4ed73133-889e-4b76-8238-606645cba794"
       ],
       "settings": {
         "enable_sticky_info": false,

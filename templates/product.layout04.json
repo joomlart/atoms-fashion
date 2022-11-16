@@ -113,6 +113,15 @@
             "title": "Free Shipping",
             "text_description": "<p>Free standard shipping on orders over $99<\/p>\n<p>Estimated to be delivered on 12\/01\/2022 - 15\/10\/2022.<\/p>"
           }
+        },
+        "49a7d36d-0769-49a9-9c37-36250c9430b7": {
+          "type": "product",
+          "settings": {
+            "heading": "Upsell",
+            "product_list": [
+              "a-kjaerbede-bate-blue-light-glasses-in-lavender"
+            ]
+          }
         }
       },
       "block_order": [
@@ -130,7 +139,8 @@
         "collapsible-row-0",
         "collapsible-row-3",
         "share",
-        "299b4341-1681-443b-8444-ac6e8c666502"
+        "299b4341-1681-443b-8444-ac6e8c666502",
+        "49a7d36d-0769-49a9-9c37-36250c9430b7"
       ],
       "settings": {
         "enable_sticky_info": false,

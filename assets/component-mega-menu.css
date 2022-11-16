@@ -111,7 +111,7 @@
   animation-fill-mode: forwards;
   z-index: 3;
   position: absolute;
-  width: 22rem;
+  min-width: 22rem;
   left: auto;
   right: auto;
   padding: 0;

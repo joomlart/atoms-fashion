@@ -25,6 +25,11 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "23ebf0a2-bba6-4be2-8af7-6c1bacfbe482": {
           "type": "short_description",
           "settings": {
@@ -37,11 +42,6 @@
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
           }
         },
         "variant_picker": {
@@ -181,9 +181,9 @@
         "vendor",
         "title",
         "6c4a7f7f-6a5e-4f46-99c0-1deeed649816",
+        "price",
         "23ebf0a2-bba6-4be2-8af7-6c1bacfbe482",
         "caption",
-        "price",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",

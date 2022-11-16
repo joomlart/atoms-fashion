@@ -1715,6 +1715,9 @@ a.product__text {
 }
 
 // Trust Badge Image
+.trust-badges-block {
+  margin: 2.4rem 0;
+}
 .product-customInformation {
   max-width: 70%;
 }

@@ -158,17 +158,18 @@
         "e381e5d5-f86a-48d1-b4a1-b9355fa00f12"
       ],
       "settings": {
+        "layout_product": "default",
+        "layout_description": "tabs",
         "enable_sticky_info": true,
-        "gallery_layout": "stacked",
+        "gallery_layout": "thumbnail",
+        "gallery_position": "right",
         "media_size": "small",
         "item_ratio": "169",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 0,
-        "padding_bottom": 48,
-        "layout_product": "default",
-        "layout_description": "tabs"
+        "padding_bottom": 48
       }
     },
     "16641835307bab9de3": {

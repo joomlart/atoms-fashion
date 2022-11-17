@@ -306,6 +306,13 @@
               </a>
               <div product-id="{{ product.id }}" class="alr-display-review-badge"></div>
             </div>
+                    {%- when 'short_description' -%}
+              {%- if product.description != blank -%}
+                <div id="short_description" {{ block.shopify_attributes }}>
+                  {% comment %} {{ product.metafields.content.shortdescription | truncatewords: block.settings.word_number | strip_html }} {% endcomment %}
+                  {{ product.description | strip_html | truncate: block.settings.word_number }}
+                </div>
+              {%- endif -%}
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
@@ -1039,6 +1046,8 @@
       function openAdditionalInfo() {
         // const pageAccord = document.getElementsByClassName('product__accordion')[0];
         // if (!pageAccord) return;
+
+        // Tabs
         tabs = document.querySelectorAll('.tab');
         tabsContent = document.querySelector('#tab-content');
         contentChild = document.querySelectorAll('.tab-content-child');
@@ -1050,15 +1059,17 @@
 
         // Loop
         tabs.forEach(function(tab) {
-          tab.addEventListener('click', function(){
-            contentId = this.dataset.contentId;
+          tab.addEventListener('click', function(event){
+            contentId = event.currentTarget.dataset.contentId;
             content = document.getElementById(contentId);
             tabsContent.appendChild(content);
             
             // remove content active 
             contentChild.forEach(function(item){
-              item.classList.remove('active')
+              item.classList.remove('active');
             })
+
+            reviewBlock.style.display = "none";
 
             // remove title active
             tabs.forEach(function(item){
@@ -1070,6 +1081,23 @@
             content.classList.add('active');
           })
         })
+
+        // Append review
+        let reviewWrapper = document.getElementById("review-wrapper");
+        let reviewBlock = document.getElementById("shopify-product-reviews");
+        reviewWrapper.addEventListener('click', function(event) {
+          contentId = event.currentTarget.dataset.contentId;
+          content = document.getElementById(contentId);
+          tabsContent.appendChild(content);
+
+          // remove content active 
+          contentChild.forEach(function(item){
+            item.classList.remove('active')
+          })
+
+          reviewBlock.style.display = "block";
+
+        });
 
         const allProductsAccor = document.querySelectorAll('div.product__accordion');
   
@@ -1104,6 +1132,7 @@
         }
       }
     });
+
   </script>
 
   {%- liquid

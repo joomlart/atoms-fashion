@@ -1714,7 +1714,7 @@ a.product__text {
   width: 20px;
 }
 
-// Trust Badge Image
+/* Trust Badge Image */
 .trust-badges-block {
   margin: 2.4rem 0;
 }
@@ -1780,6 +1780,10 @@ a.product__text {
   display: none;
 }
 
+#shopify-product-reviews {
+  display: none;
+}
+
 /* Tab Content */
 .tabs .accordion__content {
   display: none;
@@ -1800,6 +1804,13 @@ a.product__text {
 .tabs .accordion .summary__title+.icon-caret {
   display: none;
 }
+
+#review-wrapper {
+  font-weight: 700;
+  padding: 15px 0;
+  text-transform: uppercase;
+}
+
 
 
 

@@ -1694,6 +1694,42 @@
   ],
   "settings": [
     {
+      "type": "header",
+      "content": "t:sections.main-product.settings.general.label"
+    },
+    {
+      "type": "select",
+      "id": "layout_product",
+      "options": [
+        {
+          "value": "default",
+          "label": "t:sections.main-product.settings.layout_product.label__1"
+        },
+        {
+          "value": "gallery_full_width",
+          "label": "t:sections.main-product.settings.layout_product.label__2"
+        }
+      ],
+      "default": "default",
+      "label": "t:sections.main-product.settings.layout_product.content"
+    }, 
+    {
+      "type": "select",
+      "id": "layout_description",
+      "options": [
+        {
+          "value": "arccodion",
+          "label": "t:sections.main-product.settings.layout_description.label__1"
+        },
+        {
+          "value": "tabs",
+          "label": "t:sections.main-product.settings.layout_description.label__2"
+        }
+      ],
+      "default": "tabs",
+      "label": "t:sections.main-product.settings.layout_description.content"
+    },
+    {
       "type": "checkbox",
       "id": "enable_sticky_info",
       "default": true,
@@ -1828,42 +1864,6 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
-    },
-    {
-        "type": "header",
-        "content": "t:sections.main-product.settings.heading_other.content"
-    },
-    {
-      "type": "select",
-      "id": "layout_product",
-      "options": [
-        {
-          "value": "default",
-          "label": "t:sections.main-product.settings.layout_product.label__1"
-        },
-        {
-          "value": "gallery_full_width",
-          "label": "t:sections.main-product.settings.layout_product.label__2"
-        }
-      ],
-      "default": "default",
-      "label": "t:sections.main-product.settings.layout_product.content"
-    }, 
-    {
-      "type": "select",
-      "id": "layout_description",
-      "options": [
-        {
-          "value": "arccodion",
-          "label": "t:sections.main-product.settings.layout_description.label__1"
-        },
-        {
-          "value": "tabs",
-          "label": "t:sections.main-product.settings.layout_description.label__2"
-        }
-      ],
-      "default": "tabs",
-      "label": "t:sections.main-product.settings.layout_description.content"
     }
   ]
 }

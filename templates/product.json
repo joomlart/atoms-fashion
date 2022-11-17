@@ -219,6 +219,8 @@
         "e417982b-3458-49aa-8bdc-84807b310d68"
       ],
       "settings": {
+        "layout_product": "default",
+        "layout_description": "tabs",
         "enable_sticky_info": false,
         "gallery_layout": "thumbnail",
         "media_size": "medium",
@@ -227,9 +229,7 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 48,
-        "padding_bottom": 48,
-        "layout_product": "default",
-        "layout_description": "tabs"
+        "padding_bottom": 48
       }
     },
     "b56b38a8-e2f8-4c99-903d-bdd158723b66": {

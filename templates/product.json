@@ -214,7 +214,7 @@
         "layout_description": "tabs",
         "enable_sticky_info": false,
         "gallery_layout": "thumbnail",
-        "gallery_position": "bottom",
+        "gallery_position": "left",
         "media_size": "medium",
         "item_ratio": "43",
         "mobile_thumbnails": "hide",

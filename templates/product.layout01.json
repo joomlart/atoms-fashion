@@ -210,7 +210,7 @@
     "94fbf200-2029-4def-91da-27de10f8af00": {
       "type": "ja-recent-products",
       "settings": {
-        "title": "Recent Product",
+        "title": "Recently Viewed Products",
         "heading_size": "h4",
         "title_style": "02",
         "description": "<p>The feature keeps track of all the items viewed, from where the customer can review the product and conceder it for purchase.<br\/><\/p>",

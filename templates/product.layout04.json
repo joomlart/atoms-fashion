@@ -143,7 +143,13 @@
         "e6d5ec74-8a30-42c2-903c-da7540dfa409": {
           "type": "short_description",
           "settings": {
-            "word_number": "17"
+            "word_number": "120"
+          }
+        },
+        "fdeafb54-d166-4bb4-abd3-c7d414fc8b72": {
+          "type": "trust_badges",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp"
           }
         }
       },
@@ -167,7 +173,8 @@
         "68958ebb-1469-42ec-8cb6-d93d429ba98f",
         "4f9896a2-6cfd-4a53-9038-bac9d78a7c2f",
         "4dd41127-002f-40ac-9c0b-d97a367ffe14",
-        "e6d5ec74-8a30-42c2-903c-da7540dfa409"
+        "e6d5ec74-8a30-42c2-903c-da7540dfa409",
+        "fdeafb54-d166-4bb4-abd3-c7d414fc8b72"
       ],
       "settings": {
         "enable_sticky_info": false,

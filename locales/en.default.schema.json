@@ -443,6 +443,18 @@
           "label": "Extra large"
         }
       },
+      "heading_style": {
+        "label": "Heading style",
+        "options__1": {
+          "label": "01"
+        },
+        "options__2": {
+          "label": "02"
+        },
+        "options__3": {
+          "label": "03"
+        }
+      },
       "bg_colors": {
         "label": "Background Color"
       },
@@ -3010,6 +3022,21 @@
       "settings": {
         "heading": {
           "label": "Heading"
+        },
+        "description": {
+          "label": "Description"
+        },
+        "description_style": {
+          "label": "Description style",
+          "options__1": {
+            "label": "Body"
+          },
+          "options__2": {
+            "label": "Subtitle"
+          },
+          "options__3": {
+            "label": "Uppercase"
+          }
         },
         "products_to_show": {
           "label": "Maximum products to show"

@@ -320,26 +320,3 @@
     display: none;
   } 
 }
-
-/* Title Style 02 */
-.title-wrapper-02 {
-  text-align: center;
-  margin-bottom: 6.4rem;
-}
-
-.title-wrapper-02 .title {
-  margin-top: 0;
-  margin-bottom: 1.6rem;
-}
-
-.title-wrapper-02 .recently__description  {
-  width: 50%;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-@media screen and (max-width: 749px) {
-  .title-wrapper-02 .recently__description {
-    width: 90%;
-  }
-}

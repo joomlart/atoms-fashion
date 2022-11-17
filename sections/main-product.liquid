@@ -472,7 +472,6 @@
                 </div>
               </div>
             </noscript>
-
           {%- when 'buy_buttons' -%}
               <div {{ block.shopify_attributes }}>
                 <product-form class="product-form">
@@ -953,17 +952,6 @@
                     block: block
                 %}
             </div>
-          {%- when 'product_upsell' -%}
-          fuck
-          {{ block.settings.product_upsell }}
-          {{ block.product_upsell }}
-          {{ product_upsell }}
-          {{ block }}
-            {% render 'card-product',
-              card_product: block,
-              media_aspect_ratio: 'adapt',
-              extend_height: true
-            %}
           {%- endcase -%}
         {%- endfor -%}
         {%- endif -%}
@@ -1673,7 +1661,7 @@
       ]
     },
     {
-      "type": "product_upsell",
+      "type": "product",
       "name": "Upsell Product",
       "settings": [
         {
@@ -1768,6 +1756,27 @@
       ],
       "default": "stacked",
       "label": "t:sections.main-product.settings.gallery_layout.label"
+    },
+    {
+      "type": "select",
+      "id": "gallery_position",
+      "options": [
+        {
+          "value": "bottom",
+          "label": "t:sections.main-product.settings.gallery_position.options__1.label"
+        },
+        {
+          "value": "left",
+          "label": "t:sections.main-product.settings.gallery_position.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.main-product.settings.gallery_position.options__3.label"
+        }
+      ],
+      "default": "bottom",
+      "label": "t:sections.main-product.settings.gallery_position.label",
+      "info": "t:sections.main-product.settings.gallery_position.info"
     },
     {
       "type": "select",

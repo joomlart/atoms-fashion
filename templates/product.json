@@ -311,10 +311,10 @@
     "6b8f86f8-8759-48b8-a34f-5bc028e7e729": {
       "type": "ja-recent-products",
       "settings": {
-        "title": "Recent Product",
+        "title": "Recently Viewed Products",
         "heading_size": "h3",
         "title_style": "02",
-        "description": "",
+        "description": "<p>The feature keeps track of all the items viewed, from where the customer can review the product and conceder it for purchase.<\/p>",
         "description_style": "body",
         "products_to_show": 4,
         "columns_desktop": 4,

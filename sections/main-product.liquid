@@ -306,13 +306,6 @@
               </a>
               <div product-id="{{ product.id }}" class="alr-display-review-badge"></div>
             </div>
-                    {%- when 'short_description' -%}
-              {%- if product.description != blank -%}
-                <div id="short_description" {{ block.shopify_attributes }}>
-                  {% comment %} {{ product.metafields.content.shortdescription | truncatewords: block.settings.word_number | strip_html }} {% endcomment %}
-                  {{ product.description | strip_html | truncate: block.settings.word_number }}
-                </div>
-              {%- endif -%}
           {%- when 'price' -%}
             <div class="no-js-hidden" id="price-{{ section.id }}" role="status" {{ block.shopify_attributes }}>
               {%- render 'price', product: product, use_variant: true, show_badges: true, price_class: 'price--large' -%}
@@ -1702,6 +1695,42 @@
   ],
   "settings": [
     {
+      "type": "header",
+      "content": "t:sections.main-product.settings.general.label"
+    },
+    {
+      "type": "select",
+      "id": "layout_product",
+      "options": [
+        {
+          "value": "default",
+          "label": "t:sections.main-product.settings.layout_product.label__1"
+        },
+        {
+          "value": "gallery_full_width",
+          "label": "t:sections.main-product.settings.layout_product.label__2"
+        }
+      ],
+      "default": "default",
+      "label": "t:sections.main-product.settings.layout_product.content"
+    }, 
+    {
+      "type": "select",
+      "id": "layout_description",
+      "options": [
+        {
+          "value": "arccodion",
+          "label": "t:sections.main-product.settings.layout_description.label__1"
+        },
+        {
+          "value": "tabs",
+          "label": "t:sections.main-product.settings.layout_description.label__2"
+        }
+      ],
+      "default": "tabs",
+      "label": "t:sections.main-product.settings.layout_description.content"
+    },
+    {
       "type": "checkbox",
       "id": "enable_sticky_info",
       "default": true,
@@ -1836,42 +1865,6 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 36
-    },
-    {
-        "type": "header",
-        "content": "t:sections.main-product.settings.heading_other.content"
-    },
-    {
-      "type": "select",
-      "id": "layout_product",
-      "options": [
-        {
-          "value": "default",
-          "label": "t:sections.main-product.settings.layout_product.label__1"
-        },
-        {
-          "value": "gallery_full_width",
-          "label": "t:sections.main-product.settings.layout_product.label__2"
-        }
-      ],
-      "default": "default",
-      "label": "t:sections.main-product.settings.layout_product.content"
-    }, 
-    {
-      "type": "select",
-      "id": "layout_description",
-      "options": [
-        {
-          "value": "arccodion",
-          "label": "t:sections.main-product.settings.layout_description.label__1"
-        },
-        {
-          "value": "tabs",
-          "label": "t:sections.main-product.settings.layout_description.label__2"
-        }
-      ],
-      "default": "tabs",
-      "label": "t:sections.main-product.settings.layout_description.content"
     }
   ]
 }

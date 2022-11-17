@@ -215,7 +215,7 @@
         "e417982b-3458-49aa-8bdc-84807b310d68"
       ],
       "settings": {
-        "layout_product": "default",
+        "layout_product": "gallery_full_width",
         "layout_description": "arccodion",
         "enable_sticky_info": false,
         "gallery_layout": "thumbnail",

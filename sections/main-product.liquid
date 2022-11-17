@@ -492,10 +492,11 @@
                     <span class="product-form__error-message"></span>
                   </div>
 
-                  {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+                  {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form', id: 'collection_two' -%}
                     <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
                     <div class="product-form__buttons">
                       <button
+                        id= "collection_two_btn"
                         type="submit"
                         name="add"
                         class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
@@ -518,6 +519,17 @@
                         {{ form | payment_button }}
                       {%- endif -%}
                     </div>
+
+                    <script type="text/javascript">
+                      $('form[id=collection_two]').submit(function(e){
+                        var form1 = $( this );  
+                        $.post($(this).attr('action'), $(this).serialize(), function(JSONproduct) {
+                            var el = document.getElementById("collection_two_btn");
+                            el.value = "Added!";
+                          }, 'json');                             
+                        e.preventDefault();
+                     });
+                    </script>
                   {%- endform -%}
                 </product-form>
 
@@ -1049,19 +1061,12 @@
 
         // Tabs
         tabs = document.querySelectorAll('.tab');
-        tabsContent = document.querySelector('#tab-content');
         contentChild = document.querySelectorAll('.tab-content-child');
-        description = document.querySelector('.product__description .tab-content-child');
-        
-        // Init 
-        tabsContent.appendChild(description);
-        description.classList.add('active');
-
-        // Loop
         tabs.forEach(function(tab) {
           tab.addEventListener('click', function(event){
             contentId = event.currentTarget.dataset.contentId;
             content = document.getElementById(contentId);
+            tabsContent = document.querySelector('#tab-content');
             tabsContent.appendChild(content);
             
             // remove content active 

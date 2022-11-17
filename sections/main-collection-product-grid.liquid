@@ -192,7 +192,7 @@
             </script>
         {% endif %}
 
-        {%- if section.settings.enable_recently_products -%}
+        {%- if section.settings.enable_recently_products and section.settings.filter_type == 'vertical' -%}
           <div class="facets-container recently-viewed-wrap">
             {% render 'ja-recent-products' %}
           </div>
@@ -297,6 +297,12 @@
     </div>
   </div>
 </div>
+
+{%- if section.settings.enable_recently_products and section.settings.filter_type != 'vertical' -%}
+  <div class="facets-container recently-viewed-wrap" style="display: none;">
+    {% render 'ja-recent-products' %}
+  </div>
+{% endif %}
 
 <script type="text/javascript">
   window.addEventListener('DOMContentLoaded', (event) => {

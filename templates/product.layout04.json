@@ -49,11 +49,6 @@
             "show_dynamic_checkout": true
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
@@ -115,6 +110,11 @@
             "product_upsell": ""
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "68958ebb-1469-42ec-8cb6-d93d429ba98f": {
           "type": "tabs",
           "settings": {
@@ -156,7 +156,6 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "description",
         "collapsible-row-2",
         "collapsible-row-1",
         "collapsible-row-0",
@@ -164,6 +163,7 @@
         "share",
         "299b4341-1681-443b-8444-ac6e8c666502",
         "49a7d36d-0769-49a9-9c37-36250c9430b7",
+        "description",
         "68958ebb-1469-42ec-8cb6-d93d429ba98f",
         "4f9896a2-6cfd-4a53-9038-bac9d78a7c2f",
         "4dd41127-002f-40ac-9c0b-d97a367ffe14",

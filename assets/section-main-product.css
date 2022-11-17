@@ -1809,6 +1809,7 @@ a.product__text {
   font-weight: 700;
   padding: 15px 0;
   text-transform: uppercase;
+  font-family: var(--font-heading-family);
 }
 
 

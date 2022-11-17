@@ -954,16 +954,7 @@
                 %}
             </div>
           {%- when 'product_upsell' -%}
-          fuck
-          {{ block.settings.product_upsell }}
-          {{ block.product_upsell }}
-          {{ product_upsell }}
-          {{ block }}
-            {% render 'card-product',
-              card_product: block,
-              media_aspect_ratio: 'adapt',
-              extend_height: true
-            %}
+            <h3>Upsell Products</h3>
           {%- endcase -%}
         {%- endfor -%}
         {%- endif -%}

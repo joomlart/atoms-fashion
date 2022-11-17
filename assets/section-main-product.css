@@ -57,11 +57,18 @@
 
   /* Gallery Poisition Left */
   .gallery-position-left {
-
+    display: grid;
+    grid-template-columns: 2fr 8fr;
   }
+
+  .gallery-position-left .thumbnail-slider{
+    order: -1;
+  }
+
   /* Gallery Poisition Right */
-  .gallery-position-left {
-    
+  .gallery-position-right {
+    display: grid;
+    grid-template-columns: 8fr 2fr;
   }
 
   /* Style for full-width*/

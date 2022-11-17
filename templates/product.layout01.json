@@ -162,7 +162,7 @@
         "layout_description": "tabs",
         "enable_sticky_info": true,
         "gallery_layout": "thumbnail",
-        "gallery_position": "right",
+        "gallery_position": "bottom",
         "media_size": "small",
         "item_ratio": "169",
         "mobile_thumbnails": "hide",

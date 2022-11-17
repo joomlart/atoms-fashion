@@ -144,12 +144,6 @@
             "page": ""
           }
         },
-        "f20d7496-fc51-445a-8b75-85204f3c423c": {
-          "type": "product",
-          "settings": {
-            "product_upsell": "accessorize-beach-smock-dress-in-cream"
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -209,7 +203,6 @@
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-3",
-        "f20d7496-fc51-445a-8b75-85204f3c423c",
         "share",
         "4ed73133-889e-4b76-8238-606645cba794",
         "e42fa36e-34fb-4e00-a8c8-39f23c4446a2",
@@ -217,7 +210,7 @@
         "e417982b-3458-49aa-8bdc-84807b310d68"
       ],
       "settings": {
-        "layout_product": "default",
+        "layout_product": "gallery_full_width",
         "layout_description": "tabs",
         "enable_sticky_info": false,
         "gallery_layout": "thumbnail",

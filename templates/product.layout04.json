@@ -112,6 +112,32 @@
         "49a7d36d-0769-49a9-9c37-36250c9430b7": {
           "type": "product",
           "settings": {
+            "product_upsell": ""
+          }
+        },
+        "68958ebb-1469-42ec-8cb6-d93d429ba98f": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "Shipping",
+            "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
+            "image_ratio_tabs": "43"
+          }
+        },
+        "4f9896a2-6cfd-4a53-9038-bac9d78a7c2f": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "Payment",
+            "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
+            "image_tabs": "shopify:\/\/shop_images\/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+            "image_ratio_tabs": "43"
+          }
+        },
+        "4dd41127-002f-40ac-9c0b-d97a367ffe14": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "FAQ",
+            "content_tabs": "<p>This is FAQ<\/p>",
+            "image_ratio_tabs": "43"
           }
         }
       },
@@ -131,7 +157,10 @@
         "collapsible-row-3",
         "share",
         "299b4341-1681-443b-8444-ac6e8c666502",
-        "49a7d36d-0769-49a9-9c37-36250c9430b7"
+        "49a7d36d-0769-49a9-9c37-36250c9430b7",
+        "68958ebb-1469-42ec-8cb6-d93d429ba98f",
+        "4f9896a2-6cfd-4a53-9038-bac9d78a7c2f",
+        "4dd41127-002f-40ac-9c0b-d97a367ffe14"
       ],
       "settings": {
         "enable_sticky_info": false,

@@ -158,6 +158,8 @@
         "eb0dcc05-18a5-48dc-8ae9-98fd56eabd55"
       ],
       "settings": {
+        "layout_product": "gallery_full_width",
+        "layout_description": "tabs",
         "enable_sticky_info": false,
         "gallery_layout": "stacked_full",
         "media_size": "small",
@@ -166,9 +168,7 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "padding_top": 0,
-        "padding_bottom": 48,
-        "layout_product": "default",
-        "layout_description": "tabs"
+        "padding_bottom": 48
       }
     },
     "product-recommendations": {

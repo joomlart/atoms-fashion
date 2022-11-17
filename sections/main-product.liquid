@@ -954,6 +954,10 @@
                 %}
             </div>
           {%- when 'product_upsell' -%}
+          fuck
+          {{ block.settings.product_upsell }}
+          {{ block.product_upsell }}
+          {{ product_upsell }}
           {{ block }}
             {% render 'card-product',
               card_product: block,
@@ -1669,7 +1673,7 @@
       ]
     },
     {
-      "type": "product",
+      "type": "product_upsell",
       "name": "Upsell Product",
       "settings": [
         {

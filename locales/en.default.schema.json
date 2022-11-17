@@ -2425,6 +2425,19 @@
             "label": "Stacked full"
           }
         },
+        "gallery_position": {
+          "label": "Position Gallery",
+          "info": "Position Gallery for Layout Thumbnail or Thumbnail Carousel",
+          "options__1": {
+            "label": "Bottom"
+          },
+          "options__2": {
+            "label": "Left"
+          },
+          "options__3": {
+            "label": "Right"
+          }
+        },
         "media_size": {
           "label": "Desktop media size",
           "info": "Media is automatically optimized for mobile.",

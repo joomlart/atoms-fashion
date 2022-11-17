@@ -54,6 +54,16 @@
   .product__media-container .slider-buttons {
     display: none;
   }
+
+  /* Gallery Poisition Left */
+  .gallery-position-left {
+
+  }
+  /* Gallery Poisition Right */
+  .gallery-position-left {
+    
+  }
+
   /* Style for full-width*/
   .gallery_full_width {
     max-width: 100%;

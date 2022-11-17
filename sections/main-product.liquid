@@ -44,6 +44,14 @@
         {% if section.settings.enable_sticky_info %}
           class="product__media-gallery"
         {% endif %}
+
+        {% if section.settings.gallery_position == "left" %}
+          class="gallery-position-left"
+        {% endif %}
+        
+        {% if section.settings.gallery_position == "right" %}
+          class="gallery-position-left"
+        {% endif %}
         aria-label="{{ 'products.product.media.gallery_viewer' | t }}"
         data-desktop-layout="{{ section.settings.gallery_layout }}"
       >

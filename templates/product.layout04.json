@@ -139,6 +139,12 @@
             "content_tabs": "<p>This is FAQ<\/p>",
             "image_ratio_tabs": "43"
           }
+        },
+        "e6d5ec74-8a30-42c2-903c-da7540dfa409": {
+          "type": "short_description",
+          "settings": {
+            "word_number": "17"
+          }
         }
       },
       "block_order": [
@@ -160,7 +166,8 @@
         "49a7d36d-0769-49a9-9c37-36250c9430b7",
         "68958ebb-1469-42ec-8cb6-d93d429ba98f",
         "4f9896a2-6cfd-4a53-9038-bac9d78a7c2f",
-        "4dd41127-002f-40ac-9c0b-d97a367ffe14"
+        "4dd41127-002f-40ac-9c0b-d97a367ffe14",
+        "e6d5ec74-8a30-42c2-903c-da7540dfa409"
       ],
       "settings": {
         "enable_sticky_info": false,

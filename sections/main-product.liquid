@@ -479,6 +479,7 @@
                 </div>
               </div>
             </noscript>
+
           {%- when 'buy_buttons' -%}
               <div {{ block.shopify_attributes }}>
                 <product-form class="product-form">
@@ -959,6 +960,13 @@
                     block: block
                 %}
             </div>
+          {%- when 'product_upsell' -%}
+          {{ block }}
+            {% render 'card-product',
+              card_product: block,
+              media_aspect_ratio: 'adapt',
+              extend_height: true
+            %}
           {%- endcase -%}
         {%- endfor -%}
         {%- endif -%}

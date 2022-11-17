@@ -195,11 +195,11 @@
         "49a7d36d-0769-49a9-9c37-36250c9430b7"
       ],
       "settings": {
-        "layout_product": "gallery_full_width",
+        "layout_product": "default",
         "layout_description": "tabs",
         "enable_sticky_info": false,
-        "gallery_layout": "thumbnail_slider",
-        "media_size": "large",
+        "gallery_layout": "thumbnail",
+        "media_size": "medium",
         "item_ratio": "43",
         "mobile_thumbnails": "hide",
         "hide_variants": true,

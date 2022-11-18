@@ -138,10 +138,10 @@
       ],
       "settings": {
         "layout_product": "default",
-        "layout_description": "tabs",
+        "layout_description": "accordion",
         "enable_sticky_info": true,
         "enable_add_cart_bottom": true,
-        "gallery_layout": "thumbnail",
+        "gallery_layout": "stacked_full",
         "gallery_position": "left",
         "media_size": "large",
         "item_ratio": "square",

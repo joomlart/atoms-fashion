@@ -241,16 +241,23 @@
     .ja-summary-scroll.scrolling product-form.product-form {
       margin: 0;
     }
-    .ja-summary-scroll.scrolling share-button { 
+     .ja-summary-scroll.scrolling > * { 
       display: none;
     }
+
+    .ja-summary-scroll.scrolling is:(variant-radios, .product-form__quantity, .product-form__quantity + div ) { 
+      display: block;
+    }
+    /*
     .ja-summary-scroll.scrolling div.price,
     .ja-summary-scroll.scrolling .product__tax,
     .ja-summary-scroll.scrolling .product__text,
     .ja-summary-scroll.scrolling .product__title { 
       display: none;
-    }
+    } */
   }
+
+
   /* Dynamic checkout */
   
   .shopify-payment-button__button {

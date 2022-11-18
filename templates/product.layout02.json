@@ -173,7 +173,7 @@
       "settings": {
         "layout_product": "default",
         "layout_description": "arccodion",
-        "enable_sticky_info": false,
+        "enable_sticky_info": true,
         "enable_add_cart_bottom": true,
         "gallery_layout": "stacked_full",
         "gallery_position": "bottom",

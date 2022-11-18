@@ -71,8 +71,8 @@
           "settings": {
           }
         },
-        "b5cef5eb-d4d1-487a-a937-e5ec002876a3": {
-          "type": "product",
+        "4049d53c-6a76-4f6b-adae-0a93e29c1c76": {
+          "type": "product_upsell",
           "settings": {
             "product_upsell": "accessorize-beach-smock-dress-in-cream"
           }
@@ -166,7 +166,7 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "b5cef5eb-d4d1-487a-a937-e5ec002876a3",
+        "4049d53c-6a76-4f6b-adae-0a93e29c1c76",
         "collapsible-row-2",
         "collapsible-row-1",
         "collapsible-row-0",

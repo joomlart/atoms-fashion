@@ -173,12 +173,6 @@
             "image_ratio_tabs": "43"
           }
         },
-        "49a7d36d-0769-49a9-9c37-36250c9430b7": {
-          "type": "product",
-          "settings": {
-            "product_upsell": ""
-          }
-        },
         "3d5c498d-3b63-4ddc-88a6-95562bb21135": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {

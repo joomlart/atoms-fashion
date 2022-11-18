@@ -966,7 +966,7 @@
             %}
             <form method="post" action="/cart/add" id="upsell_form">
               <input value="{{ block.settings.product_upsell.selected_or_first_available_variant.id }}" type="hidden" name="id">
-              </select>
+              <button class="product-form__submit button button--full-width button--secondary" type="submit">Add to cart</button>
             </form>
           {%- endcase -%}
         {%- endfor -%}

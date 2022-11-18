@@ -61,13 +61,13 @@
           }
         },
         "dc5f5bc7-bf84-4160-8bb8-56535c407e6a": {
-          "type": "product",
+          "type": "product_upsell",
           "settings": {
             "product_upsell": "accessorize-beach-smock-dress-in-cream"
           }
         },
         "a8b73cfc-7af3-4643-bc2b-a564ab3a7f81": {
-          "type": "product",
+          "type": "product_upsell",
           "settings": {
             "product_upsell": "clothing-and-accessory-title-for-sale-1"
           }

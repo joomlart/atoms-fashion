@@ -245,7 +245,9 @@
       display: none;
     }
 
-    .ja-summary-scroll.scrolling variant-radios, 
+    .ja-summary-scroll.scrolling variant-radios {
+      display: flex;
+    }
     .ja-summary-scroll.scrolling .product-form__quantity, 
     .ja-summary-scroll.scrolling .product-form__quantity + div { 
       display: block;

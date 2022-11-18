@@ -166,7 +166,7 @@
         "2934cffd-00e4-4842-ad2a-5598d4f46d8e"
       ],
       "settings": {
-        "layout_product": "gallery_full_width",
+        "layout_product": "default",
         "layout_description": "tabs",
         "enable_sticky_info": true,
         "enable_add_cart_bottom": true,

@@ -1020,8 +1020,7 @@
       </div>
     </modal-dialog>
   {%- endfor -%}
-  
-  {{ product.media.size }}
+
   {%- if product.media.size > 0 -%}
     <script src="{{ 'product-modal.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'media-gallery.js' | asset_url }}" defer="defer"></script>
@@ -1044,8 +1043,8 @@
         return (msie > 0 || trident > 0);
       }
 
-      openAdditionalInfo();
-
+      // openAdditionalInfo();
+      tabs();
       if (!isIE()) return;
       const hiddenInput = document.querySelector('#{{ product_form_id }} input[name="id"]');
       const noScriptInputWrapper = document.createElement('div');
@@ -1057,10 +1056,7 @@
         hiddenInput.value = event.currentTarget.value;
       });
 
-      function openAdditionalInfo() {
-        // const pageAccord = document.getElementsByClassName('product__accordion')[0];
-        // if (!pageAccord) return;
-
+      function tabs() {
         // Tabs
         tabs = document.querySelectorAll('.tab');
         contentChild = document.querySelectorAll('.tab-content-child');
@@ -1119,7 +1115,11 @@
         });
 
         // End Tabs
+      }
 
+      function openAdditionalInfo() {
+        // const pageAccord = document.getElementsByClassName('product__accordion')[0];
+        // if (!pageAccord) return;
         const allProductsAccor = document.querySelectorAll('div.product__accordion');
   
         if (allProductsAccor.length) {

@@ -972,7 +972,9 @@
       </div>
     </div>
 
-    {%- render 'product-information-tabs' -%}
+    {%- if section.settings.layout_description != "no-tabs" -%}
+      {%- render 'product-information-tabs' -%}
+    {%- endif -%} 
 
   </div>
   {% comment %} End Product {% endcomment %}

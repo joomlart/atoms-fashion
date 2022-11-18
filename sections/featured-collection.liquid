@@ -53,7 +53,7 @@
   endif
 -%}
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
-  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
+  <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %} {{ section.settings.mod_class }}">
 
     {%- unless section.settings.title == blank -%}
       <div class="collection__title title-wrapper title-wrapper--no-top-margin title-wrapper-{{ section.settings.title_style }} page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
@@ -118,8 +118,8 @@
                  , show_rating: section.settings.show_rating
                  , show_quick_add: section.settings.enable_quick_add
                  , section_id: section.id
-                 , show_product_description: section.settings.show_product_description,
-                  show_quick_view: true
+                 , show_product_description: section.settings.show_product_description
+                 , show_quick_view: true
                  %}
               </li>
             {%- else -%}
@@ -447,6 +447,10 @@
         "unit": "px",
         "label": "t:sections.all.padding.padding_bottom",
         "default": 36
+      }, {
+        "type": "text",
+        "id": "mod_class",
+        "label": "Module Class Suffix"
       }
     ],
     "presets": [

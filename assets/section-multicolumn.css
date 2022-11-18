@@ -227,9 +227,12 @@
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
-  .fashion-ins-blog .multicolumn-list {
-    column-gap: 0;
+  .fashion-ins-blog {
+    --grid-desktop-horizontal-spacing: 0px;
   }
+  /* .fashion-ins-blog .multicolumn-list {
+    
+  } */
 
   .background-none .multicolumn-list .multicolumn-card__info,
   .background-none

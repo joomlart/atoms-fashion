@@ -212,7 +212,7 @@
         "layout_description": "accordion",
         "enable_sticky_info": true,
         "enable_add_cart_bottom": true,
-        "gallery_layout": "thumbnail",
+        "gallery_layout": "stacked",
         "gallery_position": "bottom",
         "media_size": "medium",
         "item_ratio": "43",

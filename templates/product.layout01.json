@@ -15,17 +15,6 @@
           "settings": {
           }
         },
-        "222812f1-4be6-4f97-8544-ff196f459bae": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "disabled": true,
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "flex-start",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        },
         "7fab0c20-108b-44a8-8da6-4e9637434e0e": {
           "type": "rating",
           "settings": {
@@ -71,10 +60,16 @@
           "settings": {
           }
         },
-        "4049d53c-6a76-4f6b-adae-0a93e29c1c76": {
-          "type": "product_upsell",
+        "dc5f5bc7-bf84-4160-8bb8-56535c407e6a": {
+          "type": "product",
           "settings": {
             "product_upsell": "accessorize-beach-smock-dress-in-cream"
+          }
+        },
+        "a8b73cfc-7af3-4643-bc2b-a564ab3a7f81": {
+          "type": "product",
+          "settings": {
+            "product_upsell": "clothing-and-accessory-title-for-sale-1"
           }
         },
         "collapsible-row-2": {
@@ -157,7 +152,6 @@
       "block_order": [
         "vendor",
         "title",
-        "222812f1-4be6-4f97-8544-ff196f459bae",
         "7fab0c20-108b-44a8-8da6-4e9637434e0e",
         "caption",
         "price",
@@ -166,7 +160,8 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "4049d53c-6a76-4f6b-adae-0a93e29c1c76",
+        "dc5f5bc7-bf84-4160-8bb8-56535c407e6a",
+        "a8b73cfc-7af3-4643-bc2b-a564ab3a7f81",
         "collapsible-row-2",
         "collapsible-row-1",
         "collapsible-row-0",

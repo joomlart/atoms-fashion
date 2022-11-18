@@ -210,7 +210,7 @@
       ],
       "settings": {
         "layout_product": "default",
-        "layout_description": "no-tabs",
+        "layout_description": "accordion",
         "enable_sticky_info": true,
         "gallery_layout": "thumbnail",
         "gallery_position": "left",

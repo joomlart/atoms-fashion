@@ -1745,6 +1745,18 @@ a.product__text {
   margin-bottom: 32px;
 }
 
+/* Upsell Product */
+.upsell_product_wrapper {
+  padding: var(--grid-desktop-vertical-spacing) var(--grid-desktop-horizontal-spacing);
+  border: 0.1rem solid rgba(var(--color-foreground), 0.08);
+}
+
+.upsell_product_wrapper > h4 {
+  margin-top: 0;
+  margin-bottom: 1.6rem;
+  text-align: center;
+}
+
 /* True Bages Custom Information */
 .trust-badges .product-customInformation__icon {
   width: 2.4rem;

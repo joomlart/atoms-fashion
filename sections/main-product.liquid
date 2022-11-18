@@ -961,7 +961,7 @@
                 %}
             </div>
           {%- when 'product_upsell' -%}
-            {{ block.featured_media }}
+          <h3>Upsel Product</h3>
               {% render 'card-product',
                 card_product: block
               %}
@@ -975,9 +975,7 @@
       </div>
     </div>
 
-    {%- if section.settings.layout_description != "no-tabs" -%}
-      {%- render 'product-information-tabs' -%}
-    {%- endif -%} 
+    {%- render 'product-information-tabs' -%}
 
   </div>
   {% comment %} End Product {% endcomment %}
@@ -1686,7 +1684,7 @@
       ]
     },
     {
-      "type": "product",
+      "type": "product_upsell",
       "name": "Upsell Product",
       "settings": [
         {
@@ -1742,10 +1740,6 @@
         {
           "value": "tabs",
           "label": "t:sections.main-product.settings.layout_description.label__2"
-        },
-        {
-          "value": "no-tabs",
-          "label": "t:section.main-product.settings.layout_description.label__3"
         }
       ],
       "default": "tabs",

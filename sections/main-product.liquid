@@ -961,9 +961,7 @@
                 %}
             </div>
           {%- when 'product_upsell' -%}
-            {% render 'card-product',
-              card_product: block.settings.product_upsell
-            %}
+            <h3>Upsell Products</h3>
           {%- endcase -%}
         {%- endfor -%}
         {%- endif -%}
@@ -1075,6 +1073,7 @@
         tabsContent.appendChild(reviewBlock);
 
         // First Init
+        tabs[0].classList.add('active');
         contentChild[0].classList.add('active');
 
         // Event Tabs 

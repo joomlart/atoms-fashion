@@ -1061,19 +1061,36 @@
         // Tabs
         tabs = document.querySelectorAll('.tab');
         contentChild = document.querySelectorAll('.tab-content-child');
+        tabsContent = document.querySelector('#tab-content');
+        let reviewWrapper = document.getElementById("review-wrapper");
+        let reviewBlock = document.getElementById("shopify-product-reviews")
+
+        // Append Element 
+        contentChild.forEach(function(item) {
+          console.log(item);
+          tabsContent.appendChild(item);
+        })
+
+        //Append Review
+        console.log(reviewBlock);
+        tabsContent.appendChild(reviewBlock);
+
+        // First Init
+        contentChild[0].classList.add('active');
+
+        // Event Tabs 
         tabs.forEach(function(tab) {
           tab.addEventListener('click', function(event){
             contentId = event.currentTarget.dataset.contentId;
             content = document.getElementById(contentId);
-            tabsContent = document.querySelector('#tab-content');
-            tabsContent.appendChild(content);
             
             // remove content active 
             contentChild.forEach(function(item){
               item.classList.remove('active');
             })
 
-            reviewBlock.style.display = "none";
+            // remove active review
+            reviewBlock.style.display = "none"; 
 
             // remove title active
             tabs.forEach(function(item){
@@ -1084,15 +1101,12 @@
             this.classList.add('active');
             content.classList.add('active');
           })
-        })
+        }) 
 
-        // Append review
-        let reviewWrapper = document.getElementById("review-wrapper");
-        let reviewBlock = document.getElementById("shopify-product-reviews");
+        // Event Tabs Review
         reviewWrapper.addEventListener('click', function(event) {
           contentId = event.currentTarget.dataset.contentId;
           content = document.getElementById(contentId);
-          tabsContent.appendChild(content);
 
           // remove content active 
           contentChild.forEach(function(item){
@@ -1102,6 +1116,8 @@
           reviewBlock.style.display = "block";
 
         });
+
+        // End Tabs
 
         const allProductsAccor = document.querySelectorAll('div.product__accordion');
   

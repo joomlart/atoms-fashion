@@ -211,7 +211,7 @@
       "settings": {
         "layout_product": "default",
         "layout_description": "arccodion",
-        "enable_sticky_info": false,
+        "enable_sticky_info": true,
         "gallery_layout": "thumbnail",
         "gallery_position": "left",
         "media_size": "medium",

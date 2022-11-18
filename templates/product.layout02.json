@@ -153,7 +153,7 @@
         "eb0dcc05-18a5-48dc-8ae9-98fd56eabd55"
       ],
       "settings": {
-        "layout_product": "gallery_full_width",
+        "layout_product": "default",
         "layout_description": "arccodion",
         "enable_sticky_info": false,
         "gallery_layout": "stacked_full",

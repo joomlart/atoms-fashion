@@ -53,14 +53,12 @@
   .collection .grid--peek.slider .grid__item:last-of-type {
     margin-right: 0;
   }
-}
-
-@media screen and (max-width: 749px) {
   .collection .slider-component-mobile {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
+
 
 .collection__description > * {
   margin: 0;

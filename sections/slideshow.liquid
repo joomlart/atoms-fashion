@@ -98,10 +98,6 @@
               max-width: {{ block.settings.box_width }}%
             }
           }
-<<<<<<< HEAD
-=======
-
->>>>>>> 9981cf8b3308ba6c4f69f6d200870621b0aee062
         </style>
         <div class="slideshow__slide grid__item grid--1-col slider__slide" id="Slide-{{ section.id }}-{{ forloop.index }}" {{ block.shopify_attributes }} role="group" aria-roledescription="{{ 'sections.slideshow.slide' | t }}" aria-label="{{ forloop.index }} {{ 'general.slider.of' | t }} {{ forloop.length }}" tabindex="-1">
           <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}">
@@ -440,9 +436,9 @@
           }, {
             "type": "range",
             "id": "box_width",
-            "min": 50,
+            "min": 40,
             "max": 100,
-            "step": 2,
+            "step": 1,
             "unit": "%",
             "label": "t:sections.slideshow.blocks.slide.settings.box_width.label",
             "default": 50

@@ -96,6 +96,11 @@
             "show_dynamic_checkout": true
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
         "collapsible-row-1": {
           "type": "collapsible_tab",
           "settings": {
@@ -141,11 +146,6 @@
           "type": "share",
           "settings": {
             "share_label": "Share"
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
           }
         },
         "68958ebb-1469-42ec-8cb6-d93d429ba98f": {
@@ -200,12 +200,12 @@
         "3a0112f3-be0d-41fe-9cbc-e8579881e4bd",
         "06a2fb2b-89e7-4135-85a4-db8ee7ecdaa0",
         "buy_buttons",
+        "description",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-0",
         "collapsible-row-3",
         "share",
-        "description",
         "68958ebb-1469-42ec-8cb6-d93d429ba98f",
         "4f9896a2-6cfd-4a53-9038-bac9d78a7c2f",
         "4dd41127-002f-40ac-9c0b-d97a367ffe14",
@@ -213,9 +213,10 @@
         "3d5c498d-3b63-4ddc-88a6-95562bb21135"
       ],
       "settings": {
-        "layout_product": "default",
+        "layout_product": "gallery_full_width",
         "layout_description": "tabs",
         "enable_sticky_info": false,
+        "enable_add_cart_bottom": false,
         "gallery_layout": "thumbnail",
         "gallery_position": "bottom",
         "media_size": "medium",

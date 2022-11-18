@@ -2507,7 +2507,8 @@
         "layout_description": {
           "content": "Description Style",
           "label__1": "Accordion",
-          "label__2": "Tabs"
+          "label__2": "Tabs",
+          "label__3": "No Tabs"
         }
       }
     },

@@ -961,13 +961,29 @@
                 %}
             </div>
           {%- when 'product_upsell' -%}
-            {% render 'card-product',
-              card_product: block.settings.product_upsell
-            %}
-            <form method="post" action="/cart/add" id="upsell_form" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form">
-              <input value="{{ block.settings.product_upsell.selected_or_first_available_variant.id }}" type="hidden" name="id">
-              <button class="product-form__submit button button--full-width button--secondary" type="submit">Add to cart</button>
-            </form>
+            <div class="upsell_product_wrapper">
+              <h4>Upsell Product</h4>
+              {% render 'card-product',
+                card_product: block.settings.product_upsell
+              %}
+              <form method="post" action="/cart/add" id="upsell_form" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form">
+                <input value="{{ block.settings.product_upsell.selected_or_first_available_variant.id }}" type="hidden" name="id">
+                <button class="product-form__submit button button--full-width button--secondary" type="submit">
+                  <span>
+                    {%- if block.settings.product_upsell.selected_or_first_available_variant.available -%}
+                      {{ 'products.product.add_to_cart' | t }}
+                    {%- else -%}
+                      {{ 'products.product.sold_out' | t }}
+                    {%- endif -%}
+                  </span>
+                  <div class="loading-overlay__spinner hidden">
+                    <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                      <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                    </svg>
+                  </div>
+                </button>
+              </form>
+            </div>
           {%- endcase -%}
         {%- endfor -%}
         {%- endif -%}
@@ -1767,7 +1783,7 @@
       "type": "checkbox",
       "id": "enable_add_cart_bottom",
       "default": true,
-      "label": "t:sections.main-product.settings.enable_sticky_info.label"
+      "label": "t:sections.main-product.settings.enable_add_cart_bottom.label"
     },
     {
       "type": "header",

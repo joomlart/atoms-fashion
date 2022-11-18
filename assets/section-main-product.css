@@ -248,19 +248,11 @@
     .ja-summary-scroll.scrolling variant-radios {
       display: flex;
     }
+    
     .ja-summary-scroll.scrolling .product-form__quantity, 
     .ja-summary-scroll.scrolling .product-form__quantity + div { 
       display: block;
     }
-
-    
-    /*
-    .ja-summary-scroll.scrolling div.price,
-    .ja-summary-scroll.scrolling .product__tax,
-    .ja-summary-scroll.scrolling .product__text,
-    .ja-summary-scroll.scrolling .product__title { 
-      display: none;
-    } */
   }
 
 

@@ -60,12 +60,6 @@
           "settings": {
           }
         },
-        "dc5f5bc7-bf84-4160-8bb8-56535c407e6a": {
-          "type": "product",
-          "settings": {
-            "product_upsell": "accessorize-beach-smock-dress-in-cream"
-          }
-        },
         "collapsible-row-2": {
           "type": "collapsible_tab",
           "settings": {
@@ -141,6 +135,12 @@
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
           }
+        },
+        "2934cffd-00e4-4842-ad2a-5598d4f46d8e": {
+          "type": "product_upsell",
+          "settings": {
+            "product_upsell": "accessorize-beach-smock-dress-in-cream"
+          }
         }
       },
       "block_order": [
@@ -154,7 +154,6 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "dc5f5bc7-bf84-4160-8bb8-56535c407e6a",
         "collapsible-row-2",
         "collapsible-row-1",
         "collapsible-row-0",
@@ -163,7 +162,8 @@
         "423f9496-8e67-4344-b734-c43e77d8c0d5",
         "003482d6-c4dd-4619-8394-9f780c36c22b",
         "e381e5d5-f86a-48d1-b4a1-b9355fa00f12",
-        "447ee1a3-caea-485c-894e-90ec192ce72f"
+        "447ee1a3-caea-485c-894e-90ec192ce72f",
+        "2934cffd-00e4-4842-ad2a-5598d4f46d8e"
       ],
       "settings": {
         "layout_product": "default",

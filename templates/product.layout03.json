@@ -142,7 +142,7 @@
         "enable_sticky_info": true,
         "enable_add_cart_bottom": true,
         "gallery_layout": "thumbnail",
-        "gallery_position": "bottom",
+        "gallery_position": "left",
         "media_size": "large",
         "item_ratio": "square",
         "mobile_thumbnails": "hide",

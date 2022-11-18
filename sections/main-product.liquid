@@ -964,6 +964,10 @@
             {% render 'card-product',
               card_product: block.settings.product_upsell
             %}
+            <form method="post" action="/cart/add" id="upsell_form">
+              <input value="{{ block.settings.product_upsell.selected_or_first_available_variant.id }}" type="hidden" name="id">
+              </select>
+            </form>
           {%- endcase -%}
         {%- endfor -%}
         {%- endif -%}
@@ -1686,8 +1690,9 @@
       ]
     },
     {
-      "type": "product",
+      "type": "product_upsell",
       "name": "Upsell Product",
+      "limit": 1,
       "settings": [
         {
           "type": "product",

@@ -206,11 +206,11 @@
         "3d5c498d-3b63-4ddc-88a6-95562bb21135"
       ],
       "settings": {
-        "layout_product": "gallery_full_width",
+        "layout_product": "default",
         "layout_description": "tabs",
         "enable_sticky_info": false,
         "enable_add_cart_bottom": false,
-        "gallery_layout": "thumbnail",
+        "gallery_layout": "thumbnail_slider",
         "gallery_position": "bottom",
         "media_size": "medium",
         "item_ratio": "43",

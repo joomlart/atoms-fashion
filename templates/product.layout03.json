@@ -137,8 +137,8 @@
         "c0744f1d-c116-4680-9a9e-13a9256682e2"
       ],
       "settings": {
-        "layout_product": "gallery_full_width",
-        "layout_description": "accordion",
+        "layout_product": "default",
+        "layout_description": "tabs",
         "enable_sticky_info": true,
         "enable_add_cart_bottom": true,
         "gallery_layout": "thumbnail",

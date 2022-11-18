@@ -294,7 +294,7 @@
       </media-gallery>
       {% comment %} End Gallery {% endcomment %}
 
-      {%- if section.settings.layout_product == 'gallery_full_width' -%}
+      {%- if section.settings.enable_add_cart_bottom -%}
       <div class="p-info-full-slider product__info-wrapper grid__item ja-summary-scroll" id="ja-summary-scroll">
         {%- for block in section.blocks -%}
           {%- case block.type -%}

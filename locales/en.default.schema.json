@@ -2509,6 +2509,9 @@
           "label__1": "Accordion",
           "label__2": "Tabs",
           "label__3": "No Tabs"
+        },
+        "enable_add_cart_bottom": {
+          "label": "Enable Add To Cart Bottom"
         }
       }
     },

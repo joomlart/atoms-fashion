@@ -2505,8 +2505,8 @@
           "label__2": "Full Width"
         },
         "layout_description": {
-          "content": "Collapse Style",
-          "label__1": "Arccodion",
+          "content": "Description Style",
+          "label__1": "Accordion",
           "label__2": "Tabs"
         }
       }

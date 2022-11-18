@@ -216,6 +216,7 @@
         "layout_product": "gallery_full_width",
         "layout_description": "tabs",
         "enable_sticky_info": false,
+        "enable_add_cart_bottom": false,
         "gallery_layout": "thumbnail",
         "gallery_position": "bottom",
         "media_size": "medium",

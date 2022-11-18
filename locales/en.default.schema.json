@@ -852,6 +852,9 @@
         "columns_desktop": {
           "label": "Number of columns on desktop"
         },
+        "columns_tablet": {
+          "label": "Number of columns on Tablet( 768px > 1024px)"
+        },
         "show_view_all": {
           "label": "Enable \"View all\" if collection has more products than shown"
         },

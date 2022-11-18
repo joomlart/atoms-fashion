@@ -40,7 +40,10 @@
 
 @media screen and (max-width: 989px) {
   .collection .slider--tablet.product-grid {
-    scroll-padding-left: 0;
+    /* scroll-padding-left: 0; */
+  }
+  .collection .slider-counter.slider-counter--dots { 
+    display: block;
   }
 
   .collection .slider-component-mobile {

@@ -962,7 +962,9 @@
                 %}
             </div>
           {%- when 'product_upsell' -%}
-            <h3>Upsell Products</h3>
+            {% render 'card-product',
+              card_product: block.settings.product_upsell
+            %}
           {%- endcase -%}
         {%- endfor -%}
         {%- endif -%}

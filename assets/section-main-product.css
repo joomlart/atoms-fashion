@@ -415,6 +415,7 @@ variant-selects {
 
 fieldset.product-form__input .form__label {
   margin-bottom: 0.2rem;
+  line-height: 1;
 }
 
 .product-form__input input[type="radio"] {

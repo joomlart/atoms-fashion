@@ -231,7 +231,7 @@
       "type": "ja-recent-products",
       "settings": {
         "title": "Recent Product",
-        "heading_size": "h4",
+        "heading_size": "h3",
         "title_style": "02",
         "description": "<p>The feature keeps track of all the items viewed, from where the customer can review the product and conceder it for purchase.<\/p>",
         "description_style": "body",

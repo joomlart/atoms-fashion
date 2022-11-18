@@ -143,6 +143,10 @@
   text-decoration: none;
 }
 
+.mega-menu .mega-menu__list--condensed > li > .megamenu__colection-image {
+  margin-bottom: 0;
+}
+
 .megamenu__colection-image:empty {
   padding-bottom: 66.66%;
   margin-bottom: 1.2rem;

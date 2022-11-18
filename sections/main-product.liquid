@@ -964,7 +964,7 @@
             {% render 'card-product',
               card_product: block.settings.product_upsell
             %}
-            <form method="post" action="/cart/add" id="upsell_form">
+            <form method="post" action="/cart/add" id="upsell_form" accept-charset="UTF-8" class="form" enctype="multipart/form-data" novalidate="novalidate" data-type="add-to-cart-form">
               <input value="{{ block.settings.product_upsell.selected_or_first_available_variant.id }}" type="hidden" name="id">
               <button class="product-form__submit button button--full-width button--secondary" type="submit">Add to cart</button>
             </form>

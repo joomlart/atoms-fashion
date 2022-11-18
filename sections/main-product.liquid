@@ -662,7 +662,7 @@
           {%- when 'custom_liquid' -%}
               {{ block.settings.custom_liquid }}
           {%- when 'description' -%}
-            {%- if section.settings.layout_description != 'tabs' -%}
+            {%- if section.settings.layout_description == 'accordion' or section.settings.layout_description == 'no-tabs' -%}
               {%- if product.description != blank -%}
                 <div class="product__accordion accordion product__description rte quick-add-hidden">
                   <details id="Details-{{ block.id }}-{{ section.id }}" open>
@@ -961,10 +961,7 @@
                 %}
             </div>
           {%- when 'product_upsell' -%}
-          <h3>Upsel Product</h3>
-              {% render 'card-product',
-                card_product: block
-              %}
+            <h3>Upsell Products</h3>
           {%- endcase -%}
         {%- endfor -%}
         {%- endif -%}
@@ -975,7 +972,9 @@
       </div>
     </div>
 
-    {%- render 'product-information-tabs' -%}
+    {%- if section.settings.layout_description != "no-tabs" -%}
+      {%- render 'product-information-tabs' -%}
+    {%- endif -%} 
 
   </div>
   {% comment %} End Product {% endcomment %}
@@ -1684,7 +1683,7 @@
       ]
     },
     {
-      "type": "product_upsell",
+      "type": "product",
       "name": "Upsell Product",
       "settings": [
         {
@@ -1734,7 +1733,7 @@
       "id": "layout_description",
       "options": [
         {
-          "value": "arccodion",
+          "value": "accordion",
           "label": "t:sections.main-product.settings.layout_description.label__1"
         },
         {

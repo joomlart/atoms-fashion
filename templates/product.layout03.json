@@ -15,8 +15,19 @@
           "settings": {
           }
         },
+        "88277171-0c39-4412-8713-a18ecdfe6b35": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+            "stars_fill_color": "#000000",
+            "star_size": 15,
+            "text_align": "flex-start",
+            "product": "{{product}}",
+            "stars_text_empty": "No reviews"
+          }
+        },
         "cf7fa043-7662-4310-b021-de08b7346ef2": {
           "type": "rating",
+          "disabled": true,
           "settings": {
           }
         },
@@ -100,11 +111,17 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "c0744f1d-c116-4680-9a9e-13a9256682e2": {
+          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "88277171-0c39-4412-8713-a18ecdfe6b35",
         "cf7fa043-7662-4310-b021-de08b7346ef2",
         "caption",
         "price",
@@ -116,7 +133,8 @@
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-3",
-        "share"
+        "share",
+        "c0744f1d-c116-4680-9a9e-13a9256682e2"
       ],
       "settings": {
         "layout_product": "default",
@@ -169,39 +187,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "166133172235095e06": {
-      "type": "apps",
-      "blocks": {
-        "64638ab9-05bf-473d-b5d5-442cad6c2dab": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        },
-        "ae775e59-0376-4921-8299-5b6dbdcafdbd": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-            "stars_fill_color": "#000000",
-            "star_size": 15,
-            "text_align": "center",
-            "product": "{{product}}",
-            "stars_text_empty": "No reviews"
-          }
-        }
-      },
-      "block_order": [
-        "64638ab9-05bf-473d-b5d5-442cad6c2dab",
-        "ae775e59-0376-4921-8299-5b6dbdcafdbd"
-      ],
-      "settings": {
-        "include_margins": true
-      }
     }
   },
   "order": [
     "main",
     "product-recommendations",
-    "95f59519-67de-476a-9fed-119aecc7e045",
-    "166133172235095e06"
+    "95f59519-67de-476a-9fed-119aecc7e045"
   ]
 }

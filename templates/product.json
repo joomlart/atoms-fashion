@@ -154,7 +154,6 @@
           "settings": {
             "title_tabs": "Shipping",
             "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
-            "image_tabs": "shopify:\/\/shop_images\/fashion-toronto-watch.jpg",
             "image_ratio_tabs": "portrait"
           }
         },

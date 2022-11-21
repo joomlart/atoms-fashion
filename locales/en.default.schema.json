@@ -818,7 +818,7 @@
           "label": "Show collection description from the admin"
         },
         "richtext_width_desktop": {
-          "label": "Description width on Desktop > 980px"
+          "label": "Description width on Desktop > 1200px"
         },
         "richtext_width_tablet": {
           "label": "Description width on Tablet > 750px"

@@ -79,13 +79,13 @@
                             {%- endif -%}
                           </div>
                         {% endif %}
-                      {%- when 'text' -%}
+                      {%- when 'intro' -%}
                         <div class="footer-block grid__item footer-block__details-content rte">
                           {% if block.settings.show_heading %}
                             <h2 class="footer-block__heading h4">{{ block.settings.heading }}</h2>
                           {% endif %}
-                          {% if block.settings.show_subtext %}
-                            <p>{{ block.settings.subtext }}</p>
+                          {% if block.settings.show_intro %}
+                            <p>{{ block.settings.intro }}</p>
                           {% endif %}
                         </div>
                       {%- when 'social' -%}
@@ -498,24 +498,38 @@
             "id": "show_heading",
             "default": true,
             "label": "Show Heading"
-          },
-          {
+          }, {
             "type": "text",
             "id": "heading",
             "default": "Heading",
             "label": "t:sections.footer.blocks.text.settings.heading.label"
-          },
-          {
+          }, {
             "type": "checkbox",
             "id": "show_subtext",
             "default": true,
             "label": "Show Subtext"
-          },
-          {
+          }, {
             "type": "richtext",
             "id": "subtext",
             "default": "<p>Share contact information, store details, and brand content with your customers.</p>",
             "label": "t:sections.footer.blocks.text.settings.subtext.label"
+          }
+        ]
+      },
+      {
+        "type": "intro",
+        "name": "t:sections.footer.blocks.intro.name",
+        "settings": [
+          {
+            "type": "checkbox",
+            "id": "show_heading",
+            "default": true,
+            "label": "Show Heading"
+          }, {
+            "type": "text",
+            "id": "heading",
+            "default": "Heading",
+            "label": "t:sections.footer.blocks.text.settings.heading.label"
           }, {
             "type": "checkbox",
             "id": "show_intro",
@@ -528,8 +542,7 @@
             "label": "t:sections.footer.blocks.text.settings.intro.label"
           }
         ]
-      },
-      {
+      }, {
         "type": "logo_image",
         "name": "Logo Image",
         "settings": [

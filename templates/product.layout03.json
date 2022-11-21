@@ -138,16 +138,16 @@
       ],
       "settings": {
         "layout_product": "default",
-        "layout_description": "accordion",
         "enable_sticky_info": true,
-        "enable_add_cart_bottom": true,
+        "media_size": "large",
         "gallery_layout": "stacked_full",
         "gallery_position": "left",
-        "media_size": "large",
         "item_ratio": "square",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
+        "layout_description": "accordion",
+        "enable_add_cart_bottom": false,
         "padding_top": 48,
         "padding_bottom": 48
       }

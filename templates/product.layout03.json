@@ -146,8 +146,8 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "layout_description": "accordion",
-        "enable_add_cart_bottom": true,
+        "layout_description": "tabs",
+        "enable_add_cart_bottom": false,
         "padding_top": 48,
         "padding_bottom": 48
       }

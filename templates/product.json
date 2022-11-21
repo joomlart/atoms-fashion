@@ -25,12 +25,6 @@
             "stars_text_empty": "No reviews"
           }
         },
-        "6c4a7f7f-6a5e-4f46-99c0-1deeed649816": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -177,7 +171,6 @@
         "vendor",
         "title",
         "16f42ac6-234c-40c1-8226-851ef479c4a9",
-        "6c4a7f7f-6a5e-4f46-99c0-1deeed649816",
         "price",
         "23ebf0a2-bba6-4be2-8af7-6c1bacfbe482",
         "variant_picker",
@@ -200,7 +193,7 @@
       ],
       "settings": {
         "layout_product": "default",
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "media_size": "medium",
         "gallery_layout": "thumbnail_slider",
         "gallery_position": "bottom",
@@ -208,10 +201,16 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "layout_description": "tabs",
-        "enable_add_cart_bottom": true,
+        "layout_description": "accordion",
+        "enable_add_cart_bottom": false,
         "padding_top": 48,
         "padding_bottom": 48
+      }
+    },
+    "16690132800b901919": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
       }
     },
     "b56b38a8-e2f8-4c99-903d-bdd158723b66": {
@@ -319,6 +318,7 @@
   },
   "order": [
     "main",
+    "16690132800b901919",
     "b56b38a8-e2f8-4c99-903d-bdd158723b66",
     "product-recommendations",
     "6b8f86f8-8759-48b8-a34f-5bc028e7e729"

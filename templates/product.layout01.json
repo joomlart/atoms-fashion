@@ -180,7 +180,7 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "layout_description": "tabs",
-        "enable_add_cart_bottom": false,
+        "enable_add_cart_bottom": true,
         "padding_top": 48,
         "padding_bottom": 48
       }

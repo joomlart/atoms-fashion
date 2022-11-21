@@ -1820,7 +1820,8 @@ a.product__text {
 .Product-infor-tabs {
   width: 100%;
   margin-top: 6rem;
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* Tab Title */
@@ -1868,7 +1869,8 @@ a.product__text {
 
 /* Tab Content */
 #tab-content {
-  padding: 2.4rem 0;
+  padding-top: 2.4rem;
+  padding-bottom: 2.4rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
@@ -1939,6 +1941,11 @@ a.product__text {
   .gallery-position-left .thumbnail-slider .thumbnail-list__item,
   .gallery-position-right .thumbnail-slider .thumbnail-list__item {
     max-width: 90px;
+  }
+
+  .gallery-position-left .thumbnail-slider .slider-button,
+  .gallery-position-right .thumbnail-slider .slider-button {
+    display: none;
   }
 
   .gallery-position-left .thumbnail-slider .thumbnail--narrow img,

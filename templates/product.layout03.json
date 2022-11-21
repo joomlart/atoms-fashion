@@ -25,12 +25,6 @@
             "stars_text_empty": "No reviews"
           }
         },
-        "cf7fa043-7662-4310-b021-de08b7346ef2": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -122,7 +116,6 @@
         "vendor",
         "title",
         "88277171-0c39-4412-8713-a18ecdfe6b35",
-        "cf7fa043-7662-4310-b021-de08b7346ef2",
         "caption",
         "price",
         "variant_picker",

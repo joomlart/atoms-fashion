@@ -484,12 +484,21 @@
               "show_subtext": true,
               "subtext": "<p>Phone:(123) 456-7890Fax: +31 71 800 99 89<a href=\"mailto:no-reply@gmail.com\">info@siggi.com<\/a><\/p><p>312 North 24th Street<br\/>Brooklyn, New York 10010<br\/><a href=\"https:\/\/ja-rights.demo.joomlart.com\/#\" title=\"Get Direction\">Get Direction<\/a><\/p>"
             }
+          },
+          "5407ff9f-d4a6-4fc4-9401-fcb0c8f3705d": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_enable": true,
+              "newsletter_heading": "Subscribe to our emails",
+              "newsletter_intro": "Subscribe to the Joomlart newsletter to receive timely updates from your favorite products."
+            }
           }
         },
         "block_order": [
           "footer-04-0",
           "footer-04-1",
-          "e84e18af-92ff-439a-9ef1-191cadc935cb"
+          "e84e18af-92ff-439a-9ef1-191cadc935cb",
+          "5407ff9f-d4a6-4fc4-9401-fcb0c8f3705d"
         ],
         "settings": {
           "color_scheme": "background-1",

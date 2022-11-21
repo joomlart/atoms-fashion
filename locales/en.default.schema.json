@@ -2420,6 +2420,9 @@
         "main-image": {
           "label": "Main Image"
         },
+        "tabs": {
+          "label": "Tabs"
+        },
         "thumbnail": {
           "label": "Thumbnail"
         },

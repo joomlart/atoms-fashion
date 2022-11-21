@@ -671,6 +671,27 @@ a.product__text {
   display: block;
 }
 
+#shopify-product-reviews .spr-review {
+  padding: 2.4rem;
+  position: relative;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#shopify-product-reviews .spr-review .spr-review-footer {
+  position: absolute;
+  top: 40%;
+  right: 2.4rem;
+}
+
+#shopify-product-reviews .spr-content .spr-review-header-title { 
+  font-weight: 600;
+}
+
+#shopify-product-reviews .spr-content .spr-review-header-byline {
+  font-style: normal;
+}
+
 #shopify-product-reviews .spr-form-label:after {
   content: ":";
 }

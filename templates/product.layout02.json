@@ -25,12 +25,6 @@
             "stars_text_empty": "No reviews"
           }
         },
-        "492d4e1f-5610-4604-8290-fe388695b0d4": {
-          "type": "rating",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
@@ -152,7 +146,6 @@
         "vendor",
         "title",
         "6bb6fcaa-c0ff-4054-92cb-1f85ceb894fd",
-        "492d4e1f-5610-4604-8290-fe388695b0d4",
         "caption",
         "price",
         "2f8c8ec6-a42b-4014-8199-48dede731379",
@@ -172,16 +165,16 @@
       ],
       "settings": {
         "layout_product": "default",
-        "layout_description": "tabs",
         "enable_sticky_info": true,
-        "enable_add_cart_bottom": true,
+        "media_size": "small",
         "gallery_layout": "thumbnail",
         "gallery_position": "right",
-        "media_size": "small",
         "item_ratio": "169",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
+        "layout_description": "tabs",
+        "enable_add_cart_bottom": true,
         "padding_top": 48,
         "padding_bottom": 48
       }

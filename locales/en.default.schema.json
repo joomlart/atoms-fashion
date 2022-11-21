@@ -2442,7 +2442,8 @@
           "enable_sticky_add_to_cart": " Enable Sticky Add To Cart"
         },
         "enable_sticky_info": {
-          "label": "Enable sticky content on desktop"
+          "label": "Enable sticky content on desktop",
+          "info": "Active When Use Layout Stacked or Stacked Full"
         },
         "enable_media_gallery_slider": {
           "label": "Enable slider for Gallery"

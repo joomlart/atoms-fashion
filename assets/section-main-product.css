@@ -616,8 +616,7 @@ a.product__text {
 
 #shopify-product-reviews .spr-container {
   border: 0;
-  padding: 16px 0 0 0;
-  border-top: 1px solid rgba(var(--color-foreground), 0.08);
+  padding: 0;
 }
 
 #shopify-product-reviews .spr-header .spr-header-title {
@@ -626,6 +625,7 @@ a.product__text {
   padding: 0;
   margin: 0 0 16px;
   text-align: center;
+  display: none;
 }
 
 #shopify-product-reviews .spr-header .spr-summary {
@@ -635,10 +635,18 @@ a.product__text {
 #shopify-product-reviews .spr-header .spr-summary-actions {
   clear: both;
   display: block;
+  margin-top: 2.4rem;
 }
 
 #shopify-product-reviews .spr-header .spr-summary-actions-newreview {
   float: none;
+  border: 1px solid rgb(var(--color-base-accent-1));
+  padding: 1rem 2rem;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(var(--color-base-accent-1));
+  letter-spacing: -0.02em;
 }
 
 #shopify-product-reviews .spr-header .spr-starrating {
@@ -659,7 +667,6 @@ a.product__text {
 #shopify-product-reviews .spr-form-label {
   color: rgba(var(--color-base-accent-1), 1);
   font-size: 1.4rem;
-  font-weight: 600;
   margin: 12px 0 8px;
   display: block;
 }
@@ -1822,7 +1829,7 @@ a.product__text {
   align-items: flex-end;
   justify-content: center;
   flex-wrap: wrap;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .tabs {
@@ -1831,18 +1838,11 @@ a.product__text {
   margin-left: 0;
 }
 
-.tabs > * {
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-.tabs > .tab:first-child {
-  border-left: 1px solid rgba(0, 0, 0, 0.1);
-}
-
 .tab {
   display: inline-block;
   cursor: pointer;
-  padding: 0 2.4rem;
+  padding-left: 6.4rem;
+  padding-right: 6.4rem;
 }
 
 .tab.active {
@@ -1868,9 +1868,8 @@ a.product__text {
 
 /* Tab Content */
 #tab-content {
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  border-top: 0;
-  padding: 2.4rem;
+  padding: 2.4rem 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .tabs .accordion__content {
@@ -1887,6 +1886,7 @@ a.product__text {
 
 .tabs .accordion__title {
   max-width: unset;
+  font-size: 1.8rem;
 }
 
 .tabs .accordion .summary__title+.icon-caret {
@@ -1895,7 +1895,7 @@ a.product__text {
 
 #review-wrapper {
   font-weight: 700;
-  padding: 1.5rem 2.4rem;
+  padding: 15px 6.4rem;
   text-transform: uppercase;
   font-family: var(--font-heading-family);
 }

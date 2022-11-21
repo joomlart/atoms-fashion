@@ -79,13 +79,13 @@
                             {%- endif -%}
                           </div>
                         {% endif %}
-                      {%- when 'text' -%}
+                      {%- when 'intro' -%}
                         <div class="footer-block grid__item footer-block__details-content rte">
                           {% if block.settings.show_heading %}
                             <h2 class="footer-block__heading h4">{{ block.settings.heading }}</h2>
                           {% endif %}
-                          {% if block.settings.show_subtext %}
-                            <p>{{ block.settings.subtext }}</p>
+                          {% if block.settings.show_intro %}
+                            <p>{{ block.settings.intro }}</p>
                           {% endif %}
                         </div>
                       {%- when 'social' -%}

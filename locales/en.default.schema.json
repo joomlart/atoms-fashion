@@ -2420,7 +2420,7 @@
         "main-image": {
           "label": "Main Image"
         },
-        "thumnail": {
+        "thumbnail": {
           "label": "Thumbnail"
         },
         "enable_sticky_info": {

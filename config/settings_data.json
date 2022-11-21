@@ -1,7 +1,7 @@
 {
   "current": {
     "header_layout": "03",
-    "footer_layout": "02",
+    "footer_layout": "04",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#212121",
     "gradient_accent_1": "",
@@ -443,90 +443,6 @@
           "8b21a90f-5211-41ac-a2fc-0a1ff3fd96c4",
           "4aafae82-cced-46e1-adef-2a4e06656d54",
           "footer-03-1",
-          "7dd0bbf8-003a-4b45-8d65-d2cf55bdb524",
-          "9271150f-a434-414f-9266-42754a5b1c52",
-          "6db0f135-83b7-4c8f-8e7f-b9b807a60171"
-        ],
-        "settings": {
-          "color_scheme": "accent-1",
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true,
-          "margin_top": 0,
-          "padding_top": 36,
-          "padding_bottom": 36
-        }
-      },
-      "footer-04": {
-        "type": "footer-04",
-        "blocks": {
-          "footer-04-0": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Main Page",
-              "menu": "main-menu"
-            }
-          },
-          "99b4f4f6-a74b-4a33-933b-c3f03a2172bc": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Others Pages",
-              "menu": "others-page"
-            }
-          },
-          "8b21a90f-5211-41ac-a2fc-0a1ff3fd96c4": {
-            "type": "link_list",
-            "settings": {
-              "heading": "Legal",
-              "menu": "footer"
-            }
-          },
-          "4aafae82-cced-46e1-adef-2a4e06656d54": {
-            "type": "logo_image",
-            "settings": {
-              "show_logo": true,
-              "image": "shopify:\/\/shop_images\/atoms-light_79ebb958-8908-40f3-8ea2-7d4c623a3bbc.png",
-              "image_width": 100,
-              "alignment": "center"
-            }
-          },
-          "footer-04-1": {
-            "type": "text",
-            "settings": {
-              "show_heading": true,
-              "heading": "",
-              "show_subtext": true,
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
-            }
-          },
-          "7dd0bbf8-003a-4b45-8d65-d2cf55bdb524": {
-            "type": "social",
-            "settings": {
-              "show_social": true
-            }
-          },
-          "9271150f-a434-414f-9266-42754a5b1c52": {
-            "type": "newsletter",
-            "settings": {
-              "newsletter_enable": true,
-              "newsletter_icon": "shopify:\/\/shop_images\/Vector.png",
-              "newsletter_heading": "Sign Up to Receive 15% Off Your First Order",
-              "newsletter_intro": ""
-            }
-          },
-          "6db0f135-83b7-4c8f-8e7f-b9b807a60171": {
-            "type": "breadcrumb",
-            "settings": {
-              "alignment_breadcrumb": "left"
-            }
-          }
-        },
-        "block_order": [
-          "footer-04-0",
-          "99b4f4f6-a74b-4a33-933b-c3f03a2172bc",
-          "8b21a90f-5211-41ac-a2fc-0a1ff3fd96c4",
-          "4aafae82-cced-46e1-adef-2a4e06656d54",
-          "footer-04-1",
           "7dd0bbf8-003a-4b45-8d65-d2cf55bdb524",
           "9271150f-a434-414f-9266-42754a5b1c52",
           "6db0f135-83b7-4c8f-8e7f-b9b807a60171"

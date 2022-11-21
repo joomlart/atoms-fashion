@@ -284,6 +284,7 @@
   }
     .ja-summary-scroll.scrolling > * { 
     display: none;
+    margin: 0;
   }
 
   .ja-summary-scroll.scrolling variant-radios {
@@ -291,7 +292,7 @@
   }
   
   .ja-summary-scroll.scrolling .product-form__quantity, 
-  .ja-summary-scroll.scrolling .product-form__quantity + div { 
+  .ja-summary-scroll.scrolling .btn-buys { 
     display: block;
   }
 }

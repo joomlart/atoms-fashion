@@ -475,7 +475,7 @@
               </div>
             </noscript>
           {%- when 'buy_buttons' -%}
-              <div {{ block.shopify_attributes }}>
+              <div class="btn-buys" {{ block.shopify_attributes }}>
                 <product-form class="product-form">
                   <div class="product-form__error-message-wrapper" role="alert" hidden>
                     <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
@@ -575,27 +575,6 @@
             {%- endif -%}
             {%- endcase -%}
           {%- endfor -%}
-            <script>
-              document.addEventListener("DOMContentLoaded", function() {
-                  const summaryScroll = document.getElementById('ja-summary-scroll');
-                  const addClassScrollBefore = () => summaryScroll.classList.add('scrolling');
-                  const removeClassScrollBefore = () => summaryScroll.classList.remove('scrolling');
-                  const addClassScroll = () => summaryScroll.classList.add('active');
-                  const removeClassScroll = () => summaryScroll.classList.remove('active');
-                  window.addEventListener('scroll', function() {
-                    scrollpos = window.scrollY;
-                    if (scrollpos >= 900) {
-                      addClassScrollBefore();
-                      if(scrollpos >= 1200) {
-                         addClassScroll();
-                      }
-                    } else { 
-                      removeClassScrollBefore();
-                      removeClassScroll();
-                    }
-                  });
-              });   
-            </script>
           </div>
           {%- endif -%}
           {%- if section.settings.layout_product == 'gallery_full_width' -%}
@@ -604,7 +583,7 @@
     </div>
     
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %} {%- if section.settings.layout_product == 'gallery_full_width' -%}  product__info-wrapper-full-width  {%- endif -%}">
-      <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
+      <div id="ProductInfo-{{ section.id }}" class="product__info-container ja-summary-scroll{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %} {%- if section.settings.enable_add_cart_bottom -%} enable_add_cart_bottom {%- endif -%}">
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
         {%- if section.settings.layout_product != 'gallery_full_width' -%}
         {%- for block in section.blocks -%}
@@ -856,7 +835,7 @@
               </div>
             </noscript>
           {%- when 'buy_buttons' -%}
-              <div {{ block.shopify_attributes }}>
+              <div class="btn-buys" {{ block.shopify_attributes }}>
                 <product-form class="product-form">
                   <div class="product-form__error-message-wrapper" role="alert" hidden>
                     <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
@@ -980,12 +959,42 @@
             </div>
           {%- endcase -%}
         {%- endfor -%}
+
         {%- endif -%}
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">
         {{ 'products.product.view_full_details' | t }}
         {% render 'icon-arrow' %}
         </a>
       </div>
+
+      <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // Add To Cart Bottom
+        const summaryScroll = document.querySelector('.ja-summary-scroll');
+        const addClassScrollBefore = () => summaryScroll.classList.add('scrolling');
+        const removeClassScrollBefore = () => summaryScroll.classList.remove('scrolling');
+        const addClassScroll = () => summaryScroll.classList.add('active');
+        const removeClassScroll = () => summaryScroll.classList.remove('active');
+        const enableAddCartBottom = document.querySelector(".enable_add_cart_bottom");
+  
+        console.log(enableAddCartBottom);
+        window.addEventListener('scroll', function() {
+  
+          scrollpos = window.scrollY;
+          if(enableAddCartBottom != null ) {
+            if (scrollpos >= 900) {
+              addClassScrollBefore();
+              if(scrollpos >= 1200) {
+                 addClassScroll();
+              }
+            } else { 
+              removeClassScrollBefore();
+              removeClassScroll();
+            }
+          }
+        });
+      });   
+      </script> 
     </div>
 
     {%- if section.settings.layout_description != "no-tabs" -%}

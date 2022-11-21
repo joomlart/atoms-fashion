@@ -56,6 +56,18 @@
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %} {{ section.settings.mod_class }}">
 
     {%- unless section.settings.title == blank -%}
+      <style>
+        @media screen and (min-width: 750px) {
+          .collection__title.title-wrapper {
+            max-width: {{ section.settings.richtext_width_tablet }}%;
+          }
+        }
+        @media screen and (min-width: 1220px) {
+          .collection__title.title-wrapper {
+            max-width: {{ section.settings.richtext_width_desktop }}%;
+          }
+        }
+      </style>
       <div class="collection__title title-wrapper title-wrapper--no-top-margin title-wrapper-{{ section.settings.title_style }} page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
         <div class="inner">
           {%- if section.settings.title != blank -%}

@@ -2445,7 +2445,8 @@
         },
         "sticky": {
           "label": "Sticky Add To Cart",
-          "enable_sticky_add_to_cart": " Enable Sticky Add To Cart"
+          "enable_sticky_add_to_cart": " Enable Sticky Add To Cart",
+          "info": "Recommend don't use when enable sticky content"
         },
         "enable_sticky_info": {
           "label": "Enable sticky content on desktop",

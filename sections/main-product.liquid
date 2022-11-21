@@ -968,9 +968,7 @@
       </div>
     </div>
 
-    {%- if section.settings.layout_description != "no-tabs" -%}
-      {%- render 'product-information-tabs' -%}
-    {%- endif -%}
+    {%- render 'product-information-tabs' -%}
     
     {% comment %} Add to Cart Bottom {% endcomment %}
     {%- if section.settings.enable_add_cart_bottom -%}
@@ -2096,10 +2094,6 @@
         {
           "value": "tabs",
           "label": "t:sections.main-product.settings.layout_description.label__2"
-        },
-        {
-          "value": "no-tabs",
-          "label": "t:sections.main-product.settings.layout_description.label__3"
         }
       ],
       "default": "tabs",

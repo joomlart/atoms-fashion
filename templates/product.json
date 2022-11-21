@@ -201,7 +201,7 @@
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
-        "layout_description": "no-tabs",
+        "layout_description": "accordion",
         "enable_add_cart_bottom": false,
         "padding_top": 48,
         "padding_bottom": 48
@@ -209,16 +209,6 @@
     },
     "16690132800b901919": {
       "type": "apps",
-      "blocks": {
-        "dd826812-2af2-4dbc-9c03-353fc47e64fe": {
-          "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "dd826812-2af2-4dbc-9c03-353fc47e64fe"
-      ],
       "settings": {
         "include_margins": true
       }

@@ -1820,7 +1820,8 @@ a.product__text {
 .Product-infor-tabs {
   width: 100%;
   margin-top: 6rem;
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 /* Tab Title */

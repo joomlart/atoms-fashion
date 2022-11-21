@@ -467,15 +467,6 @@
               "menu": "footer"
             }
           },
-          "footer-04-1": {
-            "type": "text",
-            "settings": {
-              "show_heading": true,
-              "heading": "INTRODUCING",
-              "show_subtext": true,
-              "subtext": "<p>Lorem ipsum dolor sit amet, ligula dolor consectetur adipiscing elit. Sed quis ante, pulvinar lorem eget libero, lobortis ullamcorper.<\/p>"
-            }
-          },
           "e84e18af-92ff-439a-9ef1-191cadc935cb": {
             "type": "text",
             "settings": {
@@ -492,13 +483,22 @@
               "newsletter_heading": "Subscribe to our emails",
               "newsletter_intro": "Subscribe to the Joomlart newsletter to receive timely updates from your favorite products."
             }
+          },
+          "037abfd5-833c-4b24-b0e9-6ed32c265c34": {
+            "type": "intro",
+            "settings": {
+              "show_heading": true,
+              "heading": "Introduction",
+              "show_intro": true,
+              "intro": "<p>Lorem ipsum dolor sit amet, ligula dolor consectetur adipiscing elit. Sed quis ante, pulvinar lorem eget libero, lobortis ullamcorper.<\/p>"
+            }
           }
         },
         "block_order": [
           "footer-04-0",
-          "footer-04-1",
           "e84e18af-92ff-439a-9ef1-191cadc935cb",
-          "5407ff9f-d4a6-4fc4-9401-fcb0c8f3705d"
+          "5407ff9f-d4a6-4fc4-9401-fcb0c8f3705d",
+          "037abfd5-833c-4b24-b0e9-6ed32c265c34"
         ],
         "settings": {
           "color_scheme": "background-1",

@@ -193,7 +193,7 @@
       ],
       "settings": {
         "layout_product": "default",
-        "enable_sticky_info": true,
+        "enable_sticky_info": false,
         "media_size": "medium",
         "gallery_layout": "thumbnail_slider",
         "gallery_position": "bottom",
@@ -202,7 +202,7 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "layout_description": "no-tabs",
-        "enable_add_cart_bottom": true,
+        "enable_add_cart_bottom": false,
         "padding_top": 48,
         "padding_bottom": 48
       }

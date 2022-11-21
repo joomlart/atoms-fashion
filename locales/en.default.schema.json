@@ -2417,6 +2417,12 @@
           "content": "Media",
           "info": "Learn more about [media types.](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
+        "main-image": {
+          "label": "Main Image"
+        },
+        "thumnail": {
+          "label": "Thumbnail"
+        },
         "enable_sticky_info": {
           "label": "Enable sticky content on desktop"
         },

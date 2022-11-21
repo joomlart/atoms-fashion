@@ -248,6 +248,12 @@
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+.footer-02.color-background-1 .footer-block--main,
+.footer-02.color-background-2 .footer-block--main {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08)
+}
+
 .footer-block--main .footer__content__left {
   margin-bottom: var(--grid-desktop-vertical-spacing);
 }
@@ -361,6 +367,17 @@
 .footer-02 .footer-block__newsletter {
   color: rgba(var(--color-foreground), 0.75);
   padding: 3.2rem 0;
+}
+
+.footer-02 .footer-block__newsletter { 
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+.footer-02.color-background-1 .footer-block__newsletter,
+.footer-02color-background-2 .footer-block__newsletter { 
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08)
+}
+
+.footer-03 .footer-block__newsletter {
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 

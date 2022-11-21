@@ -1747,26 +1747,6 @@
       ],
       "default": "default",
       "label": "t:sections.main-product.settings.layout_product.content"
-    }, 
-    {
-      "type": "select",
-      "id": "layout_description",
-      "options": [
-        {
-          "value": "accordion",
-          "label": "t:sections.main-product.settings.layout_description.label__1"
-        },
-        {
-          "value": "tabs",
-          "label": "t:sections.main-product.settings.layout_description.label__2"
-        },
-        {
-          "value": "no-tabs",
-          "label": "t:sections.main-product.settings.layout_description.label__3"
-        }
-      ],
-      "default": "tabs",
-      "label": "t:sections.main-product.settings.layout_description.content"
     },
     {
       "type": "checkbox",
@@ -1775,14 +1755,33 @@
       "label": "t:sections.main-product.settings.enable_sticky_info.label"
     },
     {
-      "type": "checkbox",
-      "id": "enable_add_cart_bottom",
-      "default": true,
-      "label": "t:sections.main-product.settings.enable_add_cart_bottom.label"
+      "type": "header",
+      "content": "t:sections.main-product.settings.main-image.label"
+    },
+    {
+      "type": "select",
+      "id": "media_size",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.main-product.settings.media_size.options__1.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.main-product.settings.media_size.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.main-product.settings.media_size.options__3.label"
+        }
+      ],
+      "default": "large",
+      "label": "t:sections.main-product.settings.media_size.label",
+      "info": "t:sections.main-product.settings.media_size.info"
     },
     {
       "type": "header",
-      "content": "t:sections.main-product.settings.header.content",
+      "content": "t:sections.main-product.settings.thumbnail.label",
       "info": "t:sections.main-product.settings.header.info"
     },
     {
@@ -1829,27 +1828,6 @@
       "default": "bottom",
       "label": "t:sections.main-product.settings.gallery_position.label",
       "info": "t:sections.main-product.settings.gallery_position.info"
-    },
-    {
-      "type": "select",
-      "id": "media_size",
-      "options": [
-        {
-          "value": "small",
-          "label": "t:sections.main-product.settings.media_size.options__1.label"
-        },
-        {
-          "value": "medium",
-          "label": "t:sections.main-product.settings.media_size.options__2.label"
-        },
-        {
-          "value": "large",
-          "label": "t:sections.main-product.settings.media_size.options__3.label"
-        }
-      ],
-      "default": "large",
-      "label": "t:sections.main-product.settings.media_size.label",
-      "info": "t:sections.main-product.settings.media_size.info"
     },
     {
       "type": "select",
@@ -1906,6 +1884,40 @@
       "id": "enable_video_looping",
       "default": false,
       "label": "t:sections.main-product.settings.enable_video_looping.label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.main-product.settings.tabs.label"
+    },
+    {
+      "type": "select",
+      "id": "layout_description",
+      "options": [
+        {
+          "value": "accordion",
+          "label": "t:sections.main-product.settings.layout_description.label__1"
+        },
+        {
+          "value": "tabs",
+          "label": "t:sections.main-product.settings.layout_description.label__2"
+        },
+        {
+          "value": "no-tabs",
+          "label": "t:sections.main-product.settings.layout_description.label__3"
+        }
+      ],
+      "default": "tabs",
+      "label": "t:sections.main-product.settings.layout_description.content"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.main-product.settings.sticky.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_add_cart_bottom",
+      "default": true,
+      "label": "t:sections.main-product.settings.sticky.enable_sticky_add_to_cart"
     },
     {
       "type": "header",

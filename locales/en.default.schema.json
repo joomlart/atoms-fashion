@@ -2428,6 +2428,19 @@
           "content": "Media",
           "info": "Learn more about [media types.](https:\/\/help.shopify.com\/manual\/products\/product-media)"
         },
+        "main-image": {
+          "label": "Main Image"
+        },
+        "tabs": {
+          "label": "Tabs"
+        },
+        "thumbnail": {
+          "label": "Thumbnail"
+        },
+        "sticky": {
+          "label": "Sticky Add To Cart",
+          "enable_sticky_add_to_cart": " Enable Sticky Add To Cart"
+        },
         "enable_sticky_info": {
           "label": "Enable sticky content on desktop"
         },

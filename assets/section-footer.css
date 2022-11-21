@@ -306,6 +306,12 @@
   .footer-02 .footer-block--main .footer__content__right > .footer-block--menu:not(:last-child) {
     border-right: 1px solid rgba(255, 255, 255, 0.1);
   }
+
+  .footer-02.color-background-1 .footer-block--main .footer__content__right > .footer-block--menu:not(:last-child),
+  .footer-02.color-background-1 .footer-block--main .footer__content__right > .footer-block--menu:not(:last-child) {
+    border-right: 1px solid rgba(0, 0, 0, 0.08);
+  }
+
 }
 
 .footer-03 .footer-block--main .footer__content__left > * {

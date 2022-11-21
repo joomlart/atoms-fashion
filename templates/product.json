@@ -42,14 +42,6 @@
             "word_number": "120"
           }
         },
-        "caption": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -59,12 +51,6 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
-          }
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true
           }
         },
         "855dcf26-c523-484d-a4b9-5297801c8a9e": {
@@ -143,6 +129,12 @@
             "page": ""
           }
         },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -188,10 +180,8 @@
         "6c4a7f7f-6a5e-4f46-99c0-1deeed649816",
         "price",
         "23ebf0a2-bba6-4be2-8af7-6c1bacfbe482",
-        "caption",
         "variant_picker",
         "quantity_selector",
-        "buy_buttons",
         "855dcf26-c523-484d-a4b9-5297801c8a9e",
         "479cb26a-2b36-482e-87b5-082d713b02ab",
         "d8158e35-345d-45bb-ac02-c0953b57edc6",
@@ -201,6 +191,7 @@
         "collapsible-row-1",
         "collapsible-row-0",
         "collapsible-row-3",
+        "buy_buttons",
         "share",
         "4ed73133-889e-4b76-8238-606645cba794",
         "e42fa36e-34fb-4e00-a8c8-39f23c4446a2",
@@ -209,10 +200,10 @@
       ],
       "settings": {
         "layout_product": "default",
-        "layout_description": "accordion",
+        "layout_description": "tabs",
         "enable_sticky_info": true,
         "enable_add_cart_bottom": true,
-        "gallery_layout": "thumbnail",
+        "gallery_layout": "thumbnail_slider",
         "gallery_position": "bottom",
         "media_size": "medium",
         "item_ratio": "43",

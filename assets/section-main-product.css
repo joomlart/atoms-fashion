@@ -48,6 +48,13 @@
     top: 0;
     z-index: 2;
   }
+
+  .product--thumbnail .thumbnail-list {
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  
   .product--thumbnail .thumbnail-list {
     padding-right: var(--media-shadow-horizontal-offset);
   }

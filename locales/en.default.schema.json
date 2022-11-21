@@ -725,12 +725,6 @@
         "show_description": {
           "label": "Show collection description from the admin"
         },
-        "richtext_width_desktop": {
-          "label": "Description width on Desktop > 980px"
-        },
-        "richtext_width_tablet": {
-          "label": "Description width on Tablet > 750px"
-        },
         "description_style": {
           "label": "Description style",
           "options__1": {
@@ -822,6 +816,12 @@
         },
         "show_description": {
           "label": "Show collection description from the admin"
+        },
+        "richtext_width_desktop": {
+          "label": "Description width on Desktop > 980px"
+        },
+        "richtext_width_tablet": {
+          "label": "Description width on Tablet > 750px"
         },
         "show_card_collection": {
           "label": "Show Card collection"

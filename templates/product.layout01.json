@@ -170,7 +170,7 @@
         "layout_description": "tabs",
         "enable_sticky_info": true,
         "enable_add_cart_bottom": true,
-        "gallery_layout": "thumbnail_slider",
+        "gallery_layout": "thumbnail",
         "gallery_position": "left",
         "media_size": "small",
         "item_ratio": "169",

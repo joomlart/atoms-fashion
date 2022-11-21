@@ -1099,25 +1099,6 @@ summary::-webkit-details-marker {
     width: 90%;
   }
 }
-@media screen and (min-width: 750px) {
-  .fashion-collection-list .title-wrapper-02 {
-    max-width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (min-width: 980px) {
-  .fashion-collection-list .title-wrapper-02 {
-    max-width: 80%;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .fashion-collection-list .title-wrapper-02 {
-    max-width: 35%;
-  }
-}
-
 /* component-grid */
 
 .grid {

@@ -206,17 +206,17 @@
         "3d5c498d-3b63-4ddc-88a6-95562bb21135"
       ],
       "settings": {
-        "layout_product": "default",
-        "layout_description": "tabs",
+        "layout_product": "gallery_full_width",
         "enable_sticky_info": false,
-        "enable_add_cart_bottom": false,
+        "media_size": "medium",
         "gallery_layout": "thumbnail_slider",
         "gallery_position": "bottom",
-        "media_size": "medium",
         "item_ratio": "43",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
+        "layout_description": "tabs",
+        "enable_add_cart_bottom": false,
         "padding_top": 48,
         "padding_bottom": 48
       }

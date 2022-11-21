@@ -42,10 +42,11 @@
 }
 
 @media screen and (min-width: 750px) {
-  .product--stacked .product__info-container--sticky {
+  .product--stacked .product__info-container--sticky,
+  .product--stacked_full .product__info-container--sticky {
     display: block;
     position: sticky;
-    top: 0;
+    top: 3rem;
     z-index: 2;
   }
   

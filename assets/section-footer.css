@@ -244,13 +244,11 @@
 }
 
 .footer-02 .footer-block--main {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .footer-02.color-background-1 .footer-block--main,
 .footer-02.color-background-2 .footer-block--main {
-  border-top: 1px solid rgba(0, 0, 0, 0.08);
   border-bottom: 1px solid rgba(0, 0, 0, 0.08)
 }
 

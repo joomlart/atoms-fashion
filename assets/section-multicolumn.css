@@ -203,6 +203,10 @@
   + .multicolumn-card__info {
   padding-left: 1.5rem;
 }
+.fashion-ins-blog { 
+  border-top: 1px solid rgba(var(--color-foreground),var(--text-boxes-border-opacity));
+}
+
 
 @media screen and (max-width: 749px) {
   .background-none .slider .multicolumn-card__info {
@@ -211,6 +215,9 @@
 
   .multicolumn.background-none .slider.slider--mobile {
     margin-bottom: 0rem;
+  }
+  .fashion-ins-blog { 
+    padding-top: 32px;
   }
 }
 
@@ -229,6 +236,8 @@
   }
   .fashion-ins-blog {
     --grid-desktop-horizontal-spacing: 0px;
+    border-bottom: 1px solid rgba(var(--color-foreground),var(--text-boxes-border-opacity));
+    
   }
   /* .fashion-ins-blog .multicolumn-list {
     
@@ -298,7 +307,6 @@
   }
   .fashion-ins-blog:first-of-type .multicolumn-list {
     padding-bottom: 3.2rem;
-    margin-bottom: 3.2rem;
     border-bottom: 1px solid
       rgba(var(--color-foreground), var(--text-boxes-border-opacity));
   }

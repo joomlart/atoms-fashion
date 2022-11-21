@@ -1863,6 +1863,9 @@ a.product__text {
   display: none;
 }
 
+.product__info-container #shopify-product-reviews {
+  display: none;
+}
 
 /* Tab Content */
 .tabs .accordion__content {

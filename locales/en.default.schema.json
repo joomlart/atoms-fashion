@@ -2426,7 +2426,7 @@
         "thumbnail": {
           "label": "Thumbnail"
         },
-        "enable_sticky": {
+        "sticky": {
           "label": "Sticky Add To Cart",
           "enable_sticky_info": "Enable sticky content on desktop"
         },

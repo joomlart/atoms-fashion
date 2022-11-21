@@ -1,7 +1,7 @@
 {
   "current": {
     "header_layout": "03",
-    "footer_layout": "02",
+    "footer_layout": "04",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#212121",
     "gradient_accent_1": "",
@@ -449,6 +449,59 @@
         ],
         "settings": {
           "color_scheme": "accent-1",
+          "enable_country_selector": true,
+          "enable_language_selector": true,
+          "payment_enable": true,
+          "margin_top": 0,
+          "padding_top": 36,
+          "padding_bottom": 36
+        }
+      },
+      "footer-04": {
+        "type": "footer-04",
+        "blocks": {
+          "footer-04-0": {
+            "type": "link_list",
+            "settings": {
+              "heading": "EXPLORE",
+              "menu": "footer"
+            }
+          },
+          "footer-04-1": {
+            "type": "text",
+            "settings": {
+              "show_heading": true,
+              "heading": "INTRODUCING",
+              "show_subtext": true,
+              "subtext": "<p>Lorem ipsum dolor sit amet, ligula dolor consectetur adipiscing elit. Sed quis ante, pulvinar lorem eget libero, lobortis ullamcorper.<\/p>"
+            }
+          },
+          "e84e18af-92ff-439a-9ef1-191cadc935cb": {
+            "type": "text",
+            "settings": {
+              "show_heading": true,
+              "heading": "CONTACT",
+              "show_subtext": true,
+              "subtext": "<p>Phone:(123) 456-7890Fax: +31 71 800 99 89<a href=\"mailto:no-reply@gmail.com\">info@siggi.com<\/a><\/p><p>312 North 24th Street<br\/>Brooklyn, New York 10010<br\/><a href=\"https:\/\/ja-rights.demo.joomlart.com\/#\" title=\"Get Direction\">Get Direction<\/a><\/p>"
+            }
+          },
+          "5407ff9f-d4a6-4fc4-9401-fcb0c8f3705d": {
+            "type": "newsletter",
+            "settings": {
+              "newsletter_enable": true,
+              "newsletter_heading": "Subscribe to our emails",
+              "newsletter_intro": "Subscribe to the Joomlart newsletter to receive timely updates from your favorite products."
+            }
+          }
+        },
+        "block_order": [
+          "footer-04-0",
+          "footer-04-1",
+          "e84e18af-92ff-439a-9ef1-191cadc935cb",
+          "5407ff9f-d4a6-4fc4-9401-fcb0c8f3705d"
+        ],
+        "settings": {
+          "color_scheme": "background-1",
           "enable_country_selector": true,
           "enable_language_selector": true,
           "payment_enable": true,

@@ -659,6 +659,7 @@ a.product__text {
 #shopify-product-reviews .spr-form-label {
   color: rgba(var(--color-base-accent-1), 1);
   font-size: 1.4rem;
+  font-weight: 600;
   margin: 12px 0 8px;
   display: block;
 }
@@ -1812,6 +1813,7 @@ a.product__text {
 .Product-infor-tabs {
   width: 100%;
   margin-top: 6rem;
+  padding: 0;
 }
 
 /* Tab Title */
@@ -1820,20 +1822,27 @@ a.product__text {
   align-items: flex-end;
   justify-content: center;
   flex-wrap: wrap;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .tabs {
-  border-bottom: 1px solid rgba(var(--color-foreground), 0.1);
   list-style-type: none;
   padding: 0;
   margin-left: 0;
 }
 
+.tabs > * {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.tabs > .tab:first-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+
 .tab {
   display: inline-block;
   cursor: pointer;
-  margin-left: 2.4rem;
-  margin-right: 2.4rem;
+  padding: 0 2.4rem;
 }
 
 .tab.active {
@@ -1858,6 +1867,12 @@ a.product__text {
 }
 
 /* Tab Content */
+#tab-content {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 0;
+  padding: 2.4rem;
+}
+
 .tabs .accordion__content {
   display: none;
 }
@@ -1880,7 +1895,7 @@ a.product__text {
 
 #review-wrapper {
   font-weight: 700;
-  padding: 15px 0;
+  padding: 1.5rem 2.4rem;
   text-transform: uppercase;
   font-family: var(--font-heading-family);
 }

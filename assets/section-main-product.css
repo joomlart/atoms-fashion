@@ -1946,6 +1946,7 @@ a.product__text {
 
 #review-wrapper > div {
   padding: 15px 0;
+  color: rgba(0,0,0,0.6);
 }
 
 #review-wrapper::after {

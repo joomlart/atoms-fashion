@@ -370,8 +370,7 @@
                   <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
               {%- when 'share' -%}
                 <share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
-                  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-627ddf60e6b8026d"></script>
-<!--                   <button class="share-button__button hidden">
+                  <button class="share-button__button hidden">
                     {% render 'icon-share' %}
                     {{ block.settings.share_label | escape }}
                   </button>
@@ -403,7 +402,7 @@
                         <span class="visually-hidden">{{ 'general.share.copy_to_clipboard' | t }}</span>
                       </button>
                     </div>
-                  </details> -->
+                  </details>
                 </share-button>
                 <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
               {%- when 'variant_picker' -%}

@@ -2446,7 +2446,7 @@
         "sticky": {
           "label": "Sticky Add To Cart",
           "enable_sticky_add_to_cart": " Enable Sticky Add To Cart",
-          "info": "Recommend don't use when enable sticky content and Only Active on Layout Full Width"
+          "info": "Recommend don't use when enable sticky content and only active on layout full width"
         },
         "enable_sticky_info": {
           "label": "Enable sticky content on desktop",

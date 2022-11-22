@@ -1962,22 +1962,11 @@ a.product__text {
     margin-bottom: 0;
   }
 
-  .gallery-position-left .thumbnail-slider .thumbnail-list__item,
-  .gallery-position-right .thumbnail-slider .thumbnail-list__item {
-    max-width: 90px;
-  }
-
   .gallery-position-left .thumbnail-slider .slider-button,
   .gallery-position-right .thumbnail-slider .slider-button {
     display: none;
   }
 
-  .gallery-position-left .thumbnail-slider .thumbnail--narrow img,
-  .gallery-position-right .thumbnail-slider .thumbnail--narrow img {
-    width: 100%;
-    object-fit: cover;
-    object-position: top center;
-  }
 }
 
 

@@ -649,6 +649,7 @@ a.product__text {
   font-weight: 600;
   color: rgb(var(--color-base-accent-1));
   letter-spacing: -0.02em;
+  float: left;
 }
 
 #shopify-product-reviews .spr-header .spr-starrating {
@@ -1870,7 +1871,8 @@ a.product__text {
 .tab {
   display: inline-block;
   cursor: pointer;
-  margin-right: 6.4rem;
+  margin-right: 3.2rem;
+  margin-left: 3.2rem;
 }
 
 .tabs .product__description {
@@ -1893,7 +1895,7 @@ a.product__text {
   background: #000; 
 }
 
-.tab details:not(.product__description details) {
+.tab details{
   padding: 1.5rem 0;
 }
 

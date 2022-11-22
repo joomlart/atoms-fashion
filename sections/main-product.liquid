@@ -144,7 +144,7 @@
           </button>
         {%- endif -%}
 
-        {% comment %} Slider {% endcomment %}
+        {% comment %} Thumbnail {% endcomment %}
         {%- if media_count > 1 and section.settings.gallery_layout != 'stacked' or section.settings.mobile_thumbnails == 'show' or section.settings.gallery_layout != 'stacked_full' -%}
           <slider-component
             id="GalleryThumbnails-{{ section.id }}"
@@ -179,7 +179,7 @@
                 -%}
                   <li
                     id="Slide-Thumbnails-{{ section.id }}-0"
-                    class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains featured_media.src %} thumbnail-list_item--variant{% endif %}"
+                    class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains featured_media.src %} thumbnail-list_item--variant{% endif %}{%- if section.settings.thumbnail_ratio == "34" -%} thumbnail-ratio-34{%- endif -%}{%- if section.settings.thumbnail_ratio == "11" -%} thumbnail-ratio-34{%- endif -%}"
                     data-target="{{ section.id }}-{{ featured_media.id }}"
                     data-media-position="{{ media_index }}"
                   >
@@ -284,10 +284,11 @@
             </button>
           </slider-component>
         {%- endif -%}
-        {% comment %} End Slider {% endcomment %}
+        {% comment %} End Thumbnail {% endcomment %}
       </media-gallery>
       {% comment %} End Gallery {% endcomment %}
 
+      {% comment %} Full Width {% endcomment %}
       {%- if section.settings.layout_product == 'gallery_full_width' -%}
         {%- if section.settings.enable_add_cart_bottom -%}
           <div class="p-info-full-slider product__info-wrapper grid__item ja-summary-scroll" id="ja-summary-scroll">
@@ -606,6 +607,7 @@
           </script> 
         {%- endif -%}
       {%- endif -%}
+      {% comment %} End Full Width {% endcomment %}
     </div>
     
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %} {%- if section.settings.layout_product == 'gallery_full_width' -%}  product__info-wrapper-full-width  {%- endif -%}">
@@ -1784,6 +1786,34 @@
       "info": "t:sections.main-product.settings.media_size.info"
     },
     {
+      "type": "select",
+      "id": "item_ratio",
+      "label": "t:sections.main-product.settings.item_ratio.label",
+      "options": [
+        {
+          "value": "portrait",
+          "label": "t:sections.main-product.settings.item_ratio.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.main-product.settings.item_ratio.options__3.label"
+        },
+        {
+          "value": "34",
+          "label": "t:sections.main-product.settings.item_ratio.options__4.label"
+        },
+        {
+          "value": "43",
+          "label": "t:sections.main-product.settings.item_ratio.options__1.label"
+        },
+        {
+          "value": "169",
+          "label": "t:sections.main-product.settings.item_ratio.options__5.label"
+        }
+      ],
+      "default": "169"
+    },
+    {
       "type": "header",
       "content": "t:sections.main-product.settings.thumbnail.label",
       "info": "t:sections.main-product.settings.header.info"
@@ -1835,31 +1865,19 @@
     },
     {
       "type": "select",
-      "id": "item_ratio",
+      "id": "thumbnail_ratio",
       "label": "t:sections.main-product.settings.item_ratio.label",
       "options": [
         {
-          "value": "portrait",
+          "value": "34",
           "label": "t:sections.main-product.settings.item_ratio.options__2.label"
         },
         {
-          "value": "square",
+          "value": "11",
           "label": "t:sections.main-product.settings.item_ratio.options__3.label"
-        },
-        {
-          "value": "34",
-          "label": "t:sections.main-product.settings.item_ratio.options__4.label"
-        },
-        {
-          "value": "43",
-          "label": "t:sections.main-product.settings.item_ratio.options__1.label"
-        },
-        {
-          "value": "169",
-          "label": "t:sections.main-product.settings.item_ratio.options__5.label"
         }
       ],
-      "default": "169"
+      "default": "34"
     },
     {
       "type": "select",

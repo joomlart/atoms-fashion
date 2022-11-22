@@ -936,8 +936,17 @@ a.product__text {
 }
 
 .thumbnail-list-thumbnail .thumbnail-list__item {
+}
+
+.thumbnail-ratio-34 {
   width: 100%;
-  max-width: 80px;
+  max-width: 75px;
+  height: 100px;
+}
+
+.thumbnail-ratio-11 {
+  width: 100%;
+  max-width: 100px;
   height: 100px;
 }
 
@@ -1683,7 +1692,7 @@ a.product__text {
 
 .thumbnail--narrow img {
   height: 100%;
-  width: auto;
+  width: 100%;
   max-width: 100%;
 }
 
@@ -1976,7 +1985,6 @@ a.product__text {
     object-position: top center;
   }
 }
-
 
 
 

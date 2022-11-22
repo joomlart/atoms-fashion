@@ -630,6 +630,9 @@ a.product__text {
 
 #shopify-product-reviews .spr-header .spr-summary {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #shopify-product-reviews .spr-header .spr-summary-actions {
@@ -639,7 +642,6 @@ a.product__text {
 }
 
 #shopify-product-reviews .spr-header .spr-summary-actions-newreview {
-  float: none;
   border: 1px solid rgb(var(--color-base-accent-1));
   padding: 1rem 2rem;
   text-decoration: none;
@@ -671,11 +673,13 @@ a.product__text {
   display: block;
 }
 
-#shopify-product-reviews .spr-review {
-  padding: 2.4rem;
-  position: relative;
-  border-left: 1px solid rgba(0, 0, 0, 0.1);
-  border-right: 1px solid rgba(0, 0, 0, 0.1);
+@media screen and (min-width: 550px) {
+  #shopify-product-reviews .spr-review {
+    padding: 2.4rem;
+    position: relative;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 2.4rem;
+  }
 }
 
 #shopify-product-reviews .spr-review .spr-review-footer {

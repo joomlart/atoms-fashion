@@ -179,7 +179,10 @@
                 -%}
                   <li
                     id="Slide-Thumbnails-{{ section.id }}-0"
-                    class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains featured_media.src %} thumbnail-list_item--variant{% endif %}{%- if section.settings.thumbnail_ratio == "34" -%} thumbnail-ratio-34{%- endif -%}{%- if section.settings.thumbnail_ratio == "11" -%} thumbnail-ratio-34{%- endif -%}"
+                    class="thumbnail-list__item slider__slide
+                    {% if section.settings.hide_variants and variant_images contains featured_media.src %} thumbnail-list_item--variant{% endif %}
+                    {%- if section.settings.thumbnail_ratio == "34" -%} thumbnail-ratio-34{%- endif -%}
+                    {%- if section.settings.thumbnail_ratio == "11" -%} thumbnail-ratio-34{%- endif -%}"
                     data-target="{{ section.id }}-{{ featured_media.id }}"
                     data-media-position="{{ media_index }}"
                   >
@@ -212,6 +215,7 @@
                   </button>
                 </li>
               {%- endif -%}
+
               {%- for media in product.media -%}
                 {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
                   {%- liquid
@@ -228,7 +232,9 @@
                   -%}
                   <li
                     id="Slide-Thumbnails-{{ section.id }}-{{ forloop.index }}"
-                    class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains media.src %} thumbnail-list_item--variant{% endif %}"
+                    class="thumbnail-list__item slider__slide{% if section.settings.hide_variants and variant_images contains media.src %} thumbnail-list_item--variant{% endif %}
+                    {%- if section.settings.thumbnail_ratio == "34" -%} thumbnail-ratio-34{%- endif -%}
+                    {%- if section.settings.thumbnail_ratio == "11" -%} thumbnail-ratio-11{%- endif -%}"
                     data-target="{{ section.id }}-{{ media.id }}"
                     data-media-position="{{ media_index }}"
                   >

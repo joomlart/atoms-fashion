@@ -2042,5 +2042,29 @@ a.product__text {
   max-width: 100px;
 }
 
+/* Share */
+.share-button {
+  display: none;
+}
+
+.at-svc-facebook {
+  background-color: #1877F2 !important;
+}
+
+.at-svc-twitter {
+  background-color: #1DA1F2 !important;
+}
+
+.at-svc-pinterest_share {
+  background-color: #BD081C !important;
+}
+
+.at-svc-linkedin {
+  background-color: #0A66C2 !important;
+}
+
+
+
+
 
 

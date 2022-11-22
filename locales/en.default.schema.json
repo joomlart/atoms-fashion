@@ -2450,7 +2450,7 @@
         },
         "enable_sticky_info": {
           "label": "Enable sticky content on desktop",
-          "info": "Active When Use Layout Stacked or Stacked Full"
+          "info": "Active when use thumbnail layout stacked or stacked full"
         },
         "enable_media_gallery_slider": {
           "label": "Enable slider for Gallery"
@@ -2472,7 +2472,7 @@
         },
         "gallery_position": {
           "label": "Position Gallery",
-          "info": "Position Gallery for Layout Thumbnail or Thumbnail Carousel",
+          "info": "Position gallery for layout thumbnail or thumbnail carousel",
           "options__1": {
             "label": "Bottom"
           },

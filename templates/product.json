@@ -192,7 +192,7 @@
         "e417982b-3458-49aa-8bdc-84807b310d68"
       ],
       "settings": {
-        "layout_product": "gallery_full_width",
+        "layout_product": "default",
         "enable_sticky_info": false,
         "media_size": "medium",
         "gallery_layout": "thumbnail",

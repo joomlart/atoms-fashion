@@ -1949,7 +1949,7 @@ a.product__text {
   color: rgba(0,0,0,0.6);
 }
 
-#review-wrapper:active > div {
+#review-wrapper > div:focus {
   color: var(--color-base-accent-1);
 }
 

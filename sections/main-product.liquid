@@ -756,14 +756,15 @@
               </modal-opener>
               <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
           {%- when 'share' -%}
+            <div class="addthis_inline_share_toolbox_r6cb"></div>
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-627ddf60e6b8026d"></script>
             <share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
               <button class="share-button__button hidden">
                 {% render 'icon-share' %}
                 {{ block.settings.share_label | escape }}
               </button>
               <details id="Details-{{ block.id }}-{{ section.id }}">
-                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-627ddf60e6b8026d"></script>
-<!--                 <summary class="share-button__button">
+                <summary class="share-button__button">
                   {% render 'icon-share' %}
                   {{ block.settings.share_label | escape }}
                 </summary>
@@ -789,7 +790,7 @@
                     {% render 'icon-clipboard' %}
                     <span class="visually-hidden">{{ 'general.share.copy_to_clipboard' | t }}</span>
                   </button>
-                </div> -->
+                </div>
               </details>
             </share-button>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>

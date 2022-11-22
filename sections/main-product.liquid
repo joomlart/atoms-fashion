@@ -369,6 +369,7 @@
                   </modal-opener>
                   <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
               {%- when 'share' -%}
+                {% include 'addthis' %}
                 <share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
                   <button class="share-button__button hidden">
                     {% render 'icon-share' %}

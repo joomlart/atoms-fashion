@@ -371,6 +371,7 @@
               {%- when 'share' -%}
                 <share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
                   {% include 'addthis' %}
+                  <div class="addthis_inline_share_toolbox_r6cb"></div>
                   <button class="share-button__button hidden">
                     {% render 'icon-share' %}
                     {{ block.settings.share_label | escape }}

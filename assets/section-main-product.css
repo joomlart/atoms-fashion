@@ -1657,8 +1657,6 @@ a.product__text {
 .thumbnail-list-thumbnail_slider .thumbnail-list__item img {
   width: 100%;
   height: 100px;
-  object-fit: cover;
-  object-position: top center;
 }
 
 .thumbnail-list-thumbnail_slider .thumbnail-list__item [aria-current] img {
@@ -1688,6 +1686,8 @@ a.product__text {
   height: 100%;
   width: 100%;
   max-width: 100%;
+  object-fit: cover;
+  object-position: top center;
 }
 
 .thumbnail--wide img {

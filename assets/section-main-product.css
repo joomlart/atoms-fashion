@@ -1893,6 +1893,10 @@ a.product__text {
   background: #000; 
 }
 
+.tab.active .accordion__title {
+  color: var(--color-base-accent-1);
+}
+
 .tab details:not(.product__description details) {
   padding: 1.5rem 0;
 }

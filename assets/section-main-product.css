@@ -1870,21 +1870,31 @@ a.product__text {
 .tab {
   display: inline-block;
   cursor: pointer;
-  padding-left: 6.4rem;
-  padding-right: 6.4rem;
-}
-
-.tab.active {
-  border-bottom: 3px solid rgb(var(--color-foreground));
-}
-
-.tab details:not(.product__description details) {
-  padding: 1.5rem 0;
+  margin-right: 6.4rem;
 }
 
 .tabs .product__description {
   border-top: 0;
   margin-top: 0;
+}
+
+.tab::after {
+  content: '';
+  background: #fff;
+  display: block;
+  height: 3px;
+  width: 20%;
+  transition: all .35s ease-in-out; 
+}
+
+
+.tab.active::after {
+  width: 100%;
+  background: #000; 
+}
+
+.tab details:not(.product__description details) {
+  padding: 1.5rem 0;
 }
 
 .tabs .product__description svg {
@@ -1925,9 +1935,26 @@ a.product__text {
 
 #review-wrapper {
   font-weight: 700;
-  padding: 15px 6.4rem;
   text-transform: uppercase;
   font-family: var(--font-heading-family);
+}
+
+#review-wrapper > div {
+  padding: 15px 0;
+}
+
+#review-wrapper::after {
+  content: '';
+  background: #fff;
+  display: block;
+  height: 3px;
+  width: 20%;
+  transition: all .35s ease-in-out; 
+}
+
+#review-wrapper.active::after {
+  width: 100%;
+  background: #000; 
 }
 
 /* Style Option Thumbnail Carousel Left/Right */

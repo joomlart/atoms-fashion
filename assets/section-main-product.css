@@ -1931,7 +1931,7 @@ a.product__text {
 .tabs .accordion__title {
   max-width: unset;
   font-size: 1.8rem;
-  color: rgba(0,0,0,0.4);
+  color: rgba(0,0,0,0.6);
 }
 
 .tabs .accordion .summary__title+.icon-caret {

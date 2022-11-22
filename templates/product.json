@@ -192,18 +192,16 @@
         "e417982b-3458-49aa-8bdc-84807b310d68"
       ],
       "settings": {
-        "layout_product": "default",
+        "layout_product": "gallery_full_width",
         "enable_sticky_info": false,
         "media_size": "medium",
-        "item_ratio": "43",
-        "gallery_layout": "thumbnail_slider",
+        "gallery_layout": "thumbnail",
         "gallery_position": "bottom",
-        "thumbnail_ratio": "11",
+        "thumbnail_ratio": "34",
         "mobile_thumbnails": "hide",
         "hide_variants": true,
         "enable_video_looping": false,
         "layout_description": "accordion",
-        "enable_add_cart_bottom": false,
         "padding_top": 48,
         "padding_bottom": 48
       }

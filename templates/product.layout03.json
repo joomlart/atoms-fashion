@@ -132,7 +132,7 @@
       "settings": {
         "layout_product": "default",
         "enable_sticky_info": true,
-        "media_size": "large",
+        "media_size": "medium",
         "gallery_layout": "stacked_full",
         "gallery_position": "bottom",
         "thumbnail_ratio": "34",

@@ -766,8 +766,7 @@
                   {% render 'icon-share' %}
                   {{ block.settings.share_label | escape }}
                 </summary>
-                <div class="addthis_inline_share_toolbox_r6cb"></div>
-                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-627ddf60e6b8026d"></script>
+                
 <!--                 <div id="Product-share-{{ section.id }}" class="share-button__fallback motion-reduce">
                   <div class="field">
                     <span id="ShareMessage-{{ section.id }}" class="share-button__message hidden" role="status">
@@ -793,6 +792,8 @@
                 </div> -->
               </details>
             </share-button>
+            <div class="addthis_inline_share_toolbox_r6cb"></div>
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-627ddf60e6b8026d"></script>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
           {%- when 'variant_picker' -%}
               {%- unless product.has_only_default_variant -%}

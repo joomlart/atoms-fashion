@@ -2013,6 +2013,34 @@ a.product__text {
 
 }
 
+/* Upsell */
+.upsell_product_wrapper h4 {
+  font-weight: 500;
+  font-size: 2rem;
+  text-align: left;
+  margin-bottom: 2.4rem;
+}
+
+.upsell_product_wrapper .product-form__submit {
+  padding: 8px;
+}
+
+.upsell-item {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.upsell-item .card-wrapper .card {
+  display: flex;
+  flex-direction: row;
+  gap: 2.4rem;
+  justify-content: flex-start;
+}
+
+.upsell-item .card__inner {
+  max-width: 100px;
+}
 
 
 

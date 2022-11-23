@@ -1918,6 +1918,13 @@ a.product__text {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
+@media screen and (max-width: 1200px) {
+  #tab-content {
+    padding-left: 2.4rem;
+    padding-right: 2.4rem;
+  }
+}
+
 .tabs .accordion__content {
   display: none;
 }

@@ -41,6 +41,9 @@
   width: 100%;
 }
 
+.main-blog .cart__content {
+  text-align: left;
+}
 
 /*=== Layout Grid 
 ========================*/

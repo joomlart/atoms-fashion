@@ -53,6 +53,22 @@
           }
         ],
         "default": "03"
+      },
+      {
+        "type": "select",
+        "id": "blog_layout",
+        "label": "t:settings_schema.multilayout.settings.blog_layout.label",
+        "options": [
+          {
+            "value": "01",
+            "label": "t:settings_schema.multilayout.settings.blog_layout.label__1"
+          },
+          {
+            "value": "02",
+            "label": "t:settings_schema.multilayout.settings.blog_layout.label__2"
+          }
+        ],
+        "default": "01"
       }
     ]
   },

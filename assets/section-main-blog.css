@@ -1,32 +1,36 @@
 
-/*=== Blog 
+/*=== Main Blog 
 ========================*/
+
+.main-blog {
+  border-top: 1px solid rgb(var(--color-border)); 
+}
 
 /* Title Page */
 .page--title{
   margin: 0;
 }
 
-@media screen and (min-width: 990px) {
-  .page--title{
-  }
-}
-
 /* Sub Description Title */
 .description {
-  margin: 2rem 0 0;
   max-width: 55rem;
   line-height: calc(1 + 0.7/var(--font-body-scale) );
+  margin-bottom: 0;
+}
+
+.description.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.description.right {
+  margin-left: auto;
 }
 
 @media screen and (max-width: 990px) {
   .description {
     font-size: calc(var(--font-heading-scale) * 1.6rem);
   }
-}
-
-.wrap-inner {
-  padding-top: 4.8rem;
 }
 
 .card-wrapper {
@@ -38,33 +42,50 @@
 ========================*/
 .blog-articles {
   display: grid;
-  column-gap: var(--grid-mobile-horizontal-spacing);
-  row-gap: var(--grid-mobile-vertical-spacing);
+  column-gap: 0;
+  row-gap: 0;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 550px) {
   .blog-articles {
-    grid-template-columns: 1fr 1fr; 
-    column-gap: 3.2rem;
-    row-gap: 3.2rem;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 1200px) {
   .blog-articles {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
-/*=== Layout Collapse 
-========================*/
-
-.blog-articles--collage .article {
-  background-color: #F2F2F2;
+@media screen and (min-width: 1200px) {
+  .sidebar-left .list-blogs {
+    border-left: 1px solid rgb(var(--color-border));
+  }
+  
+  .sidebar-right .list-blogs {
+    border-right: 1px solid rgb(var(--color-border));
+  }
 }
 
-.blog-articles--collage .article .card .card__content {
-  padding: var(--grid-desktop-vertical-spacing);
+/*=== Layout List 
+========================*/
+
+@media screen and (min-width: 750px) {
+  .blog-articles--collage > *{
+    grid-column: 1/4;
+    text-align: left;
+  }
+}
+
+.blog-layout-default .blog-articles--collage .blog-articles__article {
+  border-right: 0 !important;
+}
+
+@media screen and (max-width: 750px) {
+  .blog-articles--collage {
+    grid-template-columns: 1fr;
+  }
 }
 
 .blog-articles--collage .article .card {
@@ -77,17 +98,84 @@
   }
 }
 
-@media screen and (min-width: 750px) {
-  .blog-articles--collage > *{
-    grid-column: 1/4;
-    text-align: left;
+.blog-articles--collage .article .card .card__content {
+  padding: var(--grid-desktop-vertical-spacing);
+}
+
+@media screen and (max-width: 750px) {
+  .blog-articles--collage .article .card .card__content {
+    padding: var(--grid-desktop-vertical-spacing)/2 0;
   }
 }
 
-.main-blog .item-placeholder {
-  max-width: 33.3%;
-  text-align: center;
+/* Title Page */
+.header-page > div:first-child {
+  padding: calc(var(--grid-desktop-horizontal-spacing)/2);
+  border-bottom: 1px solid rgb(var(--color-border));
 }
-.main-blog .has-sidebar .item-placeholder {
-  max-width: 50%;
+
+@media screen and (min-width: 750px) {
+  .header-page > div:first-child {
+    padding: calc(var(--grid-desktop-horizontal-spacing)/2) var(--grid-desktop-horizontal-spacing);
+  }
 }
+
+.header-page .wrap-title {
+  padding: calc(var(--grid-desktop-horizontal-spacing)/2);
+}
+
+@media screen and (min-width: 750px) {
+  .header-page .wrap-title {
+    padding: var(--grid-desktop-horizontal-spacing);
+  }
+}
+
+
+
+/* Common Article */
+.blog-articles__article {
+  border-bottom: 1px solid rgb(var(--color-border));
+  padding: 4.8rem;
+}
+ 
+@media screen and (max-width: 750px) {
+  .blog-articles__article {
+    padding: 2.4rem;
+  } 
+}
+
+/* Blog Default Layout Grid*/
+
+@media screen and (min-width: 550px) {
+  .blog-articles--grid .blog-articles__article:not(:nth-child(2n)) {
+    border-right: 1px solid rgb(var(--color-border));
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .blog-articles--grid .blog-articles__article {
+    border-right: 1px solid rgb(var(--color-border));
+  }
+
+  .blog-articles--grid .blog-articles__article:nth-child(3n) {
+    border-right: 0;
+  } 
+}
+
+/* Blog Simple Layout*/
+
+
+/* Pagination */
+
+.main-blog .sidebar-right .pagination-wrapper {
+  border-left: 0;
+  border-right: 1px solid rgb(var(--color-border));
+}
+
+@media screen and (max-width: 1200px ) {
+  .main-blog .sidebar-right .pagination-wrapper {
+    border-right: 0;
+  }
+}
+
+

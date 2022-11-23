@@ -10,7 +10,6 @@
       "blocks": {
         "9a706966-b696-4640-b43c-1282a60d0eb7": {
           "type": "recent_post",
-          "disabled": true,
           "settings": {
             "show_block": true,
             "heading": "Recent Post",

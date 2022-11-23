@@ -2063,6 +2063,10 @@ a.product__text {
   background-color: #0A66C2 !important;
 }
 
+.at-share-btn-elements .at-share-btn {
+  padding: 8px;
+  margin-right: 6px;
+}
 
 
 

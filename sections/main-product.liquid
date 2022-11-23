@@ -370,7 +370,6 @@
                   <a href="{{ block.settings.page.url }}" class="product-popup-modal__button link no-js">{{ block.settings.text }}</a>
               {%- when 'share' -%}
                 <share-button id="Share-{{ section.id }}" class="share-button quick-add-hidden" {{ block.shopify_attributes }}>
-                  {% include 'addthis' %}
                   <div class="addthis_inline_share_toolbox_r6cb"></div>
                   <button class="share-button__button hidden">
                     {% render 'icon-share' %}
@@ -406,7 +405,9 @@
                     </div>
                   </details>
                 </share-button>
+                <div class="addthis_inline_share_toolbox_r6cb"></div>
                 <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+                <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-627ddf60e6b8026d" defer="defer"></script>
               {%- when 'variant_picker' -%}
                   {%- unless product.has_only_default_variant -%}
                     {%- if block.settings.picker_type == 'button' -%}
@@ -793,8 +794,8 @@
               </details>
             </share-button>
             <div class="addthis_inline_share_toolbox_r6cb"></div>
-            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-627ddf60e6b8026d"></script>
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+            <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-627ddf60e6b8026d" defer="defer"></script>
           {%- when 'variant_picker' -%}
               {%- unless product.has_only_default_variant -%}
                 {%- if block.settings.picker_type == 'button' -%}

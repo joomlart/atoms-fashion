@@ -1,5 +1,10 @@
 {
   "sections": {
+    "dcf1756a-468c-412b-b074-1987fbe29ee3": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
     "main": {
       "type": "main-blog",
       "blocks": {
@@ -34,7 +39,7 @@
         "f2d9c50d-cc58-4dc2-a11f-e110b45dd295"
       ],
       "settings": {
-        "show_breadcrumb": true,
+        "show_breadcrumb": false,
         "alignment_breadcrumb": "left",
         "description": "Create a stunning blog that suits your style. Choose from a selection of easy to use templates all with flexible layouts",
         "alignment_title": "left",
@@ -56,6 +61,7 @@
     }
   },
   "order": [
+    "dcf1756a-468c-412b-b074-1987fbe29ee3",
     "main"
   ]
 }

@@ -11,6 +11,10 @@
   margin: 0;
 }
 
+.wrap-title {
+  margin-bottom: 2.4rem;
+}
+
 /* Sub Description Title */
 .description {
   max-width: 55rem;

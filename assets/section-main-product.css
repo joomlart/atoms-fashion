@@ -211,6 +211,10 @@
       width: auto;
     }
 }
+
+.gallery_full_width .at-resp-share-element {
+  margin-top: 2.4rem;
+}
   
 @media screen and (min-width: 1200px) {
   .ja-summary-scroll.scrolling {

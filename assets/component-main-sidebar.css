@@ -31,6 +31,11 @@
   margin-bottom: 2.4rem
 }
 
+.sidebar .sidebar-wrapper > div:not(:last-child) {
+  padding-bottom: 2.4rem;
+  border: 1px solid rgba(0,0,0,0.6);
+}
+
 @media screen and (max-width: 749px ) {
   .sidebar .sidebar-wrapper > div {
     padding: 2.4rem;

@@ -50,7 +50,7 @@
     "inputs_shadow_blur": 5,
     "card_style": "standard",
     "card_image_padding": 0,
-    "card_text_alignment": "center",
+    "card_text_alignment": "left",
     "card_color_scheme": "background-2",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
@@ -473,7 +473,7 @@
               "show_heading": true,
               "heading": "CONTACT",
               "show_subtext": true,
-              "subtext": "<p>Phone:(123) 456-7890<\/p><p>Fax: +31 71 800 99 89<\/p><p><a href=\"mailto:no-reply@gmail.com\">info@joomlart.com<\/a><\/p><p><\/p><p>312 North 24th Street<br\/>Brooklyn, New York 10010<br\/><a href=\"https:\/\/ja-rights.demo.joomlart.com\/#\" title=\"Get Direction\">Get Direction<\/a><\/p>"
+              "subtext": "<p>Phone:(123) 456-7890<\/p><p>Fax: +31 71 800 99 89<\/p><p><a href=\"mailto:no-reply@gmail.com\">info@joomlart.com<\/a><\/p><p><\/p><p><\/p><p>312 North 24th Street<br\/>Brooklyn, New York 10010<br\/><a href=\"https:\/\/ja-rights.demo.joomlart.com\/#\" title=\"Get Direction\">Get Direction<\/a><\/p>"
             }
           },
           "5407ff9f-d4a6-4fc4-9401-fcb0c8f3705d": {

@@ -2051,10 +2051,6 @@ flex-direction: column;
   text-align: left;
 }
 
-.upsell-item .card-information {
-  display: none;
-}
-
 .upsell-item .price-item--regular {
   font-size: 1.2rem;
 }

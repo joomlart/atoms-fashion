@@ -2051,6 +2051,10 @@ flex-direction: column;
   text-align: left;
 }
 
+.upsell-item .card__content .card__information {
+  padding: 0;
+}
+
 .upsell-item .card__badge {
   display: none;
 }

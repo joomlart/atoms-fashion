@@ -2064,6 +2064,10 @@ flex-direction: column;
   font-size: 1.2rem;
 }
 
+.upsell-item .price {
+  line-height: 1;
+}
+
 .upsell-item .price-item--last {
   font-size: 2rem;
 }

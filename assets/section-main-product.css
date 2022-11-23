@@ -2048,7 +2048,7 @@ flex-direction: column;
 }
 
 .upsell-item .card__information,
-.upsell-item .price {
+.upsell-item .card-information {
   text-align: left;
 }
 

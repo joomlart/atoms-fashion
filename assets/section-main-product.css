@@ -1913,16 +1913,8 @@ a.product__text {
 
 /* Tab Content */
 #tab-content {
-  padding-top: 2.4rem;
-  padding-bottom: 2.4rem;
+  padding: 2.4rem;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-}
-
-@media screen and (max-width: 1200px) {
-  #tab-content {
-    padding-left: 2.4rem;
-    padding-right: 2.4rem;
-  }
 }
 
 .tabs .accordion__content {

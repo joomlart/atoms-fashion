@@ -41,6 +41,10 @@
   width: 100%;
 }
 
+.main-blog .wrap__inner 
+  gap: 4.8rem;
+}
+
 /*=== Layout Grid 
 ========================*/
 .blog-articles {
@@ -63,11 +67,9 @@
 
 @media screen and (min-width: 1200px) {
   .sidebar-left .list-blogs {
-    border-left: 1px solid rgb(var(--color-border));
   }
   
   .sidebar-right .list-blogs {
-    border-right: 1px solid rgb(var(--color-border));
   }
 }
 

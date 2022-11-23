@@ -2018,7 +2018,7 @@ a.product__text {
   font-weight: 500;
   font-size: 2rem;
   text-align: left;
-  margin-bottom: 2.4rem;
+  margin-bottom: 1.2rem;
 }
 
 .upsell_product_wrapper .product-form__submit {
@@ -2031,6 +2031,12 @@ a.product__text {
   align-items: center;
 }
 
+@media screen and (max-width: 1200px) {
+  .upsell-item {
+flex-direction: column;
+  }
+}
+
 .upsell-item .card-wrapper .card {
   display: flex;
   flex-direction: row;
@@ -2039,7 +2045,24 @@ a.product__text {
 }
 
 .upsell-item .card__inner {
-  max-width: 100px;
+  max-width: 8rem;
+  height: 8rem;
+}
+
+.upsell-item .card__information {
+  text-align: left;
+}
+
+.upsell-item .card-information {
+  display: none;
+}
+
+.upsell-item .price-item--regular {
+  font-size: 1.2rem;
+}
+
+.upsell-item .price-item--last {
+  font-size: 2rem;
 }
 
 /* Share */

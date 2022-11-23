@@ -24,8 +24,6 @@
 }
 
 .sidebar .sidebar-wrapper > div {
-  padding: var(--grid-desktop-horizontal-spacing);
-  border-bottom: 1px solid rgb(var(--color-border));
 }
 
 @media screen and (max-width: 749px ) {

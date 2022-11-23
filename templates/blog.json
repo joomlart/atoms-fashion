@@ -39,8 +39,6 @@
         "f2d9c50d-cc58-4dc2-a11f-e110b45dd295"
       ],
       "settings": {
-        "show_breadcrumb": false,
-        "alignment_breadcrumb": "left",
         "description": "Create a stunning blog that suits your style. Choose from a selection of easy to use templates all with flexible layouts",
         "alignment_title": "left",
         "layout": "grid",
@@ -53,7 +51,7 @@
         "alignment_content": "left",
         "show_sidebar": true,
         "show_collapse": true,
-        "enable_sticky": true,
+        "enable_sticky": false,
         "sidebar_position": "left",
         "padding_top": 48,
         "padding_bottom": 48

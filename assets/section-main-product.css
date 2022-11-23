@@ -2047,7 +2047,8 @@ flex-direction: column;
   height: 8rem;
 }
 
-.upsell-item .card__information {
+.upsell-item .card__information,
+.upsell-item .price {
   text-align: left;
 }
 

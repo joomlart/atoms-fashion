@@ -34,7 +34,7 @@
                 alt="{{ article.image.alt | escape }}">
             </div>
             <div class="information-article">
-              {{ article.title | link_to: article.url }}
+              {{ article.title | truncatewords: 7, "" | link_to: article.url }}
               {% if show_date %}<p class="date">{{ article.created_at | date: "%b, %d. 20%y" }}</p>{% endif %}
             </div>
           </div>

@@ -211,12 +211,6 @@
       width: auto;
     }
 }
-
-@media screen and (max-width: 1199px) {
-  .ja-summary-scroll {
-    display: none;
-  }
-}
   
 @media screen and (min-width: 1200px) {
   .ja-summary-scroll.scrolling {

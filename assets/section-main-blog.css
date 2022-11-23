@@ -42,8 +42,8 @@
 ========================*/
 .blog-articles {
   display: grid;
-  column-gap: 0;
-  row-gap: 0;
+  column-gap: 2.4rem;
+  row-gap: 2.4rem;
 }
 
 @media screen and (min-width: 550px) {
@@ -133,7 +133,7 @@
 
 
 /* Common Article */
-.blog-articles__article {
+/* .blog-articles__article {
   border-bottom: 1px solid rgb(var(--color-border));
   padding: 4.8rem;
 }
@@ -142,11 +142,11 @@
   .blog-articles__article {
     padding: 2.4rem;
   } 
-}
+} */
 
 /* Blog Default Layout Grid*/
 
-@media screen and (min-width: 550px) {
+/* @media screen and (min-width: 550px) {
   .blog-articles--grid .blog-articles__article:not(:nth-child(2n)) {
     border-right: 1px solid rgb(var(--color-border));
   }
@@ -160,7 +160,7 @@
   .blog-articles--grid .blog-articles__article:nth-child(3n) {
     border-right: 0;
   } 
-}
+} */
 
 /* Blog Simple Layout*/
 

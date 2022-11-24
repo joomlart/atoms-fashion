@@ -66,15 +66,13 @@
         "5bd93dbc-16a8-46a8-bae8-58043f84d8aa"
       ],
       "settings": {
-        "show_breadcrumb": false,
-        "alignment_breadcrumb": "left",
-        "alignment_title": "center",
-        "show_tags": false,
-        "show_share": false,
-        "show_previous_next_buttons": false,
-        "show_sidebar": false,
-        "show_collapse": false,
-        "enable_sticky": false,
+        "alignment_title": "left",
+        "show_tags": true,
+        "show_share": true,
+        "show_previous_next_buttons": true,
+        "show_sidebar": true,
+        "show_collapse": true,
+        "enable_sticky": true,
         "sidebar_position": "right"
       }
     }

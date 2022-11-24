@@ -996,7 +996,8 @@ a.product__text {
   max-width: 100%;
 }
 
-.thumbnail-list-stacked_full {
+.thumbnail-list-stacked_full,
+thumbnail-list-grid {
   display: none;
 }
 

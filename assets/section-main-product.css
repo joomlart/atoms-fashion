@@ -2108,6 +2108,13 @@ flex-direction: column;
   column-gap: 2.4rem;
   row-gap: 2.4rem;
   }
+
+  .product--grid-3-column .product__media-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2.4rem;
+  row-gap: 2.4rem;
+  }
     
   .product--grid-2-column .product__media-grid > li,
   .product--grid-3-column .product__media-grid > li{

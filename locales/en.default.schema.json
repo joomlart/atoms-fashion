@@ -2763,7 +2763,10 @@
             "label": "Stacked full"
           },
           "options__5": {
-            "label": "Grid"
+            "label": "Grid 2 Column"
+          },
+          "options__6": {
+            "label": "Grid 3 Column"
           }
         },
         "gallery_position": {

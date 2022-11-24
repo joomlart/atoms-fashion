@@ -2102,8 +2102,8 @@ flex-direction: column;
 .product--grid .product__media-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap-column: 2.4rem;
-  row-column: 2.3rem;
+  column-gap: 2.4rem;
+  row-gap: 2.4rem;
 }
   
 .product--grid .product__media-grid > li {

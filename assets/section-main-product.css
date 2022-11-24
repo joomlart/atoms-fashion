@@ -809,7 +809,7 @@ a.product__text {
 }
 
 .product__tax {
-  margin: 1.2rem 0;
+  margin: 0 0 1.2rem;
 }
 
 .product--no-media noscript .product-form__input,

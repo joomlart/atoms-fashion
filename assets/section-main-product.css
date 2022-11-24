@@ -2098,6 +2098,14 @@ flex-direction: column;
   margin-right: 6px;
 }
 
+/* Layout 5 */
+.product--grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap-column: 2.4rem;
+  row-column: 2.3rem;
+}
+
 
 
 

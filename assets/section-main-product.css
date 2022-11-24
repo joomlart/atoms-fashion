@@ -991,7 +991,8 @@ a.product__text {
     0 0 0rem 0.5rem rgba(var(--color-foreground), 0.5);
 }
 
-.product__media-stacked_full .product__media-item {
+.product__media-stacked_full .product__media-item,
+.product__media-grid .product__media-item {
   width: 100%;
   max-width: 100%;
 }
@@ -2099,7 +2100,7 @@ flex-direction: column;
 }
 
 /* Layout 5 */
-/* @media screen and (min-width: 750px) {
+@media screen and (min-width: 750px) {
   .product--grid .product__media-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2111,7 +2112,7 @@ flex-direction: column;
     width: 100%;
     max-width: 100%;
   }
-} */
+}
 
 
 

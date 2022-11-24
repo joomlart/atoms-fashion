@@ -73,7 +73,9 @@
         "show_sidebar": true,
         "show_collapse": true,
         "enable_sticky": true,
-        "sidebar_position": "right"
+        "sidebar_position": "right",
+        "padding_top": 0,
+        "padding_bottom": 48
       }
     }
   },

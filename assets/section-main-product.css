@@ -2099,16 +2099,18 @@ flex-direction: column;
 }
 
 /* Layout 5 */
-.product--grid .product__media-grid {
+@media screen and (min-width: 750px) {
+  .product--grid .product__media-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 2.4rem;
   row-gap: 2.4rem;
-}
-  
-.product--grid .product__media-grid > li {
-  width: 100%;
-  max-width: 100%;
+  }
+    
+  .product--grid .product__media-grid > li {
+    width: 100%;
+    max-width: 100%;
+  }
 }
 
 

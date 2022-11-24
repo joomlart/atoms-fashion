@@ -2105,6 +2105,11 @@ flex-direction: column;
   gap-column: 2.4rem;
   row-column: 2.3rem;
 }
+  
+.product--grid .product__media-grid > li {
+  width: 100%;
+  max-width: 100%;
+}
 
 
 

@@ -1,0 +1,65 @@
+{
+  "sections": {
+    "dcf1756a-468c-412b-b074-1987fbe29ee3": {
+      "type": "breadcrumb",
+      "settings": {
+      }
+    },
+    "main": {
+      "type": "main-blog",
+      "blocks": {
+        "9a706966-b696-4640-b43c-1282a60d0eb7": {
+          "type": "recent_post",
+          "settings": {
+            "show_block": true,
+            "heading": "Recent Post",
+            "number": 3,
+            "show_date": "true"
+          }
+        },
+        "67d96fad-f5e1-46c9-b67c-162077039a8b": {
+          "type": "category",
+          "settings": {
+            "show_block": true,
+            "heading": "Blog Categories"
+          }
+        },
+        "f2d9c50d-cc58-4dc2-a11f-e110b45dd295": {
+          "type": "recent-tags",
+          "settings": {
+            "show_block": true,
+            "heading": "Recent Tag",
+            "number": 3
+          }
+        }
+      },
+      "block_order": [
+        "9a706966-b696-4640-b43c-1282a60d0eb7",
+        "67d96fad-f5e1-46c9-b67c-162077039a8b",
+        "f2d9c50d-cc58-4dc2-a11f-e110b45dd295"
+      ],
+      "settings": {
+        "description": "Create a stunning blog that suits your style. Choose from a selection of easy to use templates all with flexible layouts",
+        "alignment_title": "left",
+        "layout": "grid",
+        "number_article": 6,
+        "show_image": true,
+        "image_height": "medium",
+        "show_date": true,
+        "show_author": false,
+        "show_excerpt": true,
+        "alignment_content": "left",
+        "show_sidebar": false,
+        "show_collapse": true,
+        "enable_sticky": true,
+        "sidebar_position": "right",
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    }
+  },
+  "order": [
+    "dcf1756a-468c-412b-b074-1987fbe29ee3",
+    "main"
+  ]
+}

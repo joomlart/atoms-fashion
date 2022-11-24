@@ -170,7 +170,7 @@
         "layout_product": "default",
         "enable_sticky_info": true,
         "media_size": "medium",
-        "gallery_layout": "grid",
+        "gallery_layout": "grid-3-column",
         "gallery_position": "bottom",
         "thumbnail_ratio": "34",
         "mobile_thumbnails": "hide",

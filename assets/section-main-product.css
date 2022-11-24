@@ -2099,7 +2099,7 @@ flex-direction: column;
 }
 
 /* Layout 5 */
-.product--grid {
+.product--grid .product__media-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap-column: 2.4rem;

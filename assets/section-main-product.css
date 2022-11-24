@@ -2101,21 +2101,21 @@ flex-direction: column;
 
 /* Layout 5 */
 @media screen and (min-width: 750px) {
-  .product--grid .product__media-grid {
+  .product--grid-2-column .product__media-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   column-gap: 2.4rem;
   row-gap: 2.4rem;
   }
     
-  .product--grid .product__media-grid > li {
+  .product--grid-2-column .product__media-grid > li {
     width: 100%;
     max-width: 100%;
   }
 }
 
-.product--grid .product__modal-opener--image,
-.product--grid .product__media {
+.product--grid-2-column .product__modal-opener--image,
+.product--grid-2-column .product__media {
   height: 100%;
 }
 

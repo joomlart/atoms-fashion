@@ -25,11 +25,10 @@
             "stars_text_empty": "No reviews"
           }
         },
-        "caption": {
-          "type": "text",
+        "aa6a581f-3c38-424d-bfe3-c271b7b2de48": {
+          "type": "short_description",
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "word_number": "100"
           }
         },
         "price": {
@@ -48,6 +47,12 @@
           "settings": {
           }
         },
+        "66b0b0c3-125f-4e89-8c9c-89c065bb312a": {
+          "type": "trust_badges",
+          "settings": {
+            "image_1": "shopify:\/\/shop_images\/image-trust_9cf48f22-6c8a-4a39-b604-64b168dc56be.webp"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -61,6 +66,7 @@
         },
         "collapsible-row-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Size chart",
             "icon": "clipboard",
@@ -72,6 +78,7 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Shipping & Returns",
             "icon": "truck",
@@ -82,6 +89,7 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "HELP & ADVICE",
             "icon": "chat_bubble",
@@ -92,6 +100,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care Instructions",
             "icon": "heart",
@@ -106,6 +115,30 @@
             "share_label": "Share"
           }
         },
+        "6a5717f4-9bcc-4bcf-883b-256eb7324d98": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "Shipping",
+            "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
+            "image_ratio_tabs": "43"
+          }
+        },
+        "e7a76993-4e7d-4333-9285-cba3d29b1ca9": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "Payment",
+            "content_tabs": "<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam perspiciatis unde omnis iste natus error sit voluptatem accusantium enim ut fringilla. Quisque eu lacus enim. Proin eleifend, mi eu aliquam euismod, arcu tortor consectetur nisi, et elementum nibh felis vel ante. Fusce nec tristique enimdoloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit.voluptatem quia voluptas sit aspernatur aut odit aut fugit.<\/p>",
+            "image_ratio_tabs": "43"
+          }
+        },
+        "14f669ef-8433-4f76-946b-f87ba776100f": {
+          "type": "tabs",
+          "settings": {
+            "title_tabs": "FAQ",
+            "content_tabs": "<p>This is FAQ<\/p>",
+            "image_ratio_tabs": "43"
+          }
+        },
         "c0744f1d-c116-4680-9a9e-13a9256682e2": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/reviews\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
@@ -116,10 +149,11 @@
         "vendor",
         "title",
         "88277171-0c39-4412-8713-a18ecdfe6b35",
-        "caption",
+        "aa6a581f-3c38-424d-bfe3-c271b7b2de48",
         "price",
         "variant_picker",
         "quantity_selector",
+        "66b0b0c3-125f-4e89-8c9c-89c065bb312a",
         "buy_buttons",
         "description",
         "collapsible-row-2",
@@ -127,6 +161,9 @@
         "collapsible-row-0",
         "collapsible-row-3",
         "share",
+        "6a5717f4-9bcc-4bcf-883b-256eb7324d98",
+        "e7a76993-4e7d-4333-9285-cba3d29b1ca9",
+        "14f669ef-8433-4f76-946b-f87ba776100f",
         "c0744f1d-c116-4680-9a9e-13a9256682e2"
       ],
       "settings": {

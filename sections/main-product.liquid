@@ -145,7 +145,7 @@
         {%- endif -%}
 
         {% comment %} Thumbnail {% endcomment %}
-        {%- if media_count > 1 and section.settings.gallery_layout != 'stacked' or section.settings.mobile_thumbnails == 'show' or section.settings.gallery_layout != 'stacked_full' or section.settings.gallery_layout != 'grid' -%}
+        {%- if media_count > 1 and section.settings.gallery_layout != 'stacked' or section.settings.mobile_thumbnails == 'show' or section.settings.gallery_layout != 'stacked_full' or section.settings.gallery_layout != 'grid-2-column' or section.settings.gallery_layout != 'grid-3-column' -%}
           <slider-component
             id="GalleryThumbnails-{{ section.id }}"
             class="slider-thumb-photo thumbnail-slider slider-mobile-gutter {% if section.settings.gallery_layout == 'thumbnail_slider' %}slider-tablet-gutter {% endif %} quick-add-hidden{% if section.settings.mobile_thumbnails == 'hide' %} small-hide{% endif %}{% if media_count <= 3 %} thumbnail-slider--no-slide{% endif %}"
@@ -1823,8 +1823,12 @@
           "label": "t:sections.main-product.settings.gallery_layout.options__4.label"
         },
         {
-          "value": "grid",
+          "value": "grid-2-column",
           "label": "t:sections.main-product.settings.gallery_layout.options__5.label"
+        },
+        {
+          "value": "grid-3-column",
+          "label": "t:sections.main-product.settings.gallery_layout.options__6.label"
         }
       ],
       "default": "stacked",

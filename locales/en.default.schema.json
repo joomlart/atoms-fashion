@@ -2761,6 +2761,9 @@
           },
           "options__4": {
             "label": "Stacked full"
+          },
+          "options__5": {
+            "label": "Grid"
           }
         },
         "gallery_position": {

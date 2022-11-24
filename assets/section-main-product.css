@@ -2122,6 +2122,10 @@ flex-direction: column;
     max-width: 100%;
   }
 
+  .product--grid-3-column .product__media-grid-3-column > li:nth-child(4) {
+    grid-column: 1/4;
+  }
+
   .product--grid-2-column .product__modal-opener--image,
   .product--grid-2-column .product__media,
   .product--grid-3-column .product__modal-opener--image,

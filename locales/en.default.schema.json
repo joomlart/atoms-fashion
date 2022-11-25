@@ -1932,7 +1932,7 @@
           }
         },
         "alignment__vertical": {
-          "label": "Alignment content veri",
+          "label": "Alignment content vertical",
           "options__1": {
             "label": "Start"
           },

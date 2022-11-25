@@ -163,6 +163,11 @@
 
 
 /* Blog Full Width  */
+
+.blog-layout-full-width .blog-articles {
+  gap: 0;  
+}
+
 .blog-layout-full-width .blog-articles__article:nth-child(2n) .card {
   flex-direction: row-reverse;
 }

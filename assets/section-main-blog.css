@@ -167,6 +167,11 @@
   flex-direction: row-reverse;
 }
 
+.blog-layout-full-width .blog-articles__article:nth-child(2n) .card div{
+  width: 50%;
+  max-width: 50%;
+}
+
 /* Pagination */
 
 .main-blog .sidebar-right .pagination-wrapper {

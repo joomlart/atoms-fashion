@@ -123,11 +123,11 @@
   align-items: flex-start;
 }
 
-.blog-articles--collage .card .align-center {
+.blog-articles--collage .card.align-center {
   align-items: center;
 }
 
-.blog-articles--collage .card .align-end {
+.blog-articles--collage .card.align-end {
   align-items: flex-end;
 }
 

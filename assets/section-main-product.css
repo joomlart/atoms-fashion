@@ -2102,7 +2102,7 @@ flex-direction: column;
 }
 
 /* Layout 5 */
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 990px) {
   .product--grid-2-column .product__media-grid-2-column {
   display: grid;
   grid-template-columns: 1fr 1fr;

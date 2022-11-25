@@ -37,7 +37,7 @@
   assign alignment__vertical = section.settings.alignment__vertical
 -%}
 
-<div data-section-id="{{ section.id }}" data-section-type="blog-layout-full-width" id="BlogSection-{{ section.id }}" data-section="{{ section.id }}" class="main-blog-block page-width blog-layout-full-width section-{{ section.id }}-padding">
+<div data-section-id="{{ section.id }}" data-section-type="blog-layout-full-width" id="BlogSection-{{ section.id }}" data-section="{{ section.id }}" class="main-blog-block page-width {% if layout == "collage"  %}blog-layout-full-width{% endif %} section-{{ section.id }}-padding">
 
   <div class="header-page">
     <div class="wrap-title">

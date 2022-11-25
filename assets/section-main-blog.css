@@ -172,6 +172,10 @@
   flex-direction: row-reverse;
 }
 
+.blog-layout-full-width .blog-articles__article:nth-child(2n) .card__content {
+  padding: 0;
+}
+
 .blog-layout-full-width .blog-articles__article .card > div {
   width: 50%;
   max-width: 50%;

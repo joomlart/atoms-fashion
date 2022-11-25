@@ -34,6 +34,7 @@
   assign show_date = section.settings.show_date
   assign show_excerpt = section.settings.show_excerpt
   assign alignment_content = section.settings.alignment_content
+  assign alignment__vertical = section.settings.alignment__vertical
 -%}
 
 <div data-section-id="{{ section.id }}" data-section-type="blog-layout-full-width" id="BlogSection-{{ section.id }}" data-section="{{ section.id }}" class="main-blog-block page-width blog-layout-full-width section-{{ section.id }}-padding">
@@ -66,7 +67,8 @@
                   show_date: show_date,
                   show_author: show_author,
                   show_excerpt: show_excerpt,
-                  alignment_content: alignment_content
+                  alignment_content: alignment_content,
+                  alignment__vertical: alignment__vertical
                 -%}
               </div>
             {%- endfor -%}

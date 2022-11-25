@@ -110,7 +110,8 @@
 }
 
 .blog-articles--collage .article .card .card__content {
-  padding: var(--grid-desktop-vertical-spacing);
+  padding-left: var(--grid-desktop-vertical-spacing);
+  padding-bottom: var(--grid-desktop-vertical-spacing);
 }
 
 @media screen and (max-width: 750px) {

@@ -49,7 +49,7 @@
         "show_author": false,
         "show_excerpt": true,
         "alignment_content": "left",
-        "show_sidebar": true,
+        "show_sidebar": false,
         "show_collapse": true,
         "enable_sticky": true,
         "sidebar_position": "right",

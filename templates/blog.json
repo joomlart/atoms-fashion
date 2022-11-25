@@ -41,7 +41,7 @@
       "settings": {
         "description": "Create a stunning blog that suits your style. Choose from a selection of easy to use templates all with flexible layouts",
         "alignment_title": "left",
-        "layout": "collage",
+        "layout": "grid",
         "number_article": 6,
         "show_image": true,
         "image_height": "medium",
@@ -49,7 +49,7 @@
         "show_author": false,
         "show_excerpt": true,
         "alignment_content": "left",
-        "show_sidebar": true,
+        "show_sidebar": false,
         "show_collapse": true,
         "enable_sticky": true,
         "sidebar_position": "left",

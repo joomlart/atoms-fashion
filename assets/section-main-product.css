@@ -992,7 +992,8 @@ a.product__text {
 }
 
 .product__media-stacked_full .product__media-item,
-.product__media-grid .product__media-item {
+.product__media-grid-2-column .product__media-item,
+.product__media-grid-3-column .product__media-item{
   width: 100%;
   max-width: 100%;
 }

@@ -184,6 +184,10 @@
   .blog-layout-full-width .blog-articles__article:nth-child(2n) .card {
     flex-direction: row-reverse;
   }
+
+  .blog-layout-full-width .card .card__inner {
+    height: 100%;
+  }
   
   .blog-layout-full-width .blog-articles__article:nth-child(2n) .card__content {
     padding: 0 var(--grid-desktop-vertical-spacing) var(--grid-desktop-vertical-spacing) 0;

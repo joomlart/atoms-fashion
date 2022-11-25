@@ -1995,7 +1995,6 @@ a.product__text {
     height: 100%;
     flex-direction: column;
     gap: 2.4rem;
-    justify-content: center;
   }
 
   .gallery-position-right .thumbnail-list {

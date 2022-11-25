@@ -119,6 +119,18 @@
   }
 }
 
+.blog-articles--collage .card {
+  align-items: flex-start;
+}
+
+.blog-articles--collage .card .align-center {
+  align-items: center;
+}
+
+.blog-articles--collage .card .align-end {
+  align-items: flex-end;
+}
+
 /* Title Page */
 .header-page > div:first-child {
 

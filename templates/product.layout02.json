@@ -18,7 +18,7 @@
         "6bb6fcaa-c0ff-4054-92cb-1f85ceb894fd": {
           "type": "shopify:\/\/apps\/product-reviews\/blocks\/star_rating\/bae150af-8da8-48b2-9867-398188115e5f",
           "settings": {
-            "stars_fill_color": "#000000",
+            "stars_fill_color": "#ffc107",
             "star_size": 15,
             "text_align": "flex-start",
             "product": "{{product}}",
@@ -171,7 +171,6 @@
         "layout_product": "default",
         "enable_sticky_info": true,
         "media_size": "small",
-        "item_ratio": "43",
         "gallery_layout": "thumbnail",
         "gallery_position": "right",
         "thumbnail_ratio": "11",
@@ -179,7 +178,6 @@
         "hide_variants": true,
         "enable_video_looping": false,
         "layout_description": "tabs",
-        "enable_add_cart_bottom": true,
         "padding_top": 48,
         "padding_bottom": 48
       }

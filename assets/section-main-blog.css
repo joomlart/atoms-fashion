@@ -162,6 +162,11 @@
 /* Blog Simple Layout*/
 
 
+/* Blog Full Width  */
+.blog-layout-full-width .blog-articles__article:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
 /* Pagination */
 
 .main-blog .sidebar-right .pagination-wrapper {

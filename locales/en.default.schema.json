@@ -1931,7 +1931,7 @@
             "label": "Right"
           }
         },
-        "alignment-vertical": {
+        "alignment__vertical": {
           "label": "Alignment content veri",
           "options__1": {
             "label": "Start"

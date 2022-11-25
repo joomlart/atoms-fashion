@@ -1930,6 +1930,18 @@
           "options__3": {
             "label": "Right"
           }
+        },
+        "alignment-vertical": {
+          "label": "Alignment content veri",
+          "options__1": {
+            "label": "Start"
+          },
+          "options__2": {
+            "label": "Center"
+          },
+          "options__3": {
+            "label": "End"
+          }
         }
       }
     },

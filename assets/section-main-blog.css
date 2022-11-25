@@ -176,7 +176,7 @@
 
 /* Blog Full Width  */
 
-@media screen and (min-width: 750px) {
+/* @media screen and (min-width: 750px) {
   .blog-layout-full-width .blog-articles {
     gap: 0;  
   }
@@ -193,7 +193,7 @@
     width: 50%;
     max-width: 50%;
   }
-}
+} */
 
 /* Pagination */
 

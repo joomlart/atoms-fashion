@@ -185,8 +185,7 @@
 }
 
 .blog-layout-full-width .blog-articles__article:nth-child(2n) .card__content {
-  padding: 0;
-  padding-right: var(--grid-desktop-vertical-spacing)
+  padding-right: 0 var(--grid-desktop-vertical-spacing) var(--grid-desktop-vertical-spacing) 0;
 }
 
 .blog-layout-full-width .blog-articles__article .card > div {

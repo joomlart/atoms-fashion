@@ -180,7 +180,7 @@
         "media_size": "medium",
         "gallery_layout": "thumbnail_slider",
         "gallery_position": "left",
-        "thumbnail_ratio": "11",
+        "thumbnail_ratio": "34",
         "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,

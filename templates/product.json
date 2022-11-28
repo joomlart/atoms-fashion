@@ -199,7 +199,7 @@
         "gallery_position": "bottom",
         "thumbnail_ratio": "34",
         "mobile_thumbnails": "hide",
-        "hide_variants": true,
+        "hide_variants": false,
         "enable_video_looping": false,
         "layout_description": "accordion",
         "padding_top": 48,

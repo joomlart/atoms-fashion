@@ -278,6 +278,10 @@ quick-view-modal .product-form__buttons {
   max-width: 100%;
 }
 
+.quick-view-modal__content-info .product--grid-3-column .product__media-grid-3-column {
+  display: block;
+}
+
 .at-share-btn-elements {
   margin-top: calc(var(--grid-desktop-horizontal-spacing));
 }

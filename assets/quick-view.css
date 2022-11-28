@@ -265,3 +265,47 @@ quick-view-modal .product__title>a:hover {
 quick-view-modal .product-form__buttons {
     max-width: initial;
 }
+
+/* Quick View Layout Full Width */
+.quick-view-modal__content-info .product--grid-2-column .product__media-wrapper {
+  width: 100% !important;
+  max-width: 100% !important;
+}
+
+.quick-view-modal__content-info .product--grid-2-column media-gallery,
+.quick-view-modal__content-info .product--grid-2-column #ja-summary-scroll {
+  width: 100%;
+  max-width: 100%;
+}
+
+.at-share-btn-elements {
+  margin-top: calc(var(--grid-desktop-horizontal-spacing));
+}
+
+@media screen and (min-width: 750px) {
+
+  .quick-view-modal__content-info .product__media-wrapper-inner {
+    display: grid;
+    gap: 4.8rem;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .quick-view-modal__content-info .product--grid-2-column .product__media-grid-2-column {
+    display: unset;
+  }
+}
+
+ /* Layout Thumbnail Right Left */
+ .quick-view-modal__content-info .gallery-position-right,
+ .quick-view-modal__content-info .gallery-position-left {
+  display: block ;
+ }
+
+ @media screen and (min-width: 750px) {
+  .quick-view-modal__content-info .thumbnail-list {
+    display: flex !important;
+    flex-direction: row !important;
+    margin-top: 2.4rem;
+    justify-content: center;
+   }
+ }

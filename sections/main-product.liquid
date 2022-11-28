@@ -524,17 +524,6 @@
                             {{ form | payment_button }}
                           {%- endif -%}
                         </div>
-
-                        <script type="text/javascript">
-                          $('form[id=collection_two]').submit(function(e){
-                            var form1 = $( this );  
-                            $.post($(this).attr('action'), $(this).serialize(), function(JSONproduct) {
-                                var el = document.getElementById("collection_two_btn");
-                                el.value = "Added!";
-                              }, 'json');                             
-                            e.preventDefault();
-                        });
-                        </script>
                       {%- endform -%}
                     </product-form>
 

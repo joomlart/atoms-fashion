@@ -305,6 +305,10 @@ quick-view-modal .product-form__buttons {
   display: block ;
  }
 
+.quick-view-modal__content-info .slider-thumb-photo {
+  display: none;
+}
+
 /*  @media screen and (min-width: 750px) {
   .quick-view-modal__content-info .thumbnail-list {
     display: flex !important;

@@ -305,11 +305,11 @@ quick-view-modal .product-form__buttons {
   display: block ;
  }
 
- @media screen and (min-width: 750px) {
+/*  @media screen and (min-width: 750px) {
   .quick-view-modal__content-info .thumbnail-list {
     display: flex !important;
     flex-direction: row !important;
     margin-top: 2.4rem;
     justify-content: center;
    }
- }
+ } */
